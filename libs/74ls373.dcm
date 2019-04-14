@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS373
+D 8-bit Latch, 3-state outputs
+K TTL REG DFF DFF8 LATCH
+F http://www.ti.com/lit/gpn/sn74LS373
+$ENDCMP
+#
+#End Doc Library

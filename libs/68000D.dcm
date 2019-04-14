@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 68000D
+D 16/32-bit Microprocessor
+K 68000 Microprocessor CPU
+F https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf
+$ENDCMP
+#
+#End Doc Library

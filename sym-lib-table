@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name DENISE)(type Legacy)(uri ${KIPRJMOD}/libs/DENISE.lib)(options "")(descr ""))
+  (lib (name GARY)(type Legacy)(uri ${KIPRJMOD}/libs/GARY.lib)(options "")(descr ""))
+  (lib (name PAULA)(type Legacy)(uri ${KIPRJMOD}/libs/PAULA.lib)(options "")(descr ""))
+  (lib (name FAT_AGNUS_8375)(type Legacy)(uri ${KIPRJMOD}/libs/FAT_AGNUS_8375.lib)(options "")(descr ""))
+  (lib (name Jumper_3_Bridged23)(type Legacy)(uri ${KIPRJMOD}/libs/Jumper_3_Bridged23.lib)(options "")(descr ""))
+  (lib (name 68000D)(type Legacy)(uri ${KIPRJMOD}/libs/68000D.lib)(options "")(descr ""))
+  (lib (name 74ls373)(type Legacy)(uri ${KIPRJMOD}/libs/74ls373.lib)(options "")(descr ""))
+  (lib (name 74ls244)(type Legacy)(uri ${KIPRJMOD}/libs/74ls244.lib)(options "")(descr ""))
+  (lib (name NEC_424260)(type Legacy)(uri ${KIPRJMOD}/libs/NEC_424260.lib)(options "")(descr ""))
+)
