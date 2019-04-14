@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R_Pack05
+D 5 resistor network, parallel topology, DIP package
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+#End Doc Library

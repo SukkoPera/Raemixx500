@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VIDIOT
+D Video DAC
+F https://github.com/SukkoPera/OpenAmigaVideoHybrid
+$ENDCMP
+#
+#End Doc Library

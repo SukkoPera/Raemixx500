@@ -8,4 +8,8 @@
   (lib (name 74ls373)(type Legacy)(uri ${KIPRJMOD}/libs/74ls373.lib)(options "")(descr ""))
   (lib (name 74ls244)(type Legacy)(uri ${KIPRJMOD}/libs/74ls244.lib)(options "")(descr ""))
   (lib (name NEC_424260)(type Legacy)(uri ${KIPRJMOD}/libs/NEC_424260.lib)(options "")(descr ""))
+  (lib (name 74ls245)(type Legacy)(uri ${KIPRJMOD}/libs/74ls245.lib)(options "")(descr ""))
+  (lib (name VIDIOT)(type Legacy)(uri ${KIPRJMOD}/libs/VIDIOT.lib)(options "")(descr ""))
+  (lib (name r_pack05)(type Legacy)(uri ${KIPRJMOD}/libs/r_pack05.lib)(options "")(descr ""))
+  (lib (name db23_male_mountingholes)(type Legacy)(uri ${KIPRJMOD}/libs/db23_male_mountingholes.lib)(options "")(descr ""))
 )
