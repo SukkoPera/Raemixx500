@@ -14,4 +14,5 @@
   (lib (name db23_male_mountingholes)(type Legacy)(uri ${KIPRJMOD}/libs/db23_male_mountingholes.lib)(options "")(descr ""))
   (lib (name db9_male_mountingholes)(type Legacy)(uri ${KIPRJMOD}/libs/db9_male_mountingholes.lib)(options "")(descr ""))
   (lib (name 74ls157)(type Legacy)(uri ${KIPRJMOD}/libs/74ls157.lib)(options "")(descr ""))
+  (lib (name MC1488)(type Legacy)(uri ${KIPRJMOD}/libs/MC1488.lib)(options "")(descr ""))
 )
