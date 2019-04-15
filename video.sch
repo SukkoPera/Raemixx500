@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "Rämixx500"
 Date "2019-04-14"
 Rev "1git"
@@ -533,10 +533,6 @@ Wire Wire Line
 Wire Wire Line
 	13660 3765 13660 4015
 Wire Wire Line
-	8390 3075 8410 3075
-Wire Wire Line
-	8390 3175 8410 3175
-Wire Wire Line
 	12990 3865 12935 3865
 Wire Wire Line
 	12990 3565 12395 3565
@@ -962,12 +958,12 @@ Text Notes 6375 7615 0    50   ~ 0
 TODO: Add power
 Wire Wire Line
 	8390 2975 8620 2975
+Wire Wire Line
+	8390 3075 8620 3075
+Wire Wire Line
+	8390 3175 8620 3175
 Wire Bus Line
 	2005 3775 2005 4475
 Wire Bus Line
 	2005 2075 2005 3575
-Wire Wire Line
-	8410 3075 8620 3075
-Wire Wire Line
-	8410 3175 8620 3175
 $EndSCHEMATC

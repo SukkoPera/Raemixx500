@@ -12,4 +12,6 @@
   (lib (name VIDIOT)(type Legacy)(uri ${KIPRJMOD}/libs/VIDIOT.lib)(options "")(descr ""))
   (lib (name r_pack05)(type Legacy)(uri ${KIPRJMOD}/libs/r_pack05.lib)(options "")(descr ""))
   (lib (name db23_male_mountingholes)(type Legacy)(uri ${KIPRJMOD}/libs/db23_male_mountingholes.lib)(options "")(descr ""))
+  (lib (name db9_male_mountingholes)(type Legacy)(uri ${KIPRJMOD}/libs/db9_male_mountingholes.lib)(options "")(descr ""))
+  (lib (name 74ls157)(type Legacy)(uri ${KIPRJMOD}/libs/74ls157.lib)(options "")(descr ""))
 )
