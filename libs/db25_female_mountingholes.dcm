@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DB25_Female_MountingHoles
+D 25-pin female D-SUB connector, Mounting Hole
+K female D-SUB connector
+F  ~
+$ENDCMP
+#
+#End Doc Library

@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Rämixx500"
-Date "2019-04-15"
+Date "2019-04-16"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 ""
@@ -37,5 +37,11 @@ S 1365 5640 1305 930
 U 5D2DC3A1
 F0 "Paula & Audio Stuff" 50
 F1 "audio.sch" 50
+$EndSheet
+$Sheet
+S 4100 1420 1300 750 
+U 5E7E9EC4
+F0 "Parallel & Serial" 50
+F1 "cias.sch" 50
 $EndSheet
 $EndSCHEMATC
