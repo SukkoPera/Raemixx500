@@ -2384,4 +2384,6 @@ Wire Bus Line
 	1955 6355 1955 7055
 Wire Bus Line
 	1955 4705 1955 6205
+Text Notes 9045 10220 2    50   ~ 0
+This whole circuit has some\ndifferent values on A600.
 $EndSCHEMATC

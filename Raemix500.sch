@@ -35,7 +35,7 @@ $EndSheet
 $Sheet
 S 1365 5640 1305 930 
 U 5D2DC3A1
-F0 "audio" 50
-F1 "Paula & Audio Stuff.sch" 50
+F0 "Paula & Audio Stuff" 50
+F1 "audio.sch" 50
 $EndSheet
 $EndSCHEMATC
