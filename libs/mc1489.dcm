@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC1489
+D Quad Line EIA-232D Receivers
+F https://www.onsemi.com/pub/Collateral/MC1488-D.PDF
+$ENDCMP
+#
+#End Doc Library
