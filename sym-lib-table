@@ -20,4 +20,5 @@
   (lib (name emi_filter_lcl_small)(type Legacy)(uri ${KIPRJMOD}/libs/emi_filter_lcl_small.lib)(options "")(descr ""))
   (lib (name db25_male_mountingholes)(type Legacy)(uri ${KIPRJMOD}/libs/db25_male_mountingholes.lib)(options "")(descr ""))
   (lib (name mc1489)(type Legacy)(uri ${KIPRJMOD}/libs/mc1489.lib)(options "")(descr ""))
+  (lib (name ne555)(type Legacy)(uri ${KIPRJMOD}/libs/ne555.lib)(options "")(descr ""))
 )
