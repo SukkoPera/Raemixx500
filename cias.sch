@@ -324,10 +324,10 @@ Text Label 9590 1690 0    50   ~ 0
 Wire Wire Line
 	9555 1490 9805 1490
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0160
 U 1 1 5E872212
 P 10215 1425
-F 0 "#PWR?" H 10215 1275 50  0001 C CNN
+F 0 "#PWR0160" H 10215 1275 50  0001 C CNN
 F 1 "VCC" H 10232 1598 50  0000 C CNN
 F 2 "" H 10215 1425 50  0001 C CNN
 F 3 "" H 10215 1425 50  0001 C CNN
@@ -380,10 +380,10 @@ Wire Wire Line
 Wire Wire Line
 	8955 1590 8730 1590
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E511
 U 1 1 5E8B3D41
 P 8045 1490
-F 0 "FL?" H 7875 1680 50  0000 C CNN
+F 0 "E511" H 7875 1680 50  0000 C CNN
 F 1 "100p" H 7855 1460 50  0000 C CNN
 F 2 "" V 8045 1490 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 1490 50  0001 C CNN
@@ -391,10 +391,10 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E512
 U 1 1 5E8B3DEE
 P 8430 1690
-F 0 "FL?" H 8430 1885 50  0000 C CNN
+F 0 "E512" H 8430 1885 50  0000 C CNN
 F 1 "100p" H 8595 1660 50  0000 C CNN
 F 2 "" V 8430 1690 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 1690 50  0001 C CNN
@@ -406,10 +406,10 @@ Wire Wire Line
 Wire Wire Line
 	8955 1990 8730 1990
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E513
 U 1 1 5E8BE123
 P 8045 1890
-F 0 "FL?" H 7875 2080 50  0000 C CNN
+F 0 "E513" H 7875 2080 50  0000 C CNN
 F 1 "100p" H 7855 1865 50  0000 C CNN
 F 2 "" V 8045 1890 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 1890 50  0001 C CNN
@@ -417,10 +417,10 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E514
 U 1 1 5E8BE129
 P 8430 2090
-F 0 "FL?" H 8430 2285 50  0000 C CNN
+F 0 "E514" H 8430 2285 50  0000 C CNN
 F 1 "100p" H 8600 2060 50  0000 C CNN
 F 2 "" V 8430 2090 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 2090 50  0001 C CNN
@@ -432,10 +432,10 @@ Wire Wire Line
 Wire Wire Line
 	8955 2390 8730 2390
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E515
 U 1 1 5E8C3235
 P 8045 2290
-F 0 "FL?" H 8045 2607 50  0000 C CNN
+F 0 "E515" H 8045 2480 50  0000 C CNN
 F 1 "100p" H 7860 2260 50  0000 C CNN
 F 2 "" V 8045 2290 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 2290 50  0001 C CNN
@@ -443,10 +443,10 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E516
 U 1 1 5E8C323B
 P 8430 2490
-F 0 "FL?" H 8430 2690 50  0000 C CNN
+F 0 "E516" H 8430 2690 50  0000 C CNN
 F 1 "100p" H 8595 2465 50  0000 C CNN
 F 2 "" V 8430 2490 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 2490 50  0001 C CNN
@@ -458,10 +458,10 @@ Wire Wire Line
 Wire Wire Line
 	8955 2790 8730 2790
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E517
 U 1 1 5E8C3243
 P 8045 2690
-F 0 "FL?" H 8045 2880 50  0000 C CNN
+F 0 "E517" H 8045 2880 50  0000 C CNN
 F 1 "100p" H 7860 2660 50  0000 C CNN
 F 2 "" V 8045 2690 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 2690 50  0001 C CNN
@@ -469,10 +469,10 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E518
 U 1 1 5E8C3249
 P 8430 2890
-F 0 "FL?" H 8430 3085 50  0000 C CNN
+F 0 "E518" H 8430 3085 50  0000 C CNN
 F 1 "100p" H 8590 2860 50  0000 C CNN
 F 2 "" V 8430 2890 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 2890 50  0001 C CNN
@@ -484,10 +484,10 @@ Wire Wire Line
 Wire Wire Line
 	8955 3190 8730 3190
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E519
 U 1 1 5E8C665E
 P 8045 3090
-F 0 "FL?" H 8045 3280 50  0000 C CNN
+F 0 "E519" H 8045 3280 50  0000 C CNN
 F 1 "100p" H 7850 3060 50  0000 C CNN
 F 2 "" V 8045 3090 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 3090 50  0001 C CNN
@@ -495,10 +495,10 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E521
 U 1 1 5E8C6664
 P 8430 3290
-F 0 "FL?" H 8430 3485 50  0000 C CNN
+F 0 "E521" H 8430 3485 50  0000 C CNN
 F 1 "100p" H 8590 3260 50  0000 C CNN
 F 2 "" V 8430 3290 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 3290 50  0001 C CNN
@@ -510,10 +510,10 @@ Wire Wire Line
 Wire Wire Line
 	8955 3590 8730 3590
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E522
 U 1 1 5E8C666C
 P 8045 3490
-F 0 "FL?" H 8045 3680 50  0000 C CNN
+F 0 "E522" H 8045 3680 50  0000 C CNN
 F 1 "100p" H 7865 3465 50  0000 C CNN
 F 2 "" V 8045 3490 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 3490 50  0001 C CNN
@@ -521,10 +521,10 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E523
 U 1 1 5E8C6672
 P 8430 3690
-F 0 "FL?" H 8430 3885 50  0000 C CNN
+F 0 "E523" H 8430 3885 50  0000 C CNN
 F 1 "100p" H 8595 3665 50  0000 C CNN
 F 2 "" V 8430 3690 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 3690 50  0001 C CNN
@@ -534,10 +534,10 @@ $EndComp
 Wire Wire Line
 	8955 3790 8345 3790
 $Comp
-L emi_filter_lcl_small:EMI_Filter_LCL FL?
+L emi_filter_lcl_small:EMI_Filter_LCL E524
 U 1 1 5E8C667A
 P 8045 3890
-F 0 "FL?" H 8045 4080 50  0000 C CNN
+F 0 "E524" H 8045 4080 50  0000 C CNN
 F 1 "100p" H 8210 3860 50  0000 C CNN
 F 2 "" V 8045 3890 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 3890 50  0001 C CNN
@@ -595,10 +595,10 @@ Wire Wire Line
 	7615 3260 7615 3660
 Connection ~ 7615 3660
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0161
 U 1 1 5E925903
 P 8780 4280
-F 0 "#PWR?" H 8780 4030 50  0001 C CNN
+F 0 "#PWR0161" H 8780 4030 50  0001 C CNN
 F 1 "GND" H 8785 4107 50  0000 C CNN
 F 2 "" H 8780 4280 50  0001 C CNN
 F 3 "" H 8780 4280 50  0001 C CNN
@@ -848,10 +848,10 @@ Text GLabel 4580 3210 2    50   Output ~ 0
 Text GLabel 4385 3310 2    50   Output ~ 0
 ~OVL
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0162
 U 1 1 5EB01728
 P 6150 3210
-F 0 "#PWR?" H 6150 3060 50  0001 C CNN
+F 0 "#PWR0162" H 6150 3060 50  0001 C CNN
 F 1 "VCC" H 6167 3383 50  0000 C CNN
 F 2 "" H 6150 3210 50  0001 C CNN
 F 3 "" H 6150 3210 50  0001 C CNN
@@ -1068,10 +1068,10 @@ Wire Wire Line
 	9255 9115 9255 9010
 Connection ~ 8780 9115
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0163
 U 1 1 5ECC0C27
 P 8780 9235
-F 0 "#PWR?" H 8780 8985 50  0001 C CNN
+F 0 "#PWR0163" H 8780 8985 50  0001 C CNN
 F 1 "GND" H 8785 9062 50  0000 C CNN
 F 2 "" H 8780 9235 50  0001 C CNN
 F 3 "" H 8780 9235 50  0001 C CNN
@@ -1161,10 +1161,10 @@ Wire Wire Line
 Wire Wire Line
 	7495 8010 8355 8010
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0164
 U 1 1 5EE426AB
 P 7495 7990
-F 0 "#PWR?" H 7495 7840 50  0001 C CNN
+F 0 "#PWR0164" H 7495 7840 50  0001 C CNN
 F 1 "+12V" H 7345 8065 50  0000 C CNN
 F 2 "" H 7495 7990 50  0001 C CNN
 F 3 "" H 7495 7990 50  0001 C CNN
@@ -1172,10 +1172,10 @@ F 3 "" H 7495 7990 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR?
+L power:-12V #PWR0165
 U 1 1 5EE42800
 P 7495 8170
-F 0 "#PWR?" H 7495 8270 50  0001 C CNN
+F 0 "#PWR0165" H 7495 8270 50  0001 C CNN
 F 1 "-12V" H 7345 8245 50  0000 C CNN
 F 2 "" H 7495 8170 50  0001 C CNN
 F 3 "" H 7495 8170 50  0001 C CNN
@@ -1409,10 +1409,10 @@ Connection ~ 8340 5905
 Wire Wire Line
 	8340 5905 8675 5905
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0166
 U 1 1 5F17460F
 P 8340 5965
-F 0 "#PWR?" H 8340 5715 50  0001 C CNN
+F 0 "#PWR0166" H 8340 5715 50  0001 C CNN
 F 1 "GND" H 8345 5792 50  0000 C CNN
 F 2 "" H 8340 5965 50  0001 C CNN
 F 3 "" H 8340 5965 50  0001 C CNN
@@ -1442,10 +1442,10 @@ Wire Wire Line
 Wire Wire Line
 	10180 8310 10180 8260
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0167
 U 1 1 5F1E3A4A
 P 12985 8385
-F 0 "#PWR?" H 12985 8135 50  0001 C CNN
+F 0 "#PWR0167" H 12985 8135 50  0001 C CNN
 F 1 "GND" H 12990 8212 50  0000 C CNN
 F 2 "" H 12985 8385 50  0001 C CNN
 F 3 "" H 12985 8385 50  0001 C CNN
@@ -1459,10 +1459,10 @@ Wire Wire Line
 Wire Wire Line
 	6855 6960 6855 6560
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0168
 U 1 1 5F228CE9
 P 6855 5930
-F 0 "#PWR?" H 6855 5780 50  0001 C CNN
+F 0 "#PWR0168" H 6855 5780 50  0001 C CNN
 F 1 "VCC" H 6872 6103 50  0000 C CNN
 F 2 "" H 6855 5930 50  0001 C CNN
 F 3 "" H 6855 5930 50  0001 C CNN
@@ -1631,10 +1631,10 @@ Connection ~ 1525 10510
 Wire Wire Line
 	1525 10510 2165 10510
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0169
 U 1 1 5F6DC274
 P 1525 10630
-F 0 "#PWR?" H 1525 10380 50  0001 C CNN
+F 0 "#PWR0169" H 1525 10380 50  0001 C CNN
 F 1 "GND" H 1530 10457 50  0000 C CNN
 F 2 "" H 1525 10630 50  0001 C CNN
 F 3 "" H 1525 10630 50  0001 C CNN
@@ -1650,10 +1650,10 @@ Wire Wire Line
 Wire Wire Line
 	1525 9680 1525 9910
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0170
 U 1 1 5F715FB0
 P 1355 9585
-F 0 "#PWR?" H 1355 9435 50  0001 C CNN
+F 0 "#PWR0170" H 1355 9435 50  0001 C CNN
 F 1 "VCC" H 1372 9758 50  0000 C CNN
 F 2 "" H 1355 9585 50  0001 C CNN
 F 3 "" H 1355 9585 50  0001 C CNN
@@ -1666,10 +1666,10 @@ Connection ~ 1355 9680
 Wire Wire Line
 	1355 9680 1525 9680
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0171
 U 1 1 5F76EC3B
 P 2115 9825
-F 0 "#PWR?" H 2115 9675 50  0001 C CNN
+F 0 "#PWR0171" H 2115 9675 50  0001 C CNN
 F 1 "+12V" H 1965 9900 50  0000 C CNN
 F 2 "" H 2115 9825 50  0001 C CNN
 F 3 "" H 2115 9825 50  0001 C CNN
@@ -1677,10 +1677,10 @@ F 3 "" H 2115 9825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR?
+L power:-12V #PWR0172
 U 1 1 5F76ECA6
 P 2215 9705
-F 0 "#PWR?" H 2215 9805 50  0001 C CNN
+F 0 "#PWR0172" H 2215 9805 50  0001 C CNN
 F 1 "-12V" H 2065 9780 50  0000 C CNN
 F 2 "" H 2215 9705 50  0001 C CNN
 F 3 "" H 2215 9705 50  0001 C CNN
@@ -1725,10 +1725,10 @@ Connection ~ 12510 2745
 Text GLabel 12290 2745 0    50   Input ~ 0
 ~MTR0
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0173
 U 1 1 5F8BF165
 P 12985 2225
-F 0 "#PWR?" H 12985 2075 50  0001 C CNN
+F 0 "#PWR0173" H 12985 2075 50  0001 C CNN
 F 1 "VCC" H 13002 2398 50  0000 C CNN
 F 2 "" H 12985 2225 50  0001 C CNN
 F 3 "" H 12985 2225 50  0001 C CNN
@@ -1786,10 +1786,10 @@ inuse
 Text Label 14515 3140 0    50   ~ 0
 status
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0174
 U 1 1 5FA235DE
 P 14140 3280
-F 0 "#PWR?" H 14140 3030 50  0001 C CNN
+F 0 "#PWR0174" H 14140 3030 50  0001 C CNN
 F 1 "GND" H 14255 3180 50  0000 C CNN
 F 2 "" H 14140 3280 50  0001 C CNN
 F 3 "" H 14140 3280 50  0001 C CNN
@@ -1807,10 +1807,10 @@ data
 Text Label 14515 3740 0    50   ~ 0
 clock
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0175
 U 1 1 5FA4701A
 P 13985 3390
-F 0 "#PWR?" H 13985 3240 50  0001 C CNN
+F 0 "#PWR0175" H 13985 3240 50  0001 C CNN
 F 1 "VCC" H 13990 3535 50  0000 C CNN
 F 2 "" H 13985 3390 50  0001 C CNN
 F 3 "" H 13985 3390 50  0001 C CNN
@@ -1851,10 +1851,10 @@ Wire Wire Line
 	12510 3675 12290 3675
 Connection ~ 12510 3675
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0176
 U 1 1 5FA8F0AB
 P 12985 3155
-F 0 "#PWR?" H 12985 3005 50  0001 C CNN
+F 0 "#PWR0176" H 12985 3005 50  0001 C CNN
 F 1 "VCC" H 13002 3328 50  0000 C CNN
 F 2 "" H 12985 3155 50  0001 C CNN
 F 3 "" H 12985 3155 50  0001 C CNN
@@ -1969,10 +1969,10 @@ Wire Wire Line
 Wire Wire Line
 	14545 4555 14545 4490
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0177
 U 1 1 5FE8DD06
 P 14710 4595
-F 0 "#PWR?" H 14710 4345 50  0001 C CNN
+F 0 "#PWR0177" H 14710 4345 50  0001 C CNN
 F 1 "GND" H 14825 4495 50  0000 C CNN
 F 2 "" H 14710 4595 50  0001 C CNN
 F 3 "" H 14710 4595 50  0001 C CNN
@@ -2020,10 +2020,10 @@ F 3 "~" H 12045 7180 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0178
 U 1 1 5FFFEA2B
 P 12985 6915
-F 0 "#PWR?" H 12985 6765 50  0001 C CNN
+F 0 "#PWR0178" H 12985 6765 50  0001 C CNN
 F 1 "VCC" H 13002 7088 50  0000 C CNN
 F 2 "" H 12985 6915 50  0001 C CNN
 F 3 "" H 12985 6915 50  0001 C CNN
@@ -2103,10 +2103,10 @@ Connection ~ 12985 8300
 Wire Wire Line
 	12985 8300 13675 8300
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Transistor_BJT:2N3904 Q711
 U 1 1 602F87A0
 P 13955 7470
-F 0 "Q?" H 14146 7516 50  0000 L CNN
+F 0 "Q711" H 14146 7516 50  0000 L CNN
 F 1 "2N3904" H 14146 7425 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 14155 7395 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 13955 7470 50  0001 L CNN
@@ -2154,10 +2154,10 @@ Wire Wire Line
 Text Notes 14955 6530 2    315  ~ 0
 POWER-UP\nRESET
 $Comp
-L ne555:NE555 U?
+L ne555:NE555 U42
 U 2 1 605075B8
 P 15630 7720
-F 0 "U?" H 15760 7766 50  0000 L CNN
+F 0 "U42" H 15760 7766 50  0000 L CNN
 F 1 "NE555" H 15760 7675 50  0000 L CNN
 F 2 "" H 15630 7720 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 15630 7720 50  0001 C CNN
@@ -2184,10 +2184,10 @@ Wire Wire Line
 Wire Wire Line
 	15295 7305 15460 7305
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0179
 U 1 1 60508129
 P 15460 7235
-F 0 "#PWR?" H 15460 7085 50  0001 C CNN
+F 0 "#PWR0179" H 15460 7085 50  0001 C CNN
 F 1 "VCC" H 15477 7408 50  0000 C CNN
 F 2 "" H 15460 7235 50  0001 C CNN
 F 3 "" H 15460 7235 50  0001 C CNN
@@ -2204,10 +2204,10 @@ Wire Wire Line
 Wire Wire Line
 	15630 8070 15630 8135
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0180
 U 1 1 605AEFB6
 P 15460 8185
-F 0 "#PWR?" H 15460 7935 50  0001 C CNN
+F 0 "#PWR0180" H 15460 7935 50  0001 C CNN
 F 1 "GND" H 15465 8012 50  0000 C CNN
 F 2 "" H 15460 8185 50  0001 C CNN
 F 3 "" H 15460 8185 50  0001 C CNN
