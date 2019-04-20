@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 2 9
 Title "Rämixx500"
 Date "2019-04-11"
 Rev "0.1"
@@ -20,7 +20,7 @@ U 1 1 5CAEA43A
 P 13230 2800
 F 0 "R114" V 13135 2800 50  0000 C CNN
 F 1 "68" V 13230 2800 50  0000 C CNN
-F 2 "" V 13160 2800 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13160 2800 50  0001 C CNN
 F 3 "~" H 13230 2800 50  0001 C CNN
 	1    13230 2800
 	0    1    1    0   
@@ -61,7 +61,7 @@ U 1 1 5CAEC18D
 P 11480 7485
 F 0 "U2" H 11480 7535 50  0000 C CNN
 F 1 "FAT_AGNUS_8375" H 11480 7435 50  0000 C CNN
-F 2 "MODULE" H 11480 7485 50  0001 C CNN
+F 2 "Package_LCC:PLCC-84_THT-Socket" H 11480 7485 50  0001 C CNN
 F 3 "DOCUMENTATION" H 11480 7485 50  0001 C CNN
 	1    11480 7485
 	1    0    0    -1  
@@ -72,7 +72,7 @@ U 1 1 5CAF1F56
 P 11680 4745
 F 0 "R103" V 11595 4650 50  0000 L CNN
 F 1 "47" V 11685 4695 50  0000 L CNN
-F 2 "" V 11610 4745 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11610 4745 50  0001 C CNN
 F 3 "~" H 11680 4745 50  0001 C CNN
 	1    11680 4745
 	1    0    0    -1  
@@ -83,7 +83,7 @@ U 1 1 5CAF26DB
 P 11880 4745
 F 0 "R104" V 11795 4650 50  0000 L CNN
 F 1 "47" V 11885 4695 50  0000 L CNN
-F 2 "" V 11810 4745 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11810 4745 50  0001 C CNN
 F 3 "~" H 11880 4745 50  0001 C CNN
 	1    11880 4745
 	1    0    0    -1  
@@ -94,7 +94,7 @@ U 1 1 5CAF27C4
 P 12080 4745
 F 0 "R105" V 11995 4650 50  0000 L CNN
 F 1 "47" V 12085 4695 50  0000 L CNN
-F 2 "" V 12010 4745 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 12010 4745 50  0001 C CNN
 F 3 "~" H 12080 4745 50  0001 C CNN
 	1    12080 4745
 	1    0    0    -1  
@@ -284,7 +284,7 @@ Wire Wire Line
 Wire Bus Line
 	9645 590  13805 590 
 Text GLabel 13805 590  2    50   BiDi ~ 0
-A
+A[1..23]
 Text GLabel 13800 7470 2    50   Output ~ 0
 ~CASL
 Wire Wire Line
@@ -412,16 +412,16 @@ Wire Bus Line
 Wire Bus Line
 	13405 7335 13800 7335
 Text GLabel 13800 6235 2    50   Output ~ 0
-RGA
+RGA[1..8]
 Text GLabel 13800 7335 2    50   Output ~ 0
-DRA
+DRA[0..9]
 $Comp
 L 74xx:74LS32 U37
 U 1 1 5CB489DB
 P 13200 4120
 F 0 "U37" H 13210 4120 50  0000 C CNN
 F 1 "74LS32" H 13170 4325 50  0000 C CNN
-F 2 "" H 13200 4120 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 13200 4120 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 13200 4120 50  0001 C CNN
 	1    13200 4120
 	1    0    0    -1  
@@ -432,7 +432,7 @@ U 2 1 5CB48FC2
 P 13200 4455
 F 0 "U37" H 13220 4455 50  0000 C CNN
 F 1 "74LS32" H 13170 4660 50  0001 C CNN
-F 2 "" H 13200 4455 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 13200 4455 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 13200 4455 50  0001 C CNN
 	2    13200 4455
 	1    0    0    -1  
@@ -529,7 +529,7 @@ Wire Wire Line
 Wire Bus Line
 	9645 7335 8110 7335
 Text GLabel 13800 825  2    50   BiDi ~ 0
-DRD
+DRD[0..15]
 Connection ~ 11880 4510
 Wire Wire Line
 	11880 4510 11880 4595
@@ -595,7 +595,7 @@ U 1 1 5CCACD78
 P 13395 8635
 F 0 "R106" V 13350 8855 50  0000 C CNN
 F 1 "47" V 13395 8635 50  0000 C CNN
-F 2 "" V 13325 8635 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13325 8635 50  0001 C CNN
 F 3 "~" H 13395 8635 50  0001 C CNN
 	1    13395 8635
 	0    1    1    0   
@@ -612,7 +612,7 @@ U 1 1 5CCBE5F9
 P 13395 8495
 F 0 "R107" V 13350 8710 50  0000 C CNN
 F 1 "47" V 13395 8495 50  0000 C CNN
-F 2 "" V 13325 8495 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13325 8495 50  0001 C CNN
 F 3 "~" H 13395 8495 50  0001 C CNN
 	1    13395 8495
 	0    1    1    0   
@@ -690,7 +690,7 @@ U 1 1 5CD17492
 P 9850 3200
 F 0 "R101" V 9755 3200 50  0000 C CNN
 F 1 "27" V 9850 3200 50  0000 C CNN
-F 2 "" V 9780 3200 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9780 3200 50  0001 C CNN
 F 3 "~" H 9850 3200 50  0001 C CNN
 	1    9850 3200
 	0    1    1    0   
@@ -731,7 +731,7 @@ U 1 1 5CD4EF32
 P 9275 2350
 F 0 "R102" V 9180 2350 50  0000 C CNN
 F 1 "27" V 9275 2350 50  0000 C CNN
-F 2 "" V 9205 2350 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9205 2350 50  0001 C CNN
 F 3 "~" H 9275 2350 50  0001 C CNN
 	1    9275 2350
 	0    1    1    0   
@@ -755,7 +755,7 @@ U 1 1 5CDC0BF7
 P 3635 4635
 F 0 "U1" H 3635 4685 50  0000 C CNN
 F 1 "68000D" H 3635 4575 50  0000 C CNN
-F 2 "" H 3635 4635 50  0001 C CNN
+F 2 "Package_DIP:DIP-64_W22.86mm_Socket_LongPads" H 3635 4635 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 3635 4635 50  0001 C CNN
 	1    3635 4635
 	1    0    0    -1  
@@ -949,44 +949,44 @@ Entry Wire Line
 Entry Wire Line
 	8010 7035 8110 7135
 Text Label 7395 6435 2    50   ~ 0
-d7
+drd7
 Text Label 7395 6535 2    50   ~ 0
-d6
+drd6
 Text Label 7395 6635 2    50   ~ 0
-d5
+drd5
 Text Label 7395 6735 2    50   ~ 0
-d4
+drd4
 Text Label 7395 6835 2    50   ~ 0
-d3
+drd3
 Text Label 7395 6935 2    50   ~ 0
-d2
+drd2
 Text Label 7395 7035 2    50   ~ 0
-d1
+drd1
 Text Label 7395 7135 2    50   ~ 0
-d0
+drd0
 Text Label 7445 3635 2    50   ~ 0
-d15
+drd15
 Text Label 7445 3735 2    50   ~ 0
-d14
+drd14
 Text Label 7445 3835 2    50   ~ 0
-d13
+drd13
 Text Label 7445 3935 2    50   ~ 0
-d12
+drd12
 Text Label 7445 4035 2    50   ~ 0
-d11
+drd11
 Text Label 7445 4135 2    50   ~ 0
-d10
+drd10
 Text Label 7395 4235 2    50   ~ 0
-d9
+drd9
 Text Label 7395 4335 2    50   ~ 0
-d8
+drd8
 $Comp
 L 74ls373:74LS373 U13
 U 1 1 5CFCEC13
 P 6775 3835
 F 0 "U13" V 6825 3835 50  0000 C CNN
 F 1 "74LS373" V 6705 3835 50  0000 C CNN
-F 2 "" H 6775 3835 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 3835 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6775 3835 50  0001 C CNN
 	1    6775 3835
 	-1   0    0    1   
@@ -997,7 +997,7 @@ U 1 1 5CFF7EAA
 P 6775 6635
 F 0 "U11" V 6815 6635 50  0000 C CNN
 F 1 "74LS373" V 6710 6635 50  0000 C CNN
-F 2 "" H 6775 6635 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 6635 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6775 6635 50  0001 C CNN
 	1    6775 6635
 	-1   0    0    1   
@@ -1022,7 +1022,7 @@ U 1 1 5D0A2B83
 P 9270 1050
 F 0 "R113" V 9230 1265 50  0000 C CNN
 F 1 "47" V 9270 1050 50  0000 C CNN
-F 2 "" V 9200 1050 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1050 50  0001 C CNN
 F 3 "~" H 9270 1050 50  0001 C CNN
 	1    9270 1050
 	0    1    1    0   
@@ -1033,7 +1033,7 @@ U 1 1 5D0A2CB9
 P 9270 1150
 F 0 "R112" V 9230 1365 50  0000 C CNN
 F 1 "68" V 9270 1150 50  0000 C CNN
-F 2 "" V 9200 1150 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1150 50  0001 C CNN
 F 3 "~" H 9270 1150 50  0001 C CNN
 	1    9270 1150
 	0    1    1    0   
@@ -1044,7 +1044,7 @@ U 1 1 5D0A2D42
 P 9270 1250
 F 0 "R111" V 9230 1465 50  0000 C CNN
 F 1 "68" V 9270 1250 50  0000 C CNN
-F 2 "" V 9200 1250 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1250 50  0001 C CNN
 F 3 "~" H 9270 1250 50  0001 C CNN
 	1    9270 1250
 	0    1    1    0   
@@ -1063,7 +1063,7 @@ U 1 1 5D116EA8
 P 6775 5230
 F 0 "U10" V 6740 5230 50  0000 C CNN
 F 1 "74LS244" V 6825 5230 50  0000 C CNN
-F 2 "" H 6775 5230 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 5230 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 6775 5230 50  0001 C CNN
 	1    6775 5230
 	1    0    0    1   
@@ -1074,7 +1074,7 @@ U 1 1 5D188F20
 P 6775 2425
 F 0 "U12" V 6720 2425 50  0000 C CNN
 F 1 "74LS244" V 6830 2425 50  0000 C CNN
-F 2 "" H 6775 2425 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 2425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 6775 2425 50  0001 C CNN
 	1    6775 2425
 	1    0    0    1   
@@ -1119,21 +1119,21 @@ Wire Wire Line
 	6125 4730 6125 2025
 Connection ~ 6125 4730
 Text Label 7395 5030 2    50   ~ 0
-d7
+drd7
 Text Label 7395 5130 2    50   ~ 0
-d6
+drd6
 Text Label 7395 5230 2    50   ~ 0
-d5
+drd5
 Text Label 7395 5330 2    50   ~ 0
-d4
+drd4
 Text Label 7395 5430 2    50   ~ 0
-d3
+drd3
 Text Label 7395 5530 2    50   ~ 0
-d2
+drd2
 Text Label 7395 5630 2    50   ~ 0
-d1
+drd1
 Text Label 7395 5730 2    50   ~ 0
-d0
+drd0
 Wire Wire Line
 	7275 5130 8010 5130
 Wire Wire Line
@@ -1181,21 +1181,21 @@ Wire Wire Line
 Wire Wire Line
 	7275 3635 8010 3635
 Text Label 7450 2225 2    50   ~ 0
-d15
+drd15
 Text Label 7450 2325 2    50   ~ 0
-d14
+drd14
 Text Label 7450 2425 2    50   ~ 0
-d13
+drd13
 Text Label 7450 2525 2    50   ~ 0
-d12
+drd12
 Text Label 7450 2625 2    50   ~ 0
-d11
+drd11
 Text Label 7450 2725 2    50   ~ 0
-d10
+drd10
 Text Label 7400 2825 2    50   ~ 0
-d9
+drd9
 Text Label 7400 2925 2    50   ~ 0
-d8
+drd8
 Wire Wire Line
 	7275 2925 8010 2925
 Wire Wire Line
@@ -1237,7 +1237,7 @@ Wire Wire Line
 Wire Bus Line
 	5610 710  13810 710 
 Text GLabel 13810 710  2    50   BiDi ~ 0
-D
+D[0..15]
 Connection ~ 9645 590 
 Wire Bus Line
 	9645 590  5325 590 
@@ -1677,9 +1677,9 @@ Wire Bus Line
 Wire Bus Line
 	1370 3235 1140 3235
 Text GLabel 1140 3235 0    50   Input ~ 0
-~IPL
+~IPL[0..2]
 Text GLabel 1140 3735 0    50   BiDi ~ 0
-FC
+FC[0..2]
 Text Notes 10015 10050 2    50   ~ 0
 CLOCK TBD\nConsider original crystal\nor DFO clone for PAL+NTSC:\nhttps://nfggames.com/forum2/index.php?topic=5744.0
 Text Label 12980 6335 2    50   ~ 0
@@ -1724,11 +1724,43 @@ U 1 1 607A12E7
 P 11480 2450
 F 0 "U5" H 11480 2505 50  0000 C CNN
 F 1 "GARY_5719" H 11480 2370 50  0000 C CNN
-F 2 "MODULE" H 11480 2650 50  0001 C CNN
+F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 11480 2650 50  0001 C CNN
 F 3 "DOCUMENTATION" H 11480 2200 50  0001 C CNN
 	1    11480 2450
 	1    0    0    -1  
 $EndComp
+Text Label 10140 8235 2    50   ~ 0
+drd7
+Text Label 10140 8335 2    50   ~ 0
+drd6
+Text Label 10140 8435 2    50   ~ 0
+drd5
+Text Label 10140 8535 2    50   ~ 0
+drd4
+Text Label 10140 8635 2    50   ~ 0
+drd3
+Text Label 10140 8735 2    50   ~ 0
+drd2
+Text Label 10140 8835 2    50   ~ 0
+drd1
+Text Label 10140 8935 2    50   ~ 0
+drd0
+Text Label 10140 7435 2    50   ~ 0
+drd15
+Text Label 10140 7535 2    50   ~ 0
+drd14
+Text Label 10140 7635 2    50   ~ 0
+drd13
+Text Label 10140 7735 2    50   ~ 0
+drd12
+Text Label 10140 7835 2    50   ~ 0
+drd11
+Text Label 10140 7935 2    50   ~ 0
+drd10
+Text Label 10140 8035 2    50   ~ 0
+drd9
+Text Label 10140 8135 2    50   ~ 0
+drd8
 Wire Bus Line
 	1370 3735 1370 3935
 Wire Bus Line
@@ -1747,4 +1779,30 @@ Wire Bus Line
 	5610 710  5610 7035
 Wire Bus Line
 	8110 825  8110 7335
+Text Label 13425 6235 0    50   ~ 0
+rga[1..8]
+Text Label 13435 7335 0    50   ~ 0
+dra[0..9]
+Text Label 13300 590  0    50   ~ 0
+a[1..23]
+Text Label 13300 710  0    50   ~ 0
+d[0..15]
+Text Label 13300 825  0    50   ~ 0
+drd[0..15]
+Text Label 1160 3235 0    50   ~ 0
+ipl[0..2]
+Text Label 1165 3735 0    50   ~ 0
+fc[0..2]
+Text Label 1675 3335 0    50   ~ 0
+ipl2
+Text Label 1675 3435 0    50   ~ 0
+ipl1
+Text Label 1675 3535 0    50   ~ 0
+ipl0
+Text Label 1675 3835 0    50   ~ 0
+fc2
+Text Label 1675 3935 0    50   ~ 0
+fc1
+Text Label 1675 4035 0    50   ~ 0
+fc0
 $EndSCHEMATC

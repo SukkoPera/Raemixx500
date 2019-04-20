@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title "Rämixx500"
 Date "2019-04-17"
 Rev "1git"
@@ -49,5 +49,17 @@ S 4065 2780 1365 815
 U 6072A453
 F0 "Floppy Drives" 50
 F1 "floppy.sch" 50
+$EndSheet
+$Sheet
+S 6905 1400 1415 815 
+U 5D6D5EBE
+F0 "Termination & Pullups" 50
+F1 "terminators.sch" 50
+$EndSheet
+$Sheet
+S 6910 2775 1430 780 
+U 5D86DD46
+F0 "Kickstart ROM" 50
+F1 "rom.sch" 50
 $EndSheet
 $EndSCHEMATC

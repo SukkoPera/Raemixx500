@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 7
+Sheet 5 9
 Title "Rämixx500"
 Date "2019-04-16"
 Rev "1git"
@@ -20,7 +20,7 @@ U 1 1 5D2DD129
 P 3125 5655
 F 0 "U3" H 3125 7170 50  0000 C CNN
 F 1 "PAULA" H 3125 7079 50  0000 C CNN
-F 2 "MODULE" H 3125 5655 50  0001 C CNN
+F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 3125 5655 50  0001 C CNN
 F 3 "DOCUMENTATION" H 3125 5655 50  0001 C CNN
 	1    3125 5655
 	1    0    0    -1  
@@ -136,15 +136,15 @@ Entry Wire Line
 Wire Bus Line
 	1955 4305 1525 4305
 Text GLabel 1525 4305 0    50   Output ~ 0
-~IPL
+~IPL[0..2]
 Wire Bus Line
 	1955 4705 1525 4705
 Text GLabel 1525 4705 0    50   BiDi ~ 0
-DRD
+DRD[0..15]
 Wire Bus Line
 	1955 6355 1525 6355
 Text GLabel 1525 6355 0    50   Input ~ 0
-RGA
+RGA[1..8]
 Wire Wire Line
 	1525 7305 2375 7305
 Wire Wire Line
@@ -245,7 +245,7 @@ U 1 1 5D2FF5E8
 P 8775 2300
 F 0 "CN1" H 8775 1608 50  0000 C CNN
 F 1 "LEFT_JOY" H 8775 1699 50  0000 C CNN
-F 2 "" H 8775 2300 50  0001 C CNN
+F 2 "w_conn_d-sub:DB_9M" H 8775 2300 50  0001 C CNN
 F 3 " ~" H 8775 2300 50  0001 C CNN
 	1    8775 2300
 	-1   0    0    1   
@@ -479,7 +479,7 @@ U 1 1 5D36BC00
 P 8775 4530
 F 0 "CN2" H 8775 3838 50  0000 C CNN
 F 1 "RIGHT_JOY" H 8775 3929 50  0000 C CNN
-F 2 "" H 8775 4530 50  0001 C CNN
+F 2 "w_conn_d-sub:DB_9M" H 8775 4530 50  0001 C CNN
 F 3 " ~" H 8775 4530 50  0001 C CNN
 	1    8775 4530
 	-1   0    0    1   
@@ -700,14 +700,6 @@ Wire Wire Line
 	5995 5030 5995 4955
 Wire Wire Line
 	5995 4955 5645 4955
-Wire Wire Line
-	6625 4430 7090 4430
-Wire Wire Line
-	5995 5030 7090 5030
-Wire Wire Line
-	6225 2800 7090 2800
-Wire Wire Line
-	6625 2200 7090 2200
 $Comp
 L Device:EMI_Filter_LCL E411
 U 1 1 5D3C0092
@@ -782,7 +774,7 @@ U 1 1 5D4839EA
 P 12455 3375
 F 0 "U15" H 12455 4242 50  0000 C CNN
 F 1 "74LS157" H 12455 4151 50  0000 C CNN
-F 2 "" H 12455 3375 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 12455 3375 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 12455 3375 50  0001 C CNN
 	1    12455 3375
 	1    0    0    -1  
@@ -1341,7 +1333,7 @@ U 1 1 5D83683C
 P 9565 8915
 F 0 "U14" H 9565 9140 50  0000 C CNN
 F 1 "LF347" H 9525 8920 50  0000 C CNN
-F 2 "" H 9515 9015 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9515 9015 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 9615 9115 50  0001 C CNN
 	1    9565 8915
 	1    0    0    -1  
@@ -1352,7 +1344,7 @@ U 2 1 5D836A7B
 P 9565 7120
 F 0 "U14" H 9565 7335 50  0000 C CNN
 F 1 "LF347" H 9520 7125 50  0000 C CNN
-F 2 "" H 9515 7220 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9515 7220 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 9615 7320 50  0001 C CNN
 	2    9565 7120
 	1    0    0    -1  
@@ -1363,7 +1355,7 @@ U 3 1 5D836B99
 P 7615 7020
 F 0 "U14" H 7615 6835 50  0000 C CNN
 F 1 "LF347" H 7585 7020 50  0000 C CNN
-F 2 "" H 7565 7120 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7565 7120 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7665 7220 50  0001 C CNN
 	3    7615 7020
 	1    0    0    1   
@@ -1374,7 +1366,7 @@ U 4 1 5D836CC8
 P 7615 8815
 F 0 "U14" H 7615 8625 50  0000 C CNN
 F 1 "LF347" H 7575 8815 50  0000 C CNN
-F 2 "" H 7565 8915 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7565 8915 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7665 9015 50  0001 C CNN
 	4    7615 8815
 	1    0    0    1   
@@ -2244,7 +2236,7 @@ U 1 1 5E3403B1
 P 3750 9285
 F 0 "U38" H 3725 9285 50  0000 C CNN
 F 1 "MC1488" H 3710 9435 50  0000 C CNN
-F 2 "MODULE" H 3750 9285 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3750 9285 50  0001 C CNN
 F 3 "DOCUMENTATION" H 3750 9285 50  0001 C CNN
 	1    3750 9285
 	1    0    0    -1  
@@ -2302,12 +2294,12 @@ AUDIO FILTERS
 Text Notes 14165 1225 2    315  ~ 0
 MOUSE/JOYSTICK PORTS
 $Comp
-L Jumper:Jumper_2_Bridged JP10B
+L Jumper:Jumper_2_Bridged JP10B1
 U 1 1 5E55F219
 P 11260 8440
-F 0 "JP10B" H 11260 8543 50  0000 C CNN
+F 0 "JP10B1" H 11260 8543 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 11260 8544 50  0001 C CNN
-F 2 "" H 11260 8440 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11260 8440 50  0001 C CNN
 F 3 "~" H 11260 8440 50  0001 C CNN
 	1    11260 8440
 	1    0    0    -1  
@@ -2326,12 +2318,12 @@ AUDOUT
 Text GLabel 5770 6455 0    50   Input ~ 0
 AUDIN
 $Comp
-L Jumper:Jumper_2_Bridged JP10A
+L Jumper:Jumper_2_Bridged JP10A1
 U 1 1 5E5BD1DB
 P 6150 6455
-F 0 "JP10A" H 6150 6558 50  0000 C CNN
+F 0 "JP10A1" H 6150 6558 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 6150 6559 50  0001 C CNN
-F 2 "" H 6150 6455 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6150 6455 50  0001 C CNN
 F 3 "~" H 6150 6455 50  0001 C CNN
 	1    6150 6455
 	1    0    0    -1  
@@ -2358,18 +2350,6 @@ Wire Wire Line
 Connection ~ 6870 6920
 Wire Wire Line
 	6870 6920 7175 6920
-Connection ~ 7090 2200
-Wire Wire Line
-	7090 2200 7155 2200
-Connection ~ 7090 2800
-Wire Wire Line
-	7090 2800 7280 2800
-Connection ~ 7090 4430
-Wire Wire Line
-	7090 4430 7155 4430
-Connection ~ 7090 5030
-Wire Wire Line
-	7090 5030 7280 5030
 Wire Notes Line
 	14840 1135 15380 1135
 Wire Notes Line
@@ -2380,10 +2360,78 @@ Wire Notes Line
 	14840 1555 14840 1135
 Text Notes 9045 10220 2    50   ~ 0
 This whole circuit has some\ndifferent values on A600.
+Text Label 2330 6455 2    50   ~ 0
+rga8
+Text Label 2330 6555 2    50   ~ 0
+rga7
+Text Label 2330 6655 2    50   ~ 0
+rga6
+Text Label 2330 6755 2    50   ~ 0
+rga5
+Text Label 2330 6855 2    50   ~ 0
+rga4
+Text Label 2330 6955 2    50   ~ 0
+rga3
+Text Label 2330 7055 2    50   ~ 0
+rga2
+Text Label 2330 7155 2    50   ~ 0
+rga1
+Text Label 2330 5605 2    50   ~ 0
+drd7
+Text Label 2330 5705 2    50   ~ 0
+drd6
+Text Label 2330 5805 2    50   ~ 0
+drd5
+Text Label 2330 5905 2    50   ~ 0
+drd4
+Text Label 2330 6005 2    50   ~ 0
+drd3
+Text Label 2330 6105 2    50   ~ 0
+drd2
+Text Label 2330 6205 2    50   ~ 0
+drd1
+Text Label 2330 6305 2    50   ~ 0
+drd0
+Text Label 2330 4805 2    50   ~ 0
+drd15
+Text Label 2330 4905 2    50   ~ 0
+drd14
+Text Label 2330 5005 2    50   ~ 0
+drd13
+Text Label 2330 5105 2    50   ~ 0
+drd12
+Text Label 2330 5205 2    50   ~ 0
+drd11
+Text Label 2330 5305 2    50   ~ 0
+drd10
+Text Label 2330 5405 2    50   ~ 0
+drd9
+Text Label 2330 5505 2    50   ~ 0
+drd8
+Text Label 1575 6355 0    50   ~ 0
+rga[1..8]
+Wire Wire Line
+	6225 2800 7280 2800
+Wire Wire Line
+	6625 2200 7155 2200
+Wire Wire Line
+	6625 4430 7155 4430
+Wire Wire Line
+	5995 5030 7280 5030
 Wire Bus Line
 	1955 4305 1955 4505
 Wire Bus Line
 	1955 6355 1955 7055
 Wire Bus Line
 	1955 4705 1955 6205
+Text Label 1580 4305 0    50   ~ 0
+ipl[0..2]
+Text Label 1560 4705 0    50   ~ 0
+drd[0..15]
+Text Label 2130 4405 0    50   ~ 0
+ipl2
+Text Label 2130 4505 0    50   ~ 0
+ipl1
+Text Label 2130 4605 0    50   ~ 0
+ipl0
 $EndSCHEMATC

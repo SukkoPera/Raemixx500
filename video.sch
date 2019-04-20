@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 7
+Sheet 4 9
 Title "Rämixx500"
 Date "2019-04-14"
 Rev "1git"
@@ -20,7 +20,7 @@ U 1 1 5CBA56DB
 P 3435 3625
 F 0 "U4" H 3435 5340 50  0000 C CNN
 F 1 "DENISE" H 3435 5249 50  0000 C CNN
-F 2 "MODULE" H 3435 3625 50  0001 C CNN
+F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 3435 3625 50  0001 C CNN
 F 3 "DOCUMENTATION" H 3435 3625 50  0001 C CNN
 	1    3435 3625
 	1    0    0    -1  
@@ -126,9 +126,9 @@ Wire Bus Line
 Wire Bus Line
 	2005 3775 1520 3775
 Text GLabel 1520 3775 0    50   Input ~ 0
-RGA
+RGA[1..8]
 Text GLabel 1520 2075 0    50   Input ~ 0
-DRD
+DRD[0..15]
 Text GLabel 1520 4775 0    50   Input ~ 0
 CCK
 Wire Wire Line
@@ -177,7 +177,7 @@ U 1 1 5CBE8812
 P 5330 3475
 F 0 "U40" V 5280 3475 50  0000 C CNN
 F 1 "74LS245" V 5400 3475 50  0000 C CNN
-F 2 "" H 5330 3475 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 5330 3475 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 5330 3475 50  0001 C CNN
 	1    5330 3475
 	1    0    0    -1  
@@ -236,7 +236,7 @@ U 1 1 5CBF1E4C
 P 5330 4775
 F 0 "U41" V 5280 4775 50  0000 C CNN
 F 1 "74LS245" V 5400 4775 50  0000 C CNN
-F 2 "" H 5330 4775 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 5330 4775 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 5330 4775 50  0001 C CNN
 	1    5330 4775
 	1    0    0    -1  
@@ -333,7 +333,7 @@ U 1 1 5CC01A68
 P 7540 3675
 F 0 "HY1" H 7540 3720 50  0000 C CNN
 F 1 "VIDIOT" H 7540 3615 50  0000 C CNN
-F 2 "MODULE" H 7540 3675 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 7540 3675 50  0001 C CNN
 F 3 "DOCUMENTATION" H 7540 3675 50  0001 C CNN
 	1    7540 3675
 	1    0    0    -1  
@@ -478,7 +478,7 @@ U 1 1 5CD1046C
 P 13190 4365
 F 0 "RP402" V 13485 4365 50  0000 C CNN
 F 1 "47" V 12885 4365 50  0000 C CNN
-F 2 "" V 13565 4365 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 13565 4365 50  0001 C CNN
 F 3 "~" H 13190 4365 50  0001 C CNN
 	1    13190 4365
 	0    1    -1   0   
@@ -489,7 +489,7 @@ U 1 1 5CD10554
 P 13190 3665
 F 0 "RP403" V 13485 3665 50  0000 C CNN
 F 1 "47" V 12880 3665 50  0000 C CNN
-F 2 "" V 13565 3665 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 13565 3665 50  0001 C CNN
 F 3 "~" H 13190 3665 50  0001 C CNN
 	1    13190 3665
 	0    1    -1   0   
@@ -962,8 +962,60 @@ Wire Wire Line
 	8390 3075 8620 3075
 Wire Wire Line
 	8390 3175 8620 3175
+Text Label 2600 2975 2    50   ~ 0
+drd7
+Text Label 2600 3075 2    50   ~ 0
+drd6
+Text Label 2600 3175 2    50   ~ 0
+drd5
+Text Label 2600 3275 2    50   ~ 0
+drd4
+Text Label 2600 3375 2    50   ~ 0
+drd3
+Text Label 2600 3475 2    50   ~ 0
+drd2
+Text Label 2600 3575 2    50   ~ 0
+drd1
+Text Label 2600 3675 2    50   ~ 0
+drd0
+Text Label 2600 2175 2    50   ~ 0
+drd15
+Text Label 2600 2275 2    50   ~ 0
+drd14
+Text Label 2600 2375 2    50   ~ 0
+drd13
+Text Label 2600 2475 2    50   ~ 0
+drd12
+Text Label 2600 2575 2    50   ~ 0
+drd11
+Text Label 2600 2675 2    50   ~ 0
+drd10
+Text Label 2600 2775 2    50   ~ 0
+drd9
+Text Label 2600 2875 2    50   ~ 0
+drd8
+Text Label 2600 3875 2    50   ~ 0
+rga8
+Text Label 2600 3975 2    50   ~ 0
+rga7
+Text Label 2600 4075 2    50   ~ 0
+rga6
+Text Label 2600 4175 2    50   ~ 0
+rga5
+Text Label 2600 4275 2    50   ~ 0
+rga4
+Text Label 2600 4375 2    50   ~ 0
+rga3
+Text Label 2600 4475 2    50   ~ 0
+rga2
+Text Label 2600 4575 2    50   ~ 0
+rga1
 Wire Bus Line
 	2005 3775 2005 4475
 Wire Bus Line
 	2005 2075 2005 3575
+Text Label 1605 3775 0    50   ~ 0
+rga[1..8]
+Text Label 1555 2075 0    50   ~ 0
+drd[0..15]
 $EndSCHEMATC
