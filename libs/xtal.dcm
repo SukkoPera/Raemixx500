@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XTAL
+D Crystal Clock Oscillator
+K Crystal Clock Oscillator
+F http://www.txccorp.com/download/products/osc/7C_o.pdf
+$ENDCMP
+#
+#End Doc Library

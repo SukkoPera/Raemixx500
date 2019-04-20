@@ -1680,8 +1680,8 @@ Text GLabel 1140 3235 0    50   Input ~ 0
 ~IPL[0..2]
 Text GLabel 1140 3735 0    50   BiDi ~ 0
 FC[0..2]
-Text Notes 10015 10050 2    50   ~ 0
-CLOCK TBD\nConsider original crystal\nor DFO clone for PAL+NTSC:\nhttps://nfggames.com/forum2/index.php?topic=5744.0
+Text Notes 7535 10710 2    50   ~ 0
+As an alternative, consider\nDFO clone for PAL+NTSC:\nhttps://nfggames.com/forum2/index.php?topic=5744.0
 Text Label 12980 6335 2    50   ~ 0
 dra9
 Text Label 12980 6435 2    50   ~ 0
@@ -1761,24 +1761,6 @@ Text Label 10140 8035 2    50   ~ 0
 drd9
 Text Label 10140 8135 2    50   ~ 0
 drd8
-Wire Bus Line
-	1370 3735 1370 3935
-Wire Bus Line
-	1370 3235 1370 3435
-Wire Bus Line
-	13405 5535 13405 6235
-Wire Bus Line
-	13405 6435 13405 7335
-Wire Bus Line
-	9645 7335 9645 8835
-Wire Bus Line
-	5325 590  5325 4785
-Wire Bus Line
-	9645 590  9645 7135
-Wire Bus Line
-	5610 710  5610 7035
-Wire Bus Line
-	8110 825  8110 7335
 Text Label 13425 6235 0    50   ~ 0
 rga[1..8]
 Text Label 13435 7335 0    50   ~ 0
@@ -1805,4 +1787,132 @@ Text Label 1675 3935 0    50   ~ 0
 fc1
 Text Label 1675 4035 0    50   ~ 0
 fc0
+$Comp
+L 74ls258:74LS258 U33
+U 4 1 5CBE9A78
+P 8610 10260
+F 0 "U33" H 8635 10585 50  0000 C CNN
+F 1 "74LS258" H 8635 10494 50  0000 C CNN
+F 2 "" H 11710 7960 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 11710 7960 50  0001 C CNN
+	4    8610 10260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9010 10260 9160 10260
+$Comp
+L Device:R FB102
+U 1 1 5CC23FBE
+P 9310 10260
+F 0 "FB102" V 9220 10260 50  0000 C CNN
+F 1 "150" V 9310 10260 50  0000 C CNN
+F 2 "" V 9240 10260 50  0001 C CNN
+F 3 "~" H 9310 10260 50  0001 C CNN
+	1    9310 10260
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9460 10260 9600 10260
+$Comp
+L Device:C_Small E666
+U 1 1 5CC5EA40
+P 9600 10470
+F 0 "E666" H 9692 10516 50  0000 L CNN
+F 1 "22p" H 9692 10425 50  0000 L CNN
+F 2 "" H 9600 10470 50  0001 C CNN
+F 3 "~" H 9600 10470 50  0001 C CNN
+	1    9600 10470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 10370 9600 10260
+Connection ~ 9600 10260
+Wire Wire Line
+	9600 10570 9600 10660
+$Comp
+L power:GND #PWR?
+U 1 1 5CD0F28E
+P 9600 10660
+F 0 "#PWR?" H 9600 10410 50  0001 C CNN
+F 1 "GND" H 9605 10487 50  0000 C CNN
+F 2 "" H 9600 10660 50  0001 C CNN
+F 3 "" H 9600 10660 50  0001 C CNN
+	1    9600 10660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8260 10360 8040 10360
+Text GLabel 8040 10360 0    50   Input ~ 0
+XCLK
+Wire Wire Line
+	8260 10160 8040 10160
+$Comp
+L Device:R FB101
+U 1 1 5CD85D7B
+P 7890 10160
+F 0 "FB101" V 7800 10160 50  0000 C CNN
+F 1 "68" V 7890 10160 50  0000 C CNN
+F 2 "" V 7820 10160 50  0001 C CNN
+F 3 "~" H 7890 10160 50  0001 C CNN
+	1    7890 10160
+	0    1    1    0   
+$EndComp
+Text GLabel 8040 10570 0    50   Input ~ 0
+~XCLKEN
+Wire Wire Line
+	8610 10570 8610 10460
+Wire Wire Line
+	8040 10570 8610 10570
+Wire Wire Line
+	8760 10410 8760 10500
+$Comp
+L power:GND #PWR?
+U 1 1 5CEEE65E
+P 8760 10500
+F 0 "#PWR?" H 8760 10250 50  0001 C CNN
+F 1 "GND" H 8765 10327 50  0000 C CNN
+F 2 "" H 8760 10500 50  0001 C CNN
+F 3 "" H 8760 10500 50  0001 C CNN
+	1    8760 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 10160 7740 10160
+$Comp
+L xtal:XTAL X1
+U 1 1 5D05A737
+P 7050 10260
+F 0 "X1" H 7105 10585 50  0000 C CNN
+F 1 "28.37516 MHz" H 7105 10494 50  0000 C CNN
+F 2 "Oscillator:Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm" H 7150 9610 50  0001 C CNN
+F 3 "http://www.txccorp.com/download/products/osc/7C_o.pdf" H 6950 10260 50  0001 C CNN
+	1    7050 10260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9970 10260 9970 9835
+Wire Wire Line
+	9970 9835 10180 9835
+Wire Wire Line
+	9600 10260 9970 10260
+Wire Bus Line
+	1370 3235 1370 3435
+Wire Bus Line
+	1370 3735 1370 3935
+Wire Bus Line
+	13405 5535 13405 6235
+Wire Bus Line
+	13405 6435 13405 7335
+Wire Bus Line
+	9645 7335 9645 8835
+Wire Bus Line
+	5325 590  5325 4785
+Wire Bus Line
+	9645 590  9645 7135
+Wire Bus Line
+	8110 825  8110 7335
+Wire Bus Line
+	5610 710  5610 7035
+Text Notes 5570 10305 0    50   ~ 0
+Note: NTSC uses 28.63636 MHz
 $EndSCHEMATC
