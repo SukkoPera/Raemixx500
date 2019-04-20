@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 10 12
 Title "Rämixx500"
 Date "2019-04-20"
 Rev "1git"
@@ -210,40 +210,40 @@ Wire Wire Line
 $Comp
 L 74ls258:74LS258 U33
 U 5 1 5D8A9E7D
-P 8950 3600
-F 0 "U33" H 9180 3671 50  0000 L CNN
-F 1 "74LS258" H 9180 3580 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 12050 1300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 12050 1300 50  0001 C CNN
-	5    8950 3600
+P 9550 4000
+F 0 "U33" H 9780 4071 50  0000 L CNN
+F 1 "74LS258" H 9780 3980 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 12650 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 12650 1700 50  0001 C CNN
+	5    9550 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0202
 U 1 1 5D8A9F76
-P 8950 4200
-F 0 "#PWR0202" H 8950 3950 50  0001 C CNN
-F 1 "GND" H 8955 4027 50  0000 C CNN
-F 2 "" H 8950 4200 50  0001 C CNN
-F 3 "" H 8950 4200 50  0001 C CNN
-	1    8950 4200
+P 9550 4800
+F 0 "#PWR0202" H 9550 4550 50  0001 C CNN
+F 1 "GND" H 9555 4627 50  0000 C CNN
+F 2 "" H 9550 4800 50  0001 C CNN
+F 3 "" H 9550 4800 50  0001 C CNN
+	1    9550 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 4200 8950 4050
+	9550 4800 9550 4650
 $Comp
 L power:VCC #PWR0203
 U 1 1 5D8AA81C
-P 8950 2950
-F 0 "#PWR0203" H 8950 2800 50  0001 C CNN
-F 1 "VCC" H 8967 3123 50  0000 C CNN
-F 2 "" H 8950 2950 50  0001 C CNN
-F 3 "" H 8950 2950 50  0001 C CNN
-	1    8950 2950
+P 9550 2650
+F 0 "#PWR0203" H 9550 2500 50  0001 C CNN
+F 1 "VCC" H 9567 2823 50  0000 C CNN
+F 2 "" H 9550 2650 50  0001 C CNN
+F 3 "" H 9550 2650 50  0001 C CNN
+	1    9550 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 2950 8950 3100
+	9550 2650 9550 2800
 Wire Wire Line
 	4200 2950 4200 3000
 Wire Wire Line
@@ -275,4 +275,52 @@ Wire Wire Line
 Connection ~ 4700 4400
 Wire Wire Line
 	4700 4400 4700 4850
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E?
+U 1 1 5EFD7951
+P 9450 3100
+AR Path="/5E9E4C57/5EFD7951" Ref="E?"  Part="1" 
+AR Path="/5D88EC26/5EFD7951" Ref="E407"  Part="1" 
+F 0 "E407" V 9404 3279 50  0000 L CNN
+F 1 "10n" V 9495 3279 50  0000 L CNN
+F 2 "" V 9450 3100 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9450 3100 50  0001 C CNN
+	1    9450 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 3100 9200 3100
+Wire Wire Line
+	9200 3100 9200 4650
+Wire Wire Line
+	9200 4650 9550 4650
+Wire Wire Line
+	9550 4450 9550 4650
+Connection ~ 9550 4650
+Wire Wire Line
+	9550 4650 9950 4650
+Wire Wire Line
+	9950 4250 9950 4650
+$Comp
+L Device:C C?
+U 1 1 5EFD7963
+P 9950 4100
+AR Path="/5E9E4C57/5EFD7963" Ref="C?"  Part="1" 
+AR Path="/5D88EC26/5EFD7963" Ref="C9"  Part="1" 
+F 0 "C9" H 10065 4146 50  0000 L CNN
+F 1 "10n" H 10065 4055 50  0000 L CNN
+F 2 "" H 9988 3950 50  0001 C CNN
+F 3 "~" H 9950 4100 50  0001 C CNN
+	1    9950 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3500 9950 3950
+Wire Wire Line
+	9550 3600 9550 3500
+Wire Wire Line
+	9550 3400 9550 3500
+Connection ~ 9550 3500
+Wire Wire Line
+	9550 3500 9950 3500
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 11
+Sheet 2 12
 Title "Rämixx500"
 Date "2019-04-11"
 Rev "1git"
@@ -1883,7 +1883,7 @@ L xtal:XTAL X1
 U 1 1 5D05A737
 P 7050 10260
 F 0 "X1" H 7105 10585 50  0000 C CNN
-F 1 "28.37516 MHz" H 7105 10494 50  0000 C CNN
+F 1 "XTAL" H 7105 10494 50  0000 C CNN
 F 2 "Oscillator:Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm" H 7150 9610 50  0001 C CNN
 F 3 "http://www.txccorp.com/download/products/osc/7C_o.pdf" H 6950 10260 50  0001 C CNN
 	1    7050 10260
@@ -1895,6 +1895,8 @@ Wire Wire Line
 	9970 9835 10180 9835
 Wire Wire Line
 	9600 10260 9970 10260
+Text Notes 6800 10350 2    50   ~ 0
+PAL: 28.37516 MHz\nNTSC: 28.63636 MHz
 Wire Bus Line
 	1370 3235 1370 3435
 Wire Bus Line
@@ -1913,6 +1915,4 @@ Wire Bus Line
 	8110 825  8110 7335
 Wire Bus Line
 	5610 710  5610 7035
-Text Notes 5570 10305 0    50   ~ 0
-Note: NTSC uses 28.63636 MHz
 $EndSCHEMATC

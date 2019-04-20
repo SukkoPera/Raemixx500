@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 11
+Sheet 5 12
 Title "Rämixx500"
 Date "2019-04-16"
 Rev "1git"
@@ -1012,124 +1012,124 @@ Wire Wire Line
 $Comp
 L Device:EMI_Filter_LCL E441
 U 1 1 5D569D5D
-P 13590 2680
-F 0 "E441" H 13590 2875 50  0000 C CNN
-F 1 "470p" H 13775 2630 50  0000 C CNN
-F 2 "" V 13590 2680 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13590 2680 50  0001 C CNN
-	1    13590 2680
+P 13420 2680
+F 0 "E441" H 13420 2875 50  0000 C CNN
+F 1 "470p" H 13605 2630 50  0000 C CNN
+F 2 "" V 13420 2680 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 2680 50  0001 C CNN
+	1    13420 2680
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E443
 U 1 1 5D569D63
-P 13590 3110
-F 0 "E443" H 13590 3300 50  0000 C CNN
-F 1 "470p" H 13775 3060 50  0000 C CNN
-F 2 "" V 13590 3110 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13590 3110 50  0001 C CNN
-	1    13590 3110
+P 13420 3110
+F 0 "E443" H 13420 3300 50  0000 C CNN
+F 1 "470p" H 13605 3060 50  0000 C CNN
+F 2 "" V 13420 3110 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 3110 50  0001 C CNN
+	1    13420 3110
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E444
 U 1 1 5D569D69
-P 13590 3510
-F 0 "E444" H 13590 3705 50  0000 C CNN
-F 1 "470p" H 13770 3460 50  0000 C CNN
-F 2 "" V 13590 3510 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13590 3510 50  0001 C CNN
-	1    13590 3510
+P 13420 3510
+F 0 "E444" H 13420 3705 50  0000 C CNN
+F 1 "470p" H 13600 3460 50  0000 C CNN
+F 2 "" V 13420 3510 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 3510 50  0001 C CNN
+	1    13420 3510
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E442
 U 1 1 5D569D6F
-P 13590 3930
-F 0 "E442" H 13590 4125 50  0000 C CNN
-F 1 "470p" H 13770 3875 50  0000 C CNN
-F 2 "" V 13590 3930 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13590 3930 50  0001 C CNN
-	1    13590 3930
+P 13420 3930
+F 0 "E442" H 13420 4125 50  0000 C CNN
+F 1 "470p" H 13600 3875 50  0000 C CNN
+F 2 "" V 13420 3930 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 3930 50  0001 C CNN
+	1    13420 3930
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13890 2580 14290 2580
+	13720 2580 14120 2580
 Wire Wire Line
-	13590 2780 13590 2835
+	13420 2780 13420 2835
 Wire Wire Line
-	13590 2835 14070 2835
+	13420 2835 13900 2835
 Wire Wire Line
-	14070 2835 14070 3260
+	13900 2835 13900 3260
 Wire Wire Line
-	13590 3210 13590 3260
+	13420 3210 13420 3260
 Wire Wire Line
-	13590 3260 14070 3260
-Connection ~ 14070 3260
+	13420 3260 13900 3260
+Connection ~ 13900 3260
 Wire Wire Line
-	14070 3260 14070 3670
+	13900 3260 13900 3670
 Wire Wire Line
-	13590 3610 13590 3670
+	13420 3610 13420 3670
 Wire Wire Line
-	13590 3670 14070 3670
-Connection ~ 14070 3670
+	13420 3670 13900 3670
+Connection ~ 13900 3670
 Wire Wire Line
-	14070 3670 14070 4080
+	13900 3670 13900 4080
 Wire Wire Line
-	13590 4030 13590 4080
+	13420 4030 13420 4080
 Wire Wire Line
-	13590 4080 14070 4080
-Connection ~ 14070 4080
+	13420 4080 13900 4080
+Connection ~ 13900 4080
 Wire Wire Line
-	14070 4080 14070 4170
+	13900 4080 13900 4170
 $Comp
 L power:GND #PWR0141
 U 1 1 5D569D94
-P 14070 4170
-F 0 "#PWR0141" H 14070 3920 50  0001 C CNN
-F 1 "GND" H 14075 3997 50  0000 C CNN
-F 2 "" H 14070 4170 50  0001 C CNN
-F 3 "" H 14070 4170 50  0001 C CNN
-	1    14070 4170
+P 13900 4170
+F 0 "#PWR0141" H 13900 3920 50  0001 C CNN
+F 1 "GND" H 13905 3997 50  0000 C CNN
+F 2 "" H 13900 4170 50  0001 C CNN
+F 3 "" H 13900 4170 50  0001 C CNN
+	1    13900 4170
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12955 3075 13085 3075
+	12955 3075 13030 3075
 Wire Wire Line
-	13085 3075 13085 3010
+	13030 3075 13030 3010
 Wire Wire Line
-	13085 3010 13290 3010
+	13030 3010 13120 3010
 Wire Wire Line
-	12955 2775 13085 2775
+	12955 2775 13030 2775
 Wire Wire Line
-	13085 2775 13085 2580
+	13030 2775 13030 2580
 Wire Wire Line
-	13085 2580 13290 2580
+	13030 2580 13120 2580
 Wire Wire Line
-	12955 3375 13085 3375
+	12955 3375 13030 3375
 Wire Wire Line
-	13085 3375 13085 3410
+	13030 3375 13030 3410
 Wire Wire Line
-	13085 3410 13290 3410
+	13030 3410 13120 3410
 Wire Wire Line
-	12955 3675 13085 3675
+	12955 3675 13030 3675
 Wire Wire Line
-	13085 3675 13085 3830
+	13030 3675 13030 3830
 Wire Wire Line
-	13085 3830 13290 3830
-Text GLabel 14290 2580 2    50   Output ~ 0
+	13030 3830 13120 3830
+Text GLabel 14120 2580 2    50   Output ~ 0
 M0V
 Wire Wire Line
-	13890 3010 14290 3010
-Text GLabel 14290 3010 2    50   Output ~ 0
+	13720 3010 14120 3010
+Text GLabel 14120 3010 2    50   Output ~ 0
 M0H
 Wire Wire Line
-	13890 3410 14290 3410
-Text GLabel 14290 3410 2    50   Output ~ 0
+	13720 3410 14120 3410
+Text GLabel 14120 3410 2    50   Output ~ 0
 M1V
 Wire Wire Line
-	13890 3830 14290 3830
-Text GLabel 14290 3830 2    50   Output ~ 0
+	13720 3830 14120 3830
+Text GLabel 14120 3830 2    50   Output ~ 0
 M1H
 $Comp
 L Device:R_Network09 RP401
@@ -2854,10 +2854,78 @@ Text Notes 1020 3615 0    315  ~ 0
 PAULA POWER
 Text Notes 525  11075 0    315  ~ 0
 AUDIO POWER
+$Comp
+L 74ls157:74LS157 U15
+U 2 1 5EC4854E
+P 14900 3345
+F 0 "U15" H 15130 3416 50  0000 L CNN
+F 1 "74LS157" H 15130 3325 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 14900 3345 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 14900 3345 50  0001 C CNN
+	2    14900 3345
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5EC8858D
+P 15675 3315
+F 0 "C15" H 15790 3361 50  0000 L CNN
+F 1 "10n" H 15790 3270 50  0000 L CNN
+F 2 "" H 15713 3165 50  0001 C CNN
+F 3 "~" H 15675 3315 50  0001 C CNN
+	1    15675 3315
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 2895 14900 2695
+Wire Wire Line
+	14900 2695 15275 2695
+Wire Wire Line
+	15675 2695 15675 3165
+Wire Wire Line
+	15675 3465 15675 3935
+Wire Wire Line
+	15675 3935 15275 3935
+Wire Wire Line
+	14900 3935 14900 3745
+Wire Wire Line
+	15275 3935 15275 4025
+$Comp
+L power:GND #PWR0222
+U 1 1 5ED09E51
+P 15275 4025
+F 0 "#PWR0222" H 15275 3775 50  0001 C CNN
+F 1 "GND" H 15280 3852 50  0000 C CNN
+F 2 "" H 15275 4025 50  0001 C CNN
+F 3 "" H 15275 4025 50  0001 C CNN
+	1    15275 4025
+	1    0    0    -1  
+$EndComp
+Connection ~ 15275 3935
+Wire Wire Line
+	15275 3935 14900 3935
+$Comp
+L power:VCC #PWR0223
+U 1 1 5ED4B558
+P 15275 2605
+F 0 "#PWR0223" H 15275 2455 50  0001 C CNN
+F 1 "VCC" H 15292 2778 50  0000 C CNN
+F 2 "" H 15275 2605 50  0001 C CNN
+F 3 "" H 15275 2605 50  0001 C CNN
+	1    15275 2605
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15275 2605 15275 2695
+Connection ~ 15275 2695
+Wire Wire Line
+	15275 2695 15675 2695
 Wire Bus Line
 	1955 4305 1955 4505
 Wire Bus Line
 	1955 6355 1955 7055
 Wire Bus Line
 	1955 4705 1955 6205
+Text Notes 16035 2305 2    157  ~ 0
+DECOUPLING
 $EndSCHEMATC
