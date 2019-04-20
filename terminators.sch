@@ -842,6 +842,8 @@ Wire Wire Line
 	5640 6785 6100 6785
 Text GLabel 5640 6785 0    50   Input ~ 0
 ~OVR
+Text Notes 2020 7440 0    50   ~ 0
+Note: RP105-RP111 are optional internal bus\ntermination, and are not normally loaded.
 Wire Bus Line
 	2105 5545 2105 5745
 Wire Bus Line
@@ -852,6 +854,4 @@ Wire Bus Line
 	8665 1195 8665 3290
 Wire Bus Line
 	2265 1195 2265 3695
-Text Notes 2020 7440 0    50   ~ 0
-Note: RP105-RP111 are optional internal bus\ntermination, and are not normally loaded.
 $EndSCHEMATC

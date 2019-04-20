@@ -308,25 +308,25 @@ Connection ~ 4665 3875
 $Comp
 L power:VD #PWR0124
 U 1 1 5CBFE4AA
-P 14835 795
-F 0 "#PWR0124" H 14835 645 50  0001 C CNN
-F 1 "VD" H 14925 845 50  0000 C CNN
-F 2 "" H 14835 795 50  0001 C CNN
-F 3 "" H 14835 795 50  0001 C CNN
-	1    14835 795 
+P 14035 745
+F 0 "#PWR0124" H 14035 595 50  0001 C CNN
+F 1 "VD" H 14125 795 50  0000 C CNN
+F 2 "" H 14035 745 50  0001 C CNN
+F 3 "" H 14035 745 50  0001 C CNN
+	1    14035 745 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 14835 795 
-Text Notes 15750 790  2    50   ~ 0
+NoConn ~ 14035 745 
+Text Notes 14950 740  2    50   ~ 0
 +VID Power Supply
 Wire Notes Line
-	14710 645  15805 645 
+	13910 595  15005 595 
 Wire Notes Line
-	15805 645  15805 865 
+	15005 595  15005 815 
 Wire Notes Line
-	15805 865  14710 865 
+	15005 815  13910 815 
 Wire Notes Line
-	14710 865  14710 645 
+	13910 815  13910 595 
 $Comp
 L VIDIOT:VIDIOT HY1
 U 1 1 5CC01A68
@@ -744,17 +744,6 @@ Wire Wire Line
 	14730 2345 14900 2345
 Wire Wire Line
 	14900 2345 14900 2275
-$Comp
-L power:VCC #PWR0128
-U 1 1 5CF852B8
-P 15090 3025
-F 0 "#PWR0128" H 15090 2875 50  0001 C CNN
-F 1 "VCC" H 15107 3198 50  0000 C CNN
-F 2 "" H 15090 3025 50  0001 C CNN
-F 3 "" H 15090 3025 50  0001 C CNN
-	1    15090 3025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14955 3085 15090 3085
 Wire Wire Line
@@ -886,7 +875,7 @@ U 1 1 5D1737A4
 P 12550 3120
 F 0 "R402" V 12465 3015 50  0000 L CNN
 F 1 "4.7k" V 12550 3035 50  0000 L CNN
-F 2 "" V 12480 3120 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 12480 3120 50  0001 C CNN
 F 3 "~" H 12550 3120 50  0001 C CNN
 	1    12550 3120
 	1    0    0    -1  
@@ -897,7 +886,7 @@ U 1 1 5D17FD6E
 P 12745 3120
 F 0 "R403" V 12660 3015 50  0000 L CNN
 F 1 "4.7k" V 12745 3035 50  0000 L CNN
-F 2 "" V 12675 3120 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 12675 3120 50  0001 C CNN
 F 3 "~" H 12745 3120 50  0001 C CNN
 	1    12745 3120
 	1    0    0    -1  
@@ -908,7 +897,7 @@ U 1 1 5D17FFDB
 P 12935 3115
 F 0 "R404" V 12850 3010 50  0000 L CNN
 F 1 "4.7k" V 12935 3030 50  0000 L CNN
-F 2 "" V 12865 3115 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 12865 3115 50  0001 C CNN
 F 3 "~" H 12935 3115 50  0001 C CNN
 	1    12935 3115
 	1    0    0    -1  
@@ -952,10 +941,8 @@ F 3 "" H 12745 2720 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12745 2835 12745 2720
-Text Notes 9225 4530 0    50   ~ 0
-TODO: Add circuit that generates\ncolor composite and S-Video,\nbased on the AD724 chip
-Text Notes 6375 7615 0    50   ~ 0
-TODO: Add power
+Text Notes 6800 4800 0    50   ~ 0
+TODO: Add color composite and S-Video,\nwith a new circuit based on the AD724 chip
 Wire Wire Line
 	8390 2975 8620 2975
 Wire Wire Line
@@ -1010,12 +997,370 @@ Text Label 2600 4475 2    50   ~ 0
 rga2
 Text Label 2600 4575 2    50   ~ 0
 rga1
-Wire Bus Line
-	2005 3775 2005 4475
-Wire Bus Line
-	2005 2075 2005 3575
 Text Label 1605 3775 0    50   ~ 0
 rga[1..8]
 Text Label 1555 2075 0    50   ~ 0
 drd[0..15]
+$Comp
+L 74ls245:74LS245 U40
+U 2 1 5D0FA40E
+P 5950 8200
+F 0 "U40" H 6178 8271 50  0000 L CNN
+F 1 "74LS245" H 6178 8180 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 5950 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 5950 8200 50  0001 C CNN
+	2    5950 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74ls245:74LS245 U41
+U 2 1 5D0FA4DE
+P 7450 8200
+F 0 "U41" H 7678 8271 50  0000 L CNN
+F 1 "74LS245" H 7678 8180 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 7450 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 7450 8200 50  0001 C CNN
+	2    7450 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIDIOT:VIDIOT HY1
+U 2 1 5D0FA75A
+P 8900 8200
+F 0 "HY1" H 8672 8271 50  0000 R CNN
+F 1 "VIDIOT" H 8672 8180 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 8900 8200 50  0001 C CNN
+F 3 "DOCUMENTATION" H 8900 8200 50  0001 C CNN
+	2    8900 8200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DENISE:DENISE U4
+U 2 1 5D0FA90B
+P 3550 8150
+F 0 "U4" H 3778 8171 50  0000 L CNN
+F 1 "DENISE" H 3778 8080 50  0000 L CNN
+F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 3550 8150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3550 8150 50  0001 C CNN
+	2    3550 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0128
+U 1 1 5D176578
+P 3550 6800
+F 0 "#PWR0128" H 3550 6650 50  0001 C CNN
+F 1 "VCC" H 3567 6973 50  0000 C CNN
+F 2 "" H 3550 6800 50  0001 C CNN
+F 3 "" H 3550 6800 50  0001 C CNN
+	1    3550 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_LCL E406
+U 1 1 5D176766
+P 3450 7200
+F 0 "E406" H 3450 7395 50  0000 C CNN
+F 1 "10n" H 3615 7155 50  0000 C CNN
+F 2 "" V 3450 7200 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3450 7200 50  0001 C CNN
+	1    3450 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 6800 3550 6900
+$Comp
+L Device:C C4
+U 1 1 5D1BC11B
+P 4250 8200
+F 0 "C4" H 4365 8246 50  0000 L CNN
+F 1 "330n" H 4365 8155 50  0000 L CNN
+F 2 "" H 4288 8050 50  0001 C CNN
+F 3 "~" H 4250 8200 50  0001 C CNN
+	1    4250 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 7750 3550 7600
+Wire Wire Line
+	3550 7600 4250 7600
+Wire Wire Line
+	4250 7600 4250 8050
+Wire Wire Line
+	4250 8350 4250 8850
+Wire Wire Line
+	4250 8850 3550 8850
+Wire Wire Line
+	3550 8850 3550 8600
+Wire Wire Line
+	3550 7500 3550 7600
+Connection ~ 3550 7600
+Wire Wire Line
+	3350 7200 3200 7200
+Wire Wire Line
+	3200 7200 3200 7350
+$Comp
+L power:GND #PWR0205
+U 1 1 5D204BD1
+P 3200 7350
+F 0 "#PWR0205" H 3200 7100 50  0001 C CNN
+F 1 "GND" H 3205 7177 50  0000 C CNN
+F 2 "" H 3200 7350 50  0001 C CNN
+F 3 "" H 3200 7350 50  0001 C CNN
+	1    3200 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 7600 4250 7300
+Connection ~ 4250 7600
+$Comp
+L power:VDDA #PWR0206
+U 1 1 5D22310F
+P 14100 1200
+F 0 "#PWR0206" H 14100 1050 50  0001 C CNN
+F 1 "VDDA" H 14117 1373 50  0000 C CNN
+F 2 "" H 14100 1200 50  0001 C CNN
+F 3 "" H 14100 1200 50  0001 C CNN
+	1    14100 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 14200 1200 0    50   ~ 0
++VXX = +12V supplied to video connector
+NoConn ~ 14100 1200
+Wire Notes Line
+	13900 900  15900 900 
+Wire Notes Line
+	15900 900  15900 1400
+Wire Notes Line
+	15900 1400 13900 1400
+Wire Notes Line
+	13900 1400 13900 900 
+$Comp
+L power:VDDA #PWR0207
+U 1 1 5D2BF502
+P 15090 3025
+F 0 "#PWR0207" H 15090 2875 50  0001 C CNN
+F 1 "VDDA" H 15107 3198 50  0000 C CNN
+F 2 "" H 15090 3025 50  0001 C CNN
+F 3 "" H 15090 3025 50  0001 C CNN
+	1    15090 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR0208
+U 1 1 5D2BF66B
+P 4250 7300
+F 0 "#PWR0208" H 4250 7150 50  0001 C CNN
+F 1 "VDDA" H 4267 7473 50  0000 C CNN
+F 2 "" H 4250 7300 50  0001 C CNN
+F 3 "" H 4250 7300 50  0001 C CNN
+	1    4250 7300
+	1    0    0    -1  
+$EndComp
+Text Notes 4470 7290 0    50   ~ 0
+VDDA (+VXX\non original\nschematics) is\npicked up here
+$Comp
+L Device:R R406
+U 1 1 5D2C11FC
+P 4700 7600
+F 0 "R406" V 4600 7600 50  0000 C CNN
+F 1 "4.7" V 4700 7600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 4630 7600 50  0001 C CNN
+F 3 "~" H 4700 7600 50  0001 C CNN
+	1    4700 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 7600 4550 7600
+Wire Wire Line
+	4850 7600 5150 7600
+Text Notes 4595 7745 0    50   ~ 0
+1/2W
+$Comp
+L Device:CP1 C402
+U 1 1 5D34A65C
+P 5150 8200
+F 0 "C402" H 5265 8246 50  0000 L CNN
+F 1 "1000u" H 5265 8155 50  0000 L CNN
+F 2 "" H 5150 8200 50  0001 C CNN
+F 3 "~" H 5150 8200 50  0001 C CNN
+	1    5150 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 8050 5150 7600
+Connection ~ 5150 7600
+Wire Wire Line
+	5150 8350 5150 8850
+Wire Wire Line
+	5150 8850 4250 8850
+Connection ~ 4250 8850
+Wire Wire Line
+	5950 7600 5950 7750
+Wire Wire Line
+	5150 7600 5950 7600
+Wire Wire Line
+	5950 8600 5950 8850
+Wire Wire Line
+	5950 8850 5150 8850
+Connection ~ 5150 8850
+$Comp
+L Device:C C40
+U 1 1 5D38ACBD
+P 6750 8200
+F 0 "C40" H 6865 8246 50  0000 L CNN
+F 1 "330n" H 6865 8155 50  0000 L CNN
+F 2 "" H 6788 8050 50  0001 C CNN
+F 3 "~" H 6750 8200 50  0001 C CNN
+	1    6750 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 7600 6750 8050
+Wire Wire Line
+	6750 8350 6750 8850
+$Comp
+L Device:C C41
+U 1 1 5D39B62F
+P 8200 8200
+F 0 "C41" H 8315 8246 50  0000 L CNN
+F 1 "330n" H 8315 8155 50  0000 L CNN
+F 2 "" H 8238 8050 50  0001 C CNN
+F 3 "~" H 8200 8200 50  0001 C CNN
+	1    8200 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 7600 8200 8050
+Wire Wire Line
+	8200 8350 8200 8850
+Wire Wire Line
+	5950 7600 6750 7600
+Wire Wire Line
+	8800 7600 8800 7750
+Connection ~ 5950 7600
+Connection ~ 6750 7600
+Wire Wire Line
+	6750 7600 7450 7600
+Connection ~ 8200 7600
+Wire Wire Line
+	8200 7600 8800 7600
+Wire Wire Line
+	5950 8850 6750 8850
+Wire Wire Line
+	8800 8850 8800 8600
+Connection ~ 5950 8850
+Connection ~ 6750 8850
+Wire Wire Line
+	6750 8850 7450 8850
+Connection ~ 8200 8850
+Wire Wire Line
+	8200 8850 8800 8850
+Wire Wire Line
+	9000 8600 9000 8850
+Wire Wire Line
+	9000 8850 8800 8850
+Connection ~ 8800 8850
+Wire Wire Line
+	7450 7750 7450 7600
+Connection ~ 7450 7600
+Wire Wire Line
+	7450 7600 8200 7600
+Wire Wire Line
+	7450 8600 7450 8850
+Connection ~ 7450 8850
+Wire Wire Line
+	7450 8850 8200 8850
+$Comp
+L power:VD #PWR0209
+U 1 1 5D42B26C
+P 8800 7300
+F 0 "#PWR0209" H 8800 7150 50  0001 C CNN
+F 1 "VD" H 8800 7475 50  0000 C CNN
+F 2 "" H 8800 7300 50  0001 C CNN
+F 3 "" H 8800 7300 50  0001 C CNN
+	1    8800 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 7300 8800 7600
+Connection ~ 8800 7600
+Text Notes 8090 7290 0    50   ~ 0
+VD (+VID\non original\nschematics) is\npicked up here
+$Comp
+L Device:CP1 C401
+U 1 1 5D43E808
+P 9625 8200
+F 0 "C401" H 9740 8246 50  0000 L CNN
+F 1 "1000u" H 9740 8155 50  0000 L CNN
+F 2 "" H 9625 8200 50  0001 C CNN
+F 3 "~" H 9625 8200 50  0001 C CNN
+	1    9625 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 8350 9625 8850
+Wire Wire Line
+	9625 8850 9000 8850
+Connection ~ 9000 8850
+$Comp
+L power:GND #PWR0210
+U 1 1 5D451FB0
+P 6750 8955
+F 0 "#PWR0210" H 6750 8705 50  0001 C CNN
+F 1 "GND" H 6755 8782 50  0000 C CNN
+F 2 "" H 6750 8955 50  0001 C CNN
+F 3 "" H 6750 8955 50  0001 C CNN
+	1    6750 8955
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 8955 6750 8850
+$Comp
+L Device:R R405
+U 1 1 5D4670F1
+P 10075 7600
+F 0 "R405" V 9975 7600 50  0000 C CNN
+F 1 "0.47" V 10075 7600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 10005 7600 50  0001 C CNN
+F 3 "~" H 10075 7600 50  0001 C CNN
+	1    10075 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9625 7600 9925 7600
+Wire Wire Line
+	10225 7600 10525 7600
+Text Notes 9970 7745 0    50   ~ 0
+1/2W
+Text Notes 9830 7930 0    50   ~ 0
+I'm pretty sure I've seen\n4.7 used here as well...
+$Comp
+L power:VCC #PWR0211
+U 1 1 5D47ADBC
+P 10525 7300
+F 0 "#PWR0211" H 10525 7150 50  0001 C CNN
+F 1 "VCC" H 10542 7473 50  0000 C CNN
+F 2 "" H 10525 7300 50  0001 C CNN
+F 3 "" H 10525 7300 50  0001 C CNN
+	1    10525 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10525 7300 10525 7600
+Wire Wire Line
+	9625 7600 9625 8050
+Wire Wire Line
+	9625 7600 9000 7600
+Wire Wire Line
+	9000 7600 9000 7750
+Wire Bus Line
+	2005 3775 2005 4475
+Wire Bus Line
+	2005 2075 2005 3575
+Connection ~ 9625 7600
+Text Notes 8930 7440 0    50   ~ 0
+Note: Pin 2 and 21 of HY1\nconnected internally
+Text Notes 5120 9885 0    315  ~ 0
+VIDEO POWER
 $EndSCHEMATC

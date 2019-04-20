@@ -2219,6 +2219,10 @@ Wire Wire Line
 	15460 8135 15630 8135
 Wire Wire Line
 	15460 8185 15460 8135
+Text Label 1470 3110 0    50   ~ 0
+a[1..23]
+Text Label 1630 2260 0    50   ~ 0
+d[0..15]
 Wire Bus Line
 	1785 3110 1785 6275
 Wire Bus Line
@@ -2227,8 +2231,4 @@ Wire Bus Line
 	6430 1490 6430 4260
 Wire Bus Line
 	1950 2260 1950 5825
-Text Label 1470 3110 0    50   ~ 0
-a[1..23]
-Text Label 1630 2260 0    50   ~ 0
-d[0..15]
 $EndSCHEMATC
