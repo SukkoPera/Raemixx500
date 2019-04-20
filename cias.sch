@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title "Rämixx500"
 Date "2019-04-17"
 Rev "1git"

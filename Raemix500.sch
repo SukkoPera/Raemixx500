@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Rämixx500"
 Date "2019-04-17"
 Rev "1git"
@@ -61,5 +61,11 @@ S 6910 2775 1430 780
 U 5D86DD46
 F0 "Kickstart ROM" 50
 F1 "rom.sch" 50
+$EndSheet
+$Sheet
+S 6975 4125 1370 1010
+U 5D88EC26
+F0 "Clock Distribution" 50
+F1 "clockdist.sch" 50
 $EndSheet
 $EndSCHEMATC

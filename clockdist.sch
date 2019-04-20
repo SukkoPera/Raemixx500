@@ -1,0 +1,278 @@
+EESchema Schematic File Version 4
+LIBS:Raemix500-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title "Rämixx500"
+Date "2019-04-20"
+Rev "1git"
+Comp "SukkoPera"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Licensed under CERN OHL v.1.2"
+$EndDescr
+$Comp
+L 74ls258:74LS258 U33
+U 1 1 5D89015C
+P 4050 2800
+F 0 "U33" H 4075 3125 50  0000 C CNN
+F 1 "74LS258" H 4075 3034 50  0000 C CNN
+F 2 "" H 4050 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 4050 2800 50  0001 C CNN
+	1    4050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2700 3550 2700
+Wire Wire Line
+	3550 2700 3550 2800
+Wire Wire Line
+	3550 2900 3700 2900
+Wire Wire Line
+	3550 2800 3300 2800
+Connection ~ 3550 2800
+Wire Wire Line
+	3550 2800 3550 2900
+Text GLabel 3300 2800 0    50   Input ~ 0
+~CDAC
+Wire Wire Line
+	3700 3400 3550 3400
+Wire Wire Line
+	3550 3400 3550 3500
+Wire Wire Line
+	3550 3600 3700 3600
+Wire Wire Line
+	3550 3500 3300 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3550 3600
+Text GLabel 3300 3500 0    50   Input ~ 0
+CCKQ
+Wire Wire Line
+	3700 4100 3550 4100
+Wire Wire Line
+	3550 4100 3550 4200
+Wire Wire Line
+	3550 4300 3700 4300
+Wire Wire Line
+	3550 4200 3300 4200
+Connection ~ 3550 4200
+Wire Wire Line
+	3550 4200 3550 4300
+Text GLabel 3300 4200 0    50   Input ~ 0
+CCK
+$Comp
+L 74ls258:74LS258 U?
+U 2 1 5D895568
+P 4050 4200
+F 0 "U?" H 4075 4525 50  0000 C CNN
+F 1 "74LS258" H 4075 4434 50  0000 C CNN
+F 2 "" H 7150 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 7150 1900 50  0001 C CNN
+	2    4050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74ls258:74LS258 U?
+U 3 1 5D8955FE
+P 4050 3500
+F 0 "U?" H 4075 3825 50  0000 C CNN
+F 1 "74LS258" H 4075 3734 50  0000 C CNN
+F 2 "" H 7150 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 7150 1200 50  0001 C CNN
+	3    4050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3000 4050 3100
+Wire Wire Line
+	4050 3100 4500 3100
+Wire Wire Line
+	4500 3100 4500 3800
+Wire Wire Line
+	4500 4650 3300 4650
+Text GLabel 3300 4650 0    50   Input ~ 0
+~XLCKEN
+Wire Wire Line
+	4050 3700 4050 3800
+Wire Wire Line
+	4050 3800 4500 3800
+Connection ~ 4500 3800
+Wire Wire Line
+	4500 3800 4500 4500
+Wire Wire Line
+	4050 4400 4050 4500
+Wire Wire Line
+	4050 4500 4500 4500
+Connection ~ 4500 4500
+Wire Wire Line
+	4500 4500 4500 4650
+$Comp
+L r_pack05:R_Pack05 RP103
+U 1 1 5D89736C
+P 5650 3500
+F 0 "RP103" V 5233 3500 50  0000 C CNN
+F 1 "39" V 5324 3500 50  0000 C CNN
+F 2 "" V 6025 3500 50  0001 C CNN
+F 3 "~" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 3500 4800 3600
+Wire Wire Line
+	4800 3600 5350 3600
+Wire Wire Line
+	4450 3500 4800 3500
+Wire Wire Line
+	4900 2800 4900 3400
+Wire Wire Line
+	4900 3400 5450 3400
+Wire Wire Line
+	4450 2800 4900 2800
+Wire Wire Line
+	5000 4200 5000 3500
+Wire Wire Line
+	5000 3500 5200 3500
+Wire Wire Line
+	4450 4200 5000 4200
+Wire Wire Line
+	5850 3500 6550 3500
+Text GLabel 6550 3150 2    50   Output ~ 0
+CDAC
+Text GLabel 6550 3500 2    50   Output ~ 0
+~CCK
+Text GLabel 6550 3850 2    50   Output ~ 0
+~CCKQ
+NoConn ~ 5450 3300
+NoConn ~ 5850 3300
+NoConn ~ 5450 3700
+NoConn ~ 5850 3700
+Wire Wire Line
+	5850 3600 6300 3600
+Wire Wire Line
+	6300 3600 6300 3850
+Wire Wire Line
+	6300 3850 6550 3850
+Wire Wire Line
+	5850 3400 6300 3400
+Wire Wire Line
+	6300 3400 6300 3150
+Wire Wire Line
+	6300 3150 6550 3150
+Wire Wire Line
+	5350 3600 5350 4200
+Connection ~ 5350 3600
+Wire Wire Line
+	5350 3600 5450 3600
+Text GLabel 6550 4200 2    50   Output ~ 0
+~CCKQ_A
+$Comp
+L Device:R E105
+U 1 1 5D8A25CF
+P 5650 4200
+F 0 "E105" V 5550 4200 50  0000 C CNN
+F 1 "68" V 5650 4200 50  0000 C CNN
+F 2 "" V 5580 4200 50  0001 C CNN
+F 3 "~" H 5650 4200 50  0001 C CNN
+	1    5650 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4200 5500 4200
+Wire Wire Line
+	5800 4200 6550 4200
+Wire Wire Line
+	5200 3500 5200 4600
+Wire Wire Line
+	5200 4600 5500 4600
+Wire Wire Line
+	5200 3500 5450 3500
+Connection ~ 5200 3500
+Text GLabel 6550 4600 2    50   Output ~ 0
+~CCK_A
+$Comp
+L Device:R E104
+U 1 1 5D8A5764
+P 5650 4600
+F 0 "E104" V 5550 4600 50  0000 C CNN
+F 1 "68" V 5650 4600 50  0000 C CNN
+F 2 "" V 5580 4600 50  0001 C CNN
+F 3 "~" H 5650 4600 50  0001 C CNN
+	1    5650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4600 6550 4600
+$Comp
+L 74ls258:74LS258 U33
+U 5 1 5D8A9E7D
+P 8950 3600
+F 0 "U33" H 9180 3671 50  0000 L CNN
+F 1 "74LS258" H 9180 3580 50  0000 L CNN
+F 2 "" H 12050 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 12050 1300 50  0001 C CNN
+	5    8950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8A9F76
+P 8950 4200
+F 0 "#PWR?" H 8950 3950 50  0001 C CNN
+F 1 "GND" H 8955 4027 50  0000 C CNN
+F 2 "" H 8950 4200 50  0001 C CNN
+F 3 "" H 8950 4200 50  0001 C CNN
+	1    8950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4200 8950 4050
+$Comp
+L power:VCC #PWR?
+U 1 1 5D8AA81C
+P 8950 2950
+F 0 "#PWR?" H 8950 2800 50  0001 C CNN
+F 1 "VCC" H 8967 3123 50  0000 C CNN
+F 2 "" H 8950 2950 50  0001 C CNN
+F 3 "" H 8950 2950 50  0001 C CNN
+	1    8950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2950 8950 3100
+Wire Wire Line
+	4200 2950 4200 3000
+Wire Wire Line
+	4200 3000 4700 3000
+Wire Wire Line
+	4700 3000 4700 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5D8ABB37
+P 4700 4850
+F 0 "#PWR?" H 4700 4600 50  0001 C CNN
+F 1 "GND" H 4705 4677 50  0000 C CNN
+F 2 "" H 4700 4850 50  0001 C CNN
+F 3 "" H 4700 4850 50  0001 C CNN
+	1    4700 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3650 4200 3700
+Wire Wire Line
+	4200 3700 4700 3700
+Connection ~ 4700 3700
+Wire Wire Line
+	4700 3700 4700 4400
+Wire Wire Line
+	4200 4350 4200 4400
+Wire Wire Line
+	4200 4400 4700 4400
+Connection ~ 4700 4400
+Wire Wire Line
+	4700 4400 4700 4850
+$EndSCHEMATC

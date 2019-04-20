@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "Rämixx500"
 Date "2019-04-11"
-Rev "0.1"
+Rev "1git"
 Comp "SukkoPera"
 Comment1 "PROCESSOR AND OTHER USEFUL COMPONENTS"
 Comment2 "Derived from Commodore Schematic #312813, Rev. 1 - Sheet 2 of 10"

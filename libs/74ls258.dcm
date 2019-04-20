@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS258
+D Quad 2 to 1 Multiplexer, inverting
+K TTL MUX MUX2
+F http://www.ti.com/lit/gpn/sn74LS258
+$ENDCMP
+#
+#End Doc Library
