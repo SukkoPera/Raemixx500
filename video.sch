@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title "Rämixx500"
 Date "2019-04-14"
 Rev "1git"
@@ -1354,13 +1354,13 @@ Wire Wire Line
 	9625 7600 9000 7600
 Wire Wire Line
 	9000 7600 9000 7750
-Wire Bus Line
-	2005 3775 2005 4475
-Wire Bus Line
-	2005 2075 2005 3575
 Connection ~ 9625 7600
 Text Notes 8930 7440 0    50   ~ 0
 Note: Pin 2 and 21 of HY1\nconnected internally
 Text Notes 5120 9885 0    315  ~ 0
 VIDEO POWER
+Wire Bus Line
+	2005 3775 2005 4475
+Wire Bus Line
+	2005 2075 2005 3575
 $EndSCHEMATC

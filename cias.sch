@@ -4,9 +4,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title "Rämixx500"
-Date "2019-04-17"
+Date "2019-04-20"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "RS232 AND PARALLEL PORT"
@@ -1513,9 +1513,6 @@ Wire Wire Line
 	7500 6610 7745 6610
 Wire Wire Line
 	7500 7010 7745 7010
-Connection ~ 8130 6810
-Wire Wire Line
-	8130 6810 8385 6810
 Wire Wire Line
 	6275 6245 6950 6245
 Wire Wire Line

@@ -24,4 +24,5 @@
   (lib (name AMIGA_ROM)(type Legacy)(uri ${KIPRJMOD}/libs/AMIGA_ROM.lib)(options "")(descr ""))
   (lib (name 74ls258)(type Legacy)(uri ${KIPRJMOD}/libs/74ls258.lib)(options "")(descr ""))
   (lib (name xtal)(type Legacy)(uri ${KIPRJMOD}/libs/xtal.lib)(options "")(descr ""))
+  (lib (name BUSEXP)(type Legacy)(uri ${KIPRJMOD}/libs/BUSEXP.lib)(options "")(descr ""))
 )
