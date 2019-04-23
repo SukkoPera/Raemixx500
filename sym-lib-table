@@ -28,4 +28,5 @@
   (lib (name amipower)(type Legacy)(uri ${KIPRJMOD}/libs/amipower.lib)(options "")(descr ""))
   (lib (name linefilter)(type Legacy)(uri ${KIPRJMOD}/libs/linefilter.lib)(options "")(descr ""))
   (lib (name MSM6242B)(type Legacy)(uri ${KIPRJMOD}/libs/MSM6242B.lib)(options "")(descr ""))
+  (lib (name TRAPDOOR)(type Legacy)(uri ${KIPRJMOD}/libs/TRAPDOOR.lib)(options "")(descr ""))
 )

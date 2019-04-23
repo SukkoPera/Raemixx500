@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
+Sheet 13 14
 Title "Rämixx500"
 Date "2019-04-23"
 Rev "1git"
@@ -259,22 +259,20 @@ Wire Wire Line
 Entry Wire Line
 	2595 2525 2495 2425
 Wire Wire Line
-	2595 2525 3090 2525
+	2595 2525 2870 2525
 Text Label 2610 2525 0    50   ~ 0
 a15
 $Comp
 L 74xx:74LS05 U36
 U 6 1 5CF8B8D2
-P 3390 2525
-F 0 "U36" H 3355 2525 50  0000 C CNN
-F 1 "74LS05" H 3460 2670 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3390 2525 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3390 2525 50  0001 C CNN
-	6    3390 2525
+P 3170 2525
+F 0 "U36" H 3135 2525 50  0000 C CNN
+F 1 "74LS05" H 3240 2670 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3170 2525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3170 2525 50  0001 C CNN
+	6    3170 2525
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3690 2525 4015 2525
 Wire Wire Line
 	2595 1275 7245 1275
 $Comp
@@ -484,6 +482,17 @@ F 3 "~" H 3365 5100 50  0001 C CNN
 $EndComp
 Text Notes 3170 5025 2    50   ~ 0
 This diode replaces R913 on the original schematics\nso that we can use a non-rechargeable battery. Use\na Schottky diode to minimize the voltage drop.
+Wire Wire Line
+	3470 2525 3595 2525
+Wire Wire Line
+	3595 2525 3595 1700
+Wire Wire Line
+	3595 1700 3745 1700
+Text GLabel 3745 1700 2    50   Output ~ 0
+~CLKCS
+Connection ~ 3595 2525
+Wire Wire Line
+	3595 2525 4015 2525
 Wire Bus Line
 	6845 1675 6845 1975
 Wire Bus Line

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title "Rämixx500"
 Date "2019-04-17"
 Rev "1git"
@@ -63,7 +63,7 @@ F0 "Kickstart ROM" 50
 F1 "rom.sch" 50
 $EndSheet
 $Sheet
-S 6975 4125 1370 1010
+S 6975 4125 1405 865 
 U 5D88EC26
 F0 "Clock Distribution" 50
 F1 "clockdist.sch" 50
@@ -75,7 +75,7 @@ F0 "Expansion Bus" 50
 F1 "expansion.sch" 50
 $EndSheet
 $Sheet
-S 9470 2840 1415 795 
+S 9475 4125 1415 795 
 U 5E9E4C57
 F0 "Power & Decoupling" 50
 F1 "power.sch" 50
@@ -85,5 +85,11 @@ S 4060 4220 1380 860
 U 5CF615AB
 F0 "Real-Time Clock" 50
 F1 "rtc.sch" 50
+$EndSheet
+$Sheet
+S 9495 2675 1370 905 
+U 5D00C589
+F0 "Trapdoor Expansion" 50
+F1 "trapdoor.sch" 50
 $EndSheet
 $EndSCHEMATC
