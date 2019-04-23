@@ -1,5 +1,5 @@
 # Rämixx500
-Rämixx500 is an Open Hardware implementation of the Commodore Amiga 500+ mainboard.
+Rämixx500 is an Open Hardware implementation of the Commodore Amiga 500+ mainboard, revision 8A.1.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/Raemixx500/master/doc/render-top.png)
 
@@ -18,7 +18,7 @@ Following is a list of deliberate changes with respect to the original layout of
 - The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. To make this work, R913 has been replaced with a diode.
 - The need to solder D912 to a leg of the former R913 has been removed.
 - The font used to label the components and to do all the writing on the board is not the original one, but rather the default Kicad font. Neither was the font size matched in all cases. Some labels were also moved for clarity.
-- The silkscreen for some components does not match the original one. We tried to use the built-in Kicad footprints as-is, when available.
+- The silkscreen for some components does not match the original one. We used the built-in Kicad footprints as-is, when available.
 
 ### Assembly and Installation
 Good luck ;).
