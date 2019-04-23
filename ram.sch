@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 12
+Sheet 3 13
 Title "Rämixx500"
 Date "2019-04-20"
 Rev "1git"
@@ -1815,7 +1815,7 @@ U 1 1 5D453E68
 P 4850 4980
 F 0 "JP3A1" H 4850 5060 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 4850 5084 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4850 4980 50  0001 C CNN
+F 2 "Raemixx500:Jumper2-Bridged" H 4850 4980 50  0001 C CNN
 F 3 "~" H 4850 4980 50  0001 C CNN
 	1    4850 4980
 	1    0    0    -1  
@@ -1826,7 +1826,7 @@ U 1 1 5D4540CC
 P 4850 5190
 F 0 "JP3B1" H 4850 5105 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 4850 5294 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4850 5190 50  0001 C CNN
+F 2 "Raemixx500:Jumper2-Bridged" H 4850 5190 50  0001 C CNN
 F 3 "~" H 4850 5190 50  0001 C CNN
 	1    4850 5190
 	1    0    0    -1  
@@ -1889,7 +1889,7 @@ U 1 1 5D708549
 P 6470 5205
 F 0 "R201" V 6385 5105 50  0000 L CNN
 F 1 "4.7k" V 6475 5125 50  0000 L CNN
-F 2 "" V 6400 5205 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6400 5205 50  0001 C CNN
 F 3 "~" H 6470 5205 50  0001 C CNN
 	1    6470 5205
 	1    0    0    -1  
@@ -1900,7 +1900,7 @@ U 1 1 5D708798
 P 6710 5205
 F 0 "R202" V 6625 5110 50  0000 L CNN
 F 1 "4.7k" V 6715 5125 50  0000 L CNN
-F 2 "" V 6640 5205 50  0001 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6640 5205 50  0001 C CNN
 F 3 "~" H 6710 5205 50  0001 C CNN
 	1    6710 5205
 	1    0    0    -1  
@@ -1943,7 +1943,7 @@ U 1 1 5D871A1B
 P 6315 7720
 F 0 "JP4B1" H 6315 7635 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 6315 7824 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6315 7720 50  0001 C CNN
+F 2 "Raemixx500:Jumper2-Bridged" H 6315 7720 50  0001 C CNN
 F 3 "~" H 6315 7720 50  0001 C CNN
 	1    6315 7720
 	1    0    0    -1  
@@ -1954,7 +1954,7 @@ U 1 1 5D871C03
 P 6315 7470
 F 0 "JP4A1" H 6315 7385 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 6315 7574 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6315 7470 50  0001 C CNN
+F 2 "Raemixx500:Jumper2-Bridged" H 6315 7470 50  0001 C CNN
 F 3 "~" H 6315 7470 50  0001 C CNN
 	1    6315 7470
 	1    0    0    -1  
@@ -2020,7 +2020,7 @@ U 1 1 5DF4229E
 P 6315 8510
 F 0 "JP5B1" H 6315 8425 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 6315 8614 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6315 8510 50  0001 C CNN
+F 2 "Raemixx500:Jumper2-Bridged" H 6315 8510 50  0001 C CNN
 F 3 "~" H 6315 8510 50  0001 C CNN
 	1    6315 8510
 	1    0    0    -1  
@@ -2031,7 +2031,7 @@ U 1 1 5DF422A4
 P 6315 8260
 F 0 "JP5A1" H 6315 8175 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 6315 8364 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6315 8260 50  0001 C CNN
+F 2 "Raemixx500:Jumper2-Bridged" H 6315 8260 50  0001 C CNN
 F 3 "~" H 6315 8260 50  0001 C CNN
 	1    6315 8260
 	1    0    0    -1  

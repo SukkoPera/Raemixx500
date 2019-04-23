@@ -1,0 +1,491 @@
+EESchema Schematic File Version 4
+LIBS:Raemix500-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 13
+Title "Rämixx500"
+Date "2019-04-23"
+Rev "1git"
+Comp "SukkoPera"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Licensed under CERN OHL v.1.2"
+$EndDescr
+$Comp
+L MSM6242B:MSM6242B U9
+U 1 1 5CF6500A
+P 7995 2125
+F 0 "U9" H 7995 2890 50  0000 C CNN
+F 1 "MSM6242B" H 7995 2799 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm_Socket_LongPads" H 7995 2125 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7995 2125 50  0001 C CNN
+	1    7995 2125
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2495 1175 2595 1275
+Entry Wire Line
+	2495 1275 2595 1375
+Entry Wire Line
+	2495 1375 2595 1475
+Text Label 7085 1575 0    50   ~ 0
+a2
+Text Label 7085 1475 0    50   ~ 0
+a3
+Text Label 7085 1375 0    50   ~ 0
+a4
+Text Label 7085 1275 0    50   ~ 0
+a5
+Text GLabel 1895 1175 0    50   Input ~ 0
+A[1..23]
+Wire Bus Line
+	2495 1175 1895 1175
+Text Label 1995 1175 0    50   ~ 0
+a[1..23]
+Entry Wire Line
+	2595 1575 2495 1475
+Wire Wire Line
+	7245 2075 6945 2075
+Wire Wire Line
+	7245 1775 6945 1775
+Wire Wire Line
+	7245 1875 6945 1875
+Wire Wire Line
+	7245 1975 6945 1975
+Entry Wire Line
+	6845 1675 6945 1775
+Entry Wire Line
+	6845 1775 6945 1875
+Entry Wire Line
+	6845 1875 6945 1975
+Entry Wire Line
+	6845 1975 6945 2075
+Text GLabel 6250 1675 0    50   Input ~ 0
+D[0..15]
+Text Label 6455 1675 0    50   ~ 0
+d[0..15]
+Wire Bus Line
+	6845 1675 6250 1675
+Text Label 7085 1775 0    50   ~ 0
+d3
+Text Label 7085 1875 0    50   ~ 0
+d2
+Text Label 7085 1975 0    50   ~ 0
+d1
+Text Label 7085 2075 0    50   ~ 0
+d0
+$Comp
+L 74xx:74LS05 U36
+U 5 1 5CF7587D
+P 4680 2525
+F 0 "U36" H 4650 2525 50  0000 C CNN
+F 1 "74LS05" H 4770 2670 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4680 2525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4680 2525 50  0001 C CNN
+	5    4680 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R915
+U 1 1 5CF75B36
+P 5200 2130
+F 0 "R915" H 5270 2176 50  0000 L CNN
+F 1 "1k" H 5270 2085 50  0000 L CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5130 2130 50  0001 C CNN
+F 3 "~" H 5200 2130 50  0001 C CNN
+	1    5200 2130
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0246
+U 1 1 5CF75D2B
+P 5200 1825
+F 0 "#PWR0246" H 5200 1675 50  0001 C CNN
+F 1 "VCC" H 5217 1998 50  0000 C CNN
+F 2 "" H 5200 1825 50  0001 C CNN
+F 3 "" H 5200 1825 50  0001 C CNN
+	1    5200 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1825 5200 1880
+Wire Wire Line
+	4980 2525 5200 2525
+Wire Wire Line
+	5200 2280 5200 2525
+Connection ~ 5200 2525
+Wire Wire Line
+	5200 2525 7245 2525
+$Comp
+L Device:R R914
+U 1 1 5CF763B4
+P 5595 2130
+F 0 "R914" H 5665 2176 50  0000 L CNN
+F 1 "10k" H 5665 2085 50  0000 L CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5525 2130 50  0001 C CNN
+F 3 "~" H 5595 2130 50  0001 C CNN
+	1    5595 2130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7245 2325 5595 2325
+Wire Wire Line
+	5595 2325 5595 2280
+Wire Wire Line
+	7245 2425 5595 2425
+Wire Wire Line
+	5595 2425 5595 2325
+Connection ~ 5595 2325
+Wire Wire Line
+	5595 1880 5595 1980
+Wire Wire Line
+	7245 2725 6505 2725
+Text GLabel 6505 2725 0    50   Input ~ 0
+~CLKRD
+Wire Wire Line
+	7245 2825 6890 2825
+Text GLabel 6890 2825 0    50   Input ~ 0
+~CLKWR
+Wire Wire Line
+	4380 2525 4015 2525
+$Comp
+L Device:R R916
+U 1 1 5CF7CC89
+P 4015 2130
+F 0 "R916" H 4085 2176 50  0000 L CNN
+F 1 "1k" H 4085 2085 50  0000 L CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3945 2130 50  0001 C CNN
+F 3 "~" H 4015 2130 50  0001 C CNN
+	1    4015 2130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4015 2280 4015 2525
+Wire Wire Line
+	4015 1980 4015 1880
+Wire Wire Line
+	4015 1880 5200 1880
+Connection ~ 4015 2525
+Connection ~ 5200 1880
+Wire Wire Line
+	5200 1880 5595 1880
+$Comp
+L Jumper:Jumper_2_Open JP9
+U 1 1 5CF7DF20
+P 4015 3025
+F 0 "JP9" V 4015 2937 50  0000 R CNN
+F 1 "Jumper_2_Open" V 3970 2937 50  0001 R CNN
+F 2 "Raemixx500:Jumper2-Open" H 4015 3025 50  0001 C CNN
+F 3 "~" H 4015 3025 50  0001 C CNN
+	1    4015 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4015 2825 4015 2525
+Wire Wire Line
+	4015 3225 4015 3310
+$Comp
+L power:GND #PWR0247
+U 1 1 5CF7EB41
+P 4015 3310
+F 0 "#PWR0247" H 4015 3060 50  0001 C CNN
+F 1 "GND" H 4020 3137 50  0000 C CNN
+F 2 "" H 4015 3310 50  0001 C CNN
+F 3 "" H 4015 3310 50  0001 C CNN
+	1    4015 3310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8745 2325 9175 2325
+Wire Wire Line
+	9175 2325 9175 2375
+Wire Wire Line
+	8745 2725 9175 2725
+Wire Wire Line
+	9175 2725 9175 2675
+$Comp
+L Device:C_Variable TC9
+U 1 1 5CF819AD
+P 9640 2325
+F 0 "TC9" V 9388 2325 50  0000 C CNN
+F 1 "6.8-45p" V 9479 2325 50  0000 C CNN
+F 2 "" H 9640 2325 50  0001 C CNN
+F 3 "~" H 9640 2325 50  0001 C CNN
+	1    9640 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C911
+U 1 1 5CF81C27
+P 9640 2725
+F 0 "C911" V 9505 2725 50  0000 C CNN
+F 1 "22p" V 9785 2725 50  0000 C CNN
+F 2 "" H 9678 2575 50  0001 C CNN
+F 3 "~" H 9640 2725 50  0001 C CNN
+	1    9640 2725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9175 2325 9490 2325
+Connection ~ 9175 2325
+Wire Wire Line
+	9175 2725 9490 2725
+Connection ~ 9175 2725
+Wire Wire Line
+	9790 2325 10120 2325
+Wire Wire Line
+	10120 2325 10120 2725
+$Comp
+L power:GND #PWR0248
+U 1 1 5CF83037
+P 10120 2870
+F 0 "#PWR0248" H 10120 2620 50  0001 C CNN
+F 1 "GND" H 10125 2697 50  0000 C CNN
+F 2 "" H 10120 2870 50  0001 C CNN
+F 3 "" H 10120 2870 50  0001 C CNN
+	1    10120 2870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9790 2725 10120 2725
+Connection ~ 10120 2725
+Wire Wire Line
+	10120 2725 10120 2870
+Wire Wire Line
+	5200 1980 5200 1880
+Entry Wire Line
+	2595 2525 2495 2425
+Wire Wire Line
+	2595 2525 3090 2525
+Text Label 2610 2525 0    50   ~ 0
+a15
+$Comp
+L 74xx:74LS05 U36
+U 6 1 5CF8B8D2
+P 3390 2525
+F 0 "U36" H 3355 2525 50  0000 C CNN
+F 1 "74LS05" H 3460 2670 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3390 2525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3390 2525 50  0001 C CNN
+	6    3390 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3690 2525 4015 2525
+Wire Wire Line
+	2595 1275 7245 1275
+$Comp
+L Device:Crystal_GND2 Y9
+U 1 1 5CF90547
+P 9175 2525
+F 0 "Y9" V 9129 2656 50  0000 L CNN
+F 1 "32768 Hz" V 9460 2300 50  0000 L CNN
+F 2 "Raemixx500:Crystal_RTC" H 9175 2525 50  0001 C CNN
+F 3 "~" H 9175 2525 50  0001 C CNN
+	1    9175 2525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2595 1575 7245 1575
+Wire Wire Line
+	2595 1475 7245 1475
+Wire Wire Line
+	2595 1375 7245 1375
+Wire Wire Line
+	8745 1775 8850 1775
+Wire Wire Line
+	8850 1775 8850 2525
+Wire Wire Line
+	8850 2525 8975 2525
+$Comp
+L Device:Battery_Cell BT9
+U 1 1 5CF9EAEA
+P 2950 5870
+F 0 "BT9" H 3068 5966 50  0000 L CNN
+F 1 "CR2032" H 3068 5875 50  0000 L CNN
+F 2 "Raemixx500:Battery_Holder_Coin_2032_BS-7" V 2950 5930 50  0001 C CNN
+F 3 "~" V 2950 5930 50  0001 C CNN
+	1    2950 5870
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C913
+U 1 1 5CF9EEAC
+P 3805 5820
+F 0 "C913" H 3920 5866 50  0000 L CNN
+F 1 "4.7u" H 3920 5775 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3805 5820 50  0001 C CNN
+F 3 "~" H 3805 5820 50  0001 C CNN
+	1    3805 5820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5670 2950 5100
+Wire Wire Line
+	2950 5100 3215 5100
+Wire Wire Line
+	3515 5100 3805 5100
+Wire Wire Line
+	3805 5100 3805 5670
+Wire Wire Line
+	2950 5970 2950 6505
+Wire Wire Line
+	2950 6505 3805 6505
+Wire Wire Line
+	3805 6505 3805 5970
+$Comp
+L MSM6242B:MSM6242B U9
+U 2 1 5CFA109F
+P 4555 5825
+F 0 "U9" H 4833 5871 50  0000 L CNN
+F 1 "MSM6242B" H 4833 5780 50  0000 L CNN
+F 2 "Package_DIP:DIP-18_W7.62mm_Socket_LongPads" H 4555 6225 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4555 6225 50  0001 C CNN
+	2    4555 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5CFA11A8
+P 5490 5820
+F 0 "C9" H 5605 5866 50  0000 L CNN
+F 1 "330n" H 5605 5775 50  0000 L CNN
+F 2 "" H 5528 5670 50  0001 C CNN
+F 3 "~" H 5490 5820 50  0001 C CNN
+	1    5490 5820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3805 6505 4160 6505
+Wire Wire Line
+	4555 6505 4555 6325
+Connection ~ 3805 6505
+Wire Wire Line
+	4555 6505 5490 6505
+Wire Wire Line
+	5490 6505 5490 5970
+Connection ~ 4555 6505
+Wire Wire Line
+	3805 5100 4555 5100
+Wire Wire Line
+	4555 5100 4555 5325
+Connection ~ 3805 5100
+Wire Wire Line
+	4555 5100 5490 5100
+Wire Wire Line
+	5490 5100 5490 5670
+Connection ~ 4555 5100
+Wire Wire Line
+	4160 6505 4160 6590
+$Comp
+L power:GND #PWR0249
+U 1 1 5CFA9604
+P 4160 6590
+F 0 "#PWR0249" H 4160 6340 50  0001 C CNN
+F 1 "GND" H 4165 6417 50  0000 C CNN
+F 2 "" H 4160 6590 50  0001 C CNN
+F 3 "" H 4160 6590 50  0001 C CNN
+	1    4160 6590
+	1    0    0    -1  
+$EndComp
+Connection ~ 4160 6505
+Wire Wire Line
+	4160 6505 4555 6505
+$Comp
+L Device:D D912
+U 1 1 5CFAA713
+P 3805 4720
+F 0 "D912" V 3851 4641 50  0000 R CNN
+F 1 "1n4148" V 3760 4641 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal" H 3805 4720 50  0001 C CNN
+F 3 "~" H 3805 4720 50  0001 C CNN
+	1    3805 4720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3805 4870 3805 5100
+$Comp
+L Device:D D911
+U 1 1 5CFABB51
+P 4095 4430
+F 0 "D911" H 4095 4214 50  0000 C CNN
+F 1 "1n4148" H 4095 4305 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal" H 4095 4430 50  0001 C CNN
+F 3 "~" H 4095 4430 50  0001 C CNN
+	1    4095 4430
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R911
+U 1 1 5CFABC9A
+P 3485 4430
+F 0 "R911" V 3385 4430 50  0000 C CNN
+F 1 "470" V 3485 4430 50  0000 C CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3415 4430 50  0001 C CNN
+F 3 "~" H 3485 4430 50  0001 C CNN
+	1    3485 4430
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3635 4430 3805 4430
+Wire Wire Line
+	3805 4570 3805 4430
+Connection ~ 3805 4430
+Wire Wire Line
+	3805 4430 3945 4430
+$Comp
+L power:VCC #PWR0250
+U 1 1 5CFAE2F3
+P 4450 4260
+F 0 "#PWR0250" H 4450 4110 50  0001 C CNN
+F 1 "VCC" H 4467 4433 50  0000 C CNN
+F 2 "" H 4450 4260 50  0001 C CNN
+F 3 "" H 4450 4260 50  0001 C CNN
+	1    4450 4260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4245 4430 4450 4430
+Wire Wire Line
+	4450 4260 4450 4430
+$Comp
+L power:+12V #PWR?
+U 1 1 5CFB2BF2
+P 3130 4255
+AR Path="/5D2DC3A1/5CFB2BF2" Ref="#PWR?"  Part="1" 
+AR Path="/5E9E4C57/5CFB2BF2" Ref="#PWR?"  Part="1" 
+AR Path="/5CF615AB/5CFB2BF2" Ref="#PWR0251"  Part="1" 
+F 0 "#PWR0251" H 3130 4105 50  0001 C CNN
+F 1 "+12V" H 3145 4428 50  0000 C CNN
+F 2 "" H 3130 4255 50  0001 C CNN
+F 3 "" H 3130 4255 50  0001 C CNN
+	1    3130 4255
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3130 4430 3335 4430
+Wire Wire Line
+	3130 4255 3130 4430
+Text Notes 4290 4850 0    50   ~ 0
+This diode is not installed in its place on original boards,\nas its cathode would connect to the other side or the\nresistor. But we'll fix this, so please install it normally.
+$Comp
+L Device:D D913
+U 1 1 5CFBBF2C
+P 3365 5100
+F 0 "D913" H 3365 4884 50  0000 C CNN
+F 1 "1n5817" H 3365 4975 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 3365 5100 50  0001 C CNN
+F 3 "~" H 3365 5100 50  0001 C CNN
+	1    3365 5100
+	-1   0    0    1   
+$EndComp
+Text Notes 3170 5025 2    50   ~ 0
+This diode replaces R913 on the original schematics\nso that we can use a non-rechargeable battery. Use\na Schottky diode to minimize the voltage drop.
+Wire Bus Line
+	6845 1675 6845 1975
+Wire Bus Line
+	2495 1175 2495 2425
+$EndSCHEMATC

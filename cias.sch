@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 12
+Sheet 6 13
 Title "Rämixx500"
 Date "2019-04-20"
 Rev "1git"
@@ -244,7 +244,7 @@ U 1 1 5E848639
 P 1240 4360
 F 0 "JP7B1" V 1240 4427 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 1195 4426 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 1240 4360 50  0001 C CNN
+F 2 "Raemixx500:Jumper3-Bridged12" H 1240 4360 50  0001 C CNN
 F 3 "~" H 1240 4360 50  0001 C CNN
 	1    1240 4360
 	0    -1   -1   0   
@@ -269,7 +269,7 @@ U 1 1 5E8537DA
 P 9255 2590
 F 0 "CN7" H 9255 4082 50  0000 C CNN
 F 1 "DB25_Female" H 9255 3991 50  0000 C CNN
-F 2 "w_conn_d-sub:DB_25F" H 9255 2590 50  0001 C CNN
+F 2 "w_conn_d-sub:DB_25M" H 9255 2590 50  0001 C CNN
 F 3 " ~" H 9255 2590 50  0001 C CNN
 	1    9255 2590
 	1    0    0    -1  
@@ -1381,7 +1381,7 @@ U 1 1 5F134D2F
 P 8675 5625
 F 0 "D501" V 8629 5704 50  0000 L CNN
 F 1 "1N4148" V 8720 5704 50  0000 L CNN
-F 2 "" H 8675 5450 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal" H 8675 5450 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8675 5625 50  0001 C CNN
 	1    8675 5625
 	0    1    1    0   
@@ -2062,7 +2062,7 @@ U 1 1 60174D47
 P 12290 7770
 F 0 "C712" H 12405 7816 50  0000 L CNN
 F 1 "10u" H 12405 7725 50  0000 L CNN
-F 2 "" H 12328 7620 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 12328 7620 50  0001 C CNN
 F 3 "~" H 12290 7770 50  0001 C CNN
 	1    12290 7770
 	1    0    0    -1  
@@ -2123,7 +2123,7 @@ U 1 1 6034771D
 P 14350 7135
 F 0 "JP1" H 14350 7238 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 14350 7239 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 14350 7135 50  0001 C CNN
+F 2 "Raemixx500:Jumper2-Bridged" H 14350 7135 50  0001 C CNN
 F 3 "~" H 14350 7135 50  0001 C CNN
 	1    14350 7135
 	1    0    0    -1  

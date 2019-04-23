@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "Rämixx500"
 Date "2019-04-17"
 Rev "1git"
@@ -79,5 +79,11 @@ S 9470 2840 1415 795
 U 5E9E4C57
 F0 "Power & Decoupling" 50
 F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 4060 4220 1380 860 
+U 5CF615AB
+F0 "Real-Time Clock" 50
+F1 "rtc.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 12
+Sheet 2 13
 Title "Rämixx500"
 Date "2019-04-11"
 Rev "1git"
@@ -503,7 +503,7 @@ U 1 1 5CB6FAD7
 P 9900 4885
 F 0 "JP2" V 9900 4952 50  0000 L CNN
 F 1 "Jumper_3_Bridged23" V 9855 4951 50  0001 L CNN
-F 2 "" H 9900 4885 50  0001 C CNN
+F 2 "Raemixx500:Jumper3-Bridged23" H 9900 4885 50  0001 C CNN
 F 3 "~" H 9900 4885 50  0001 C CNN
 	1    9900 4885
 	0    -1   1    0   

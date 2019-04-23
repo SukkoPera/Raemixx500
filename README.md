@@ -19,6 +19,7 @@ Following is a list of deliberate changes with respect to the original layout of
 - The need to solder D912 to a leg of the former R913 has been removed.
 - The font used to label the components and to do all the writing on the board is not the original one, but rather the default Kicad font. Neither was the font size matched in all cases. Some labels were also moved for clarity.
 - The silkscreen for some components does not match the original one. We used the built-in Kicad footprints as-is, when available.
+- The silkscreen and pitch of C303 and C304 have been made smaller so that they don't overlap.
 
 ### Assembly and Installation
 Good luck ;).
