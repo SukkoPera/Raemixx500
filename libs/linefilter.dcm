@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L
+D Line Filter
+K inductor choke coil reactor magnetic line filter
+F ~
+$ENDCMP
+#
+#End Doc Library

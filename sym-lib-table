@@ -25,4 +25,6 @@
   (lib (name 74ls258)(type Legacy)(uri ${KIPRJMOD}/libs/74ls258.lib)(options "")(descr ""))
   (lib (name xtal)(type Legacy)(uri ${KIPRJMOD}/libs/xtal.lib)(options "")(descr ""))
   (lib (name BUSEXP)(type Legacy)(uri ${KIPRJMOD}/libs/BUSEXP.lib)(options "")(descr ""))
+  (lib (name amipower)(type Legacy)(uri ${KIPRJMOD}/libs/amipower.lib)(options "")(descr ""))
+  (lib (name linefilter)(type Legacy)(uri ${KIPRJMOD}/libs/linefilter.lib)(options "")(descr ""))
 )
