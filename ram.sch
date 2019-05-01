@@ -430,10 +430,6 @@ Wire Wire Line
 	6080 6880 6080 6540
 Wire Wire Line
 	6080 6540 5590 6540
-Wire Wire Line
-	5590 5740 6710 5740
-Wire Wire Line
-	5590 5440 6470 5440
 Text Label 5705 5940 0    50   ~ 0
 ~bcasu0
 Text Label 5705 5340 0    50   ~ 0
@@ -499,13 +495,13 @@ Wire Wire Line
 Entry Wire Line
 	4320 8260 4420 8360
 Text Label 4420 8360 0    50   ~ 0
-~bdra9
+bdra9
 Wire Wire Line
 	4665 7570 4420 7570
 Entry Wire Line
 	4320 7470 4420 7570
 Text Label 4420 7570 0    50   ~ 0
-~bdra9
+bdra9
 Wire Wire Line
 	4665 7470 4420 7470
 Wire Wire Line
@@ -577,55 +573,44 @@ JP3 swaps upper and\nlower RAM banks
 $Comp
 L Device:R R201
 U 1 1 5D708549
-P 6470 5205
-F 0 "R201" V 6385 5105 50  0000 L CNN
-F 1 "4.7k" V 6475 5125 50  0000 L CNN
-F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6400 5205 50  0001 C CNN
-F 3 "~" H 6470 5205 50  0001 C CNN
-	1    6470 5205
+P 7810 1665
+F 0 "R201" V 7725 1565 50  0000 L CNN
+F 1 "4.7k" V 7815 1585 50  0000 L CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7740 1665 50  0001 C CNN
+F 3 "~" H 7810 1665 50  0001 C CNN
+	1    7810 1665
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R202
 U 1 1 5D708798
-P 6710 5205
-F 0 "R202" V 6625 5110 50  0000 L CNN
-F 1 "4.7k" V 6715 5125 50  0000 L CNN
-F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6640 5205 50  0001 C CNN
-F 3 "~" H 6710 5205 50  0001 C CNN
-	1    6710 5205
+P 8160 3785
+F 0 "R202" V 8255 3685 50  0000 L CNN
+F 1 "4.7k" V 8165 3705 50  0000 L CNN
+F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 8090 3785 50  0001 C CNN
+F 3 "~" H 8160 3785 50  0001 C CNN
+	1    8160 3785
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6470 5355 6470 5440
-Connection ~ 6470 5440
+	7810 1815 7810 1900
 Wire Wire Line
-	6470 5440 7810 5440
+	8160 3935 8160 4180
 Wire Wire Line
-	6710 5355 6710 5740
-Connection ~ 6710 5740
+	7810 1515 7810 1420
 Wire Wire Line
-	6470 5055 6470 4960
-Wire Wire Line
-	6470 4960 6590 4960
-Wire Wire Line
-	6710 4960 6710 5055
+	8160 3545 8160 3635
 $Comp
 L power:VCC #PWR0120
 U 1 1 5D7D48CC
-P 6590 4915
-F 0 "#PWR0120" H 6590 4765 50  0001 C CNN
-F 1 "VCC" H 6590 5060 50  0000 C CNN
-F 2 "" H 6590 4915 50  0001 C CNN
-F 3 "" H 6590 4915 50  0001 C CNN
-	1    6590 4915
+P 7810 1420
+F 0 "#PWR0120" H 7810 1270 50  0001 C CNN
+F 1 "VCC" H 7810 1565 50  0000 C CNN
+F 2 "" H 7810 1420 50  0001 C CNN
+F 3 "" H 7810 1420 50  0001 C CNN
+	1    7810 1420
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6590 4915 6590 4960
-Connection ~ 6590 4960
-Wire Wire Line
-	6590 4960 6710 4960
 Text Label 5980 8360 2    50   ~ 0
 ~bcasu1
 Text Label 5725 7470 0    50   ~ 0
@@ -639,7 +624,7 @@ Wire Wire Line
 Text Label 5705 8260 0    50   ~ 0
 ~bcasu0
 Wire Wire Line
-	5590 5940 6740 5940
+	5590 5940 6470 5940
 Text Notes 7405 8080 0    50   ~ 0
 Note: JP4 bypasses\nU32 for 512K system
 Text Label 1250 755  0    50   ~ 0
@@ -1306,13 +1291,9 @@ Wire Wire Line
 Wire Wire Line
 	8160 4180 8800 4180
 Wire Wire Line
-	6710 5740 8160 5740
-Wire Wire Line
 	10245 4840 8160 4840
 Connection ~ 10245 4840
 Connection ~ 8160 4840
-Wire Wire Line
-	8160 4840 8160 4180
 Wire Wire Line
 	8800 4080 7810 4080
 Connection ~ 7810 4080
@@ -1363,16 +1344,16 @@ Wire Wire Line
 Wire Wire Line
 	4210 3925 4210 7105
 Wire Wire Line
-	5590 6240 6835 6240
+	5590 6240 6710 6240
 Wire Wire Line
-	5665 7470 6835 7470
+	5665 7470 6710 7470
 Wire Wire Line
-	6835 6240 6835 7470
+	6710 6240 6710 7470
 Wire Wire Line
 	6155 7705 7605 7705
 Wire Wire Line
-	6835 7470 6935 7470
-Connection ~ 6835 7470
+	6710 7470 6935 7470
+Connection ~ 6710 7470
 Wire Wire Line
 	7185 7105 7185 7320
 Wire Wire Line
@@ -1417,12 +1398,12 @@ Wire Wire Line
 Wire Wire Line
 	7185 7935 7185 8110
 Wire Wire Line
-	6740 5940 6740 8260
+	6470 5940 6470 8260
 Wire Wire Line
-	5665 8260 6740 8260
-Connection ~ 6740 8260
+	5665 8260 6470 8260
+Connection ~ 6470 8260
 Wire Wire Line
-	6740 8260 6935 8260
+	6470 8260 6935 8260
 Text Notes 15910 4895 2    50   ~ 0
 Note: U20-23, U23 not loaded for 512K system
 Text Label 6060 2680 2    50   ~ 0
@@ -2120,6 +2101,38 @@ Wire Wire Line
 	13680 2000 13680 2645
 Wire Wire Line
 	13680 2645 12005 2645
+Connection ~ 12005 2645
+Wire Wire Line
+	12005 2645 12005 4280
+Connection ~ 7810 1900
+Wire Wire Line
+	5590 5440 7810 5440
+Wire Wire Line
+	8160 4840 8160 4180
+Connection ~ 8160 4180
+Wire Wire Line
+	5590 5740 8160 5740
+$Comp
+L power:VCC #PWR0114
+U 1 1 5D47A406
+P 8160 3545
+F 0 "#PWR0114" H 8160 3395 50  0001 C CNN
+F 1 "VCC" H 8160 3690 50  0000 C CNN
+F 2 "" H 8160 3545 50  0001 C CNN
+F 3 "" H 8160 3545 50  0001 C CNN
+	1    8160 3545
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6065 5190 6785 5190
+Connection ~ 6065 5190
+Wire Wire Line
+	6155 5105 7135 5105
+Connection ~ 6155 5105
+Text GLabel 7135 5105 2    50   Output ~ 0
+~BRAS1
+Text GLabel 6785 5190 2    50   Output ~ 0
+~BRAS0
 Wire Bus Line
 	10245 755  10245 1450
 Wire Bus Line
@@ -2160,7 +2173,4 @@ Wire Bus Line
 	10180 3150 10180 4230
 Wire Bus Line
 	7335 870  7335 4715
-Connection ~ 12005 2645
-Wire Wire Line
-	12005 2645 12005 4280
 $EndSCHEMATC
