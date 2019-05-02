@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DB23_MountingHoles_2sides
+D 25-pin male D-SUB connector, Mounting Hole
+K male D-SUB connector
+F  ~
+$ENDCMP
+#
+#End Doc Library
