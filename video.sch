@@ -470,8 +470,6 @@ Wire Wire Line
 Wire Wire Line
 	13940 4465 13940 4665
 Connection ~ 13940 4665
-NoConn ~ 8390 3975
-NoConn ~ 8390 4275
 $Comp
 L r_pack05:R_Pack05 RP402
 U 1 1 5CD1046C
@@ -590,8 +588,6 @@ Wire Wire Line
 	5830 4675 6260 4675
 Wire Wire Line
 	5830 4775 6260 4775
-Wire Wire Line
-	5830 4875 6260 4875
 Text Label 5840 4675 0    50   ~ 0
 bcck
 Text Label 5840 4775 0    50   ~ 0
@@ -845,28 +841,20 @@ cck_c
 $Comp
 L Device:EMI_Filter_LCL E434
 U 1 1 5D0EFA81
-P 13670 2965
-F 0 "E434" H 13670 3160 50  0000 C CNN
-F 1 "150p" H 13835 2920 50  0000 C CNN
-F 2 "" V 13670 2965 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13670 2965 50  0001 C CNN
-	1    13670 2965
-	0    -1   -1   0   
+P 13460 2470
+F 0 "E434" H 13460 2665 50  0000 C CNN
+F 1 "150p" H 13625 2425 50  0000 C CNN
+F 2 "" V 13460 2470 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13460 2470 50  0001 C CNN
+	1    13460 2470
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13390 3465 13570 3465
-Wire Wire Line
-	13570 3465 13570 3265
-Wire Wire Line
-	13770 2965 13940 2965
 Wire Wire Line
 	13940 2965 13945 2965
 Wire Wire Line
-	13570 2665 13570 2580
+	13760 2370 13845 2370
 Wire Wire Line
-	13570 2580 13845 2580
-Wire Wire Line
-	13845 2580 13845 3965
+	13845 2370 13845 3965
 Wire Wire Line
 	13845 3965 14380 3965
 $Comp
@@ -941,8 +929,6 @@ F 3 "" H 12745 2720 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12745 2835 12745 2720
-Text Notes 6800 4800 0    50   ~ 0
-TODO: Add color composite and S-Video,\nwith a new circuit based on the AD724 chip
 Wire Wire Line
 	8390 2975 8620 2975
 Wire Wire Line
@@ -1359,6 +1345,109 @@ Text Notes 8930 7440 0    50   ~ 0
 Note: Pin 2 and 21 of HY1\nconnected internally
 Text Notes 5120 9885 0    315  ~ 0
 VIDEO POWER
+$Comp
+L Jumper:Jumper_3_Bridged12 JP11
+U 1 1 5D80F9A3
+P 8635 4570
+F 0 "JP11" V 8635 4636 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 8590 4636 50  0001 L CNN
+F 2 "Raemixx500:Jumper3-Bridged12" H 8635 4570 50  0001 C CNN
+F 3 "~" H 8635 4570 50  0001 C CNN
+	1    8635 4570
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8390 4275 8635 4275
+Wire Wire Line
+	8635 4275 8635 4320
+Wire Wire Line
+	8635 4875 8635 4820
+Wire Wire Line
+	8785 4570 9210 4570
+Text Label 8840 4570 0    50   ~ 0
+csync_out
+Wire Wire Line
+	13390 3465 13755 3465
+Wire Wire Line
+	5830 4875 6260 4875
+Wire Wire Line
+	8635 4875 8195 4875
+Text Label 8195 4875 0    50   ~ 0
+rbcsync_a
+Text Label 13390 3465 0    50   ~ 0
+rbcsync_a
+$Comp
+L Device:Ferrite_Bead_Small E435
+U 1 1 5D99AF23
+P 8700 3975
+F 0 "E435" V 8660 4135 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 8554 3975 50  0001 C CNN
+F 2 "" V 8630 3975 50  0001 C CNN
+F 3 "~" H 8700 3975 50  0001 C CNN
+	1    8700 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial CN?
+U 1 1 5D9B0BDD
+P 10180 3975
+AR Path="/5D2DC3A1/5D9B0BDD" Ref="CN?"  Part="1" 
+AR Path="/5CBA5669/5D9B0BDD" Ref="CN10"  Part="1" 
+F 0 "CN10" H 10279 3951 50  0000 L CNN
+F 1 "COMPOSITE" H 10279 3860 50  0000 L CNN
+F 2 "w_conn_av:rca_yellow" H 10180 3975 50  0001 C CNN
+F 3 " ~" H 10180 3975 50  0001 C CNN
+	1    10180 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3975 9740 3975
+$Comp
+L power:GND #PWR0264
+U 1 1 5D9F0427
+P 10180 4510
+F 0 "#PWR0264" H 10180 4260 50  0001 C CNN
+F 1 "GND" H 10185 4337 50  0000 C CNN
+F 2 "" H 10180 4510 50  0001 C CNN
+F 3 "" H 10180 4510 50  0001 C CNN
+	1    10180 4510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10180 4510 10180 4460
+$Comp
+L Device:R R409
+U 1 1 5DA05B94
+P 9740 4235
+F 0 "R409" H 9750 4385 50  0000 L CNN
+F 1 "150" V 9740 4165 50  0000 L CNN
+F 2 "" V 9670 4235 50  0001 C CNN
+F 3 "~" H 9740 4235 50  0001 C CNN
+	1    9740 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9740 4385 9740 4460
+Wire Wire Line
+	9740 4460 10180 4460
+Connection ~ 10180 4460
+Wire Wire Line
+	10180 4460 10180 4175
+Wire Wire Line
+	9740 4085 9740 3975
+Connection ~ 9740 3975
+Wire Wire Line
+	9740 3975 9980 3975
+Text Label 12735 2370 0    50   ~ 0
+csync_out
+Wire Wire Line
+	12735 2370 13160 2370
+Wire Wire Line
+	13460 2570 13460 2965
+Wire Wire Line
+	13460 2965 13940 2965
+Wire Wire Line
+	8390 3975 8600 3975
 Wire Bus Line
 	2005 3775 2005 4475
 Wire Bus Line
