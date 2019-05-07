@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Raemix500-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -322,7 +322,7 @@ Text GLabel 13800 9285 2    50   Output ~ 0
 Wire Wire Line
 	12780 9285 13800 9285
 Text GLabel 13800 9535 2    50   Input ~ 0
-~DMAL
+DMAL
 Wire Wire Line
 	12780 9535 13800 9535
 Text GLabel 13800 9735 2    50   Output ~ 0

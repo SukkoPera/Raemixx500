@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Raemix500-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -330,7 +330,7 @@ U 1 1 5E9EA8DA
 P 9055 3545
 F 0 "C6" H 9170 3591 50  0000 L CNN
 F 1 "330n" H 9170 3500 50  0000 L CNN
-F 2 "" H 9093 3395 50  0001 C CNN
+F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 9093 3395 50  0001 C CNN
 F 3 "~" H 9055 3545 50  0001 C CNN
 	1    9055 3545
 	1    0    0    -1  
