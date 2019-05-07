@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Raemixx500)(type KiCad)(uri ${KIPRJMOD}/Raemixx500.pretty)(options "")(descr ""))
+)
