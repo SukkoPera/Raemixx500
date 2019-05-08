@@ -644,7 +644,7 @@ U 1 1 5CE8B2B2
 P 14655 3185
 F 0 "E405" H 14655 3380 50  0000 C CNN
 F 1 "10n" H 14820 3140 50  0000 C CNN
-F 2 "" V 14655 3185 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 14655 3185 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14655 3185 50  0001 C CNN
 	1    14655 3185
 	-1   0    0    -1  
@@ -661,7 +661,7 @@ U 1 1 5CF24BA0
 P 14430 2445
 F 0 "E403" H 14430 2650 50  0000 C CNN
 F 1 "10n" H 14580 2400 50  0000 C CNN
-F 2 "" V 14430 2445 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 14430 2445 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14430 2445 50  0001 C CNN
 	1    14430 2445
 	-1   0    0    -1  
@@ -672,7 +672,7 @@ U 1 1 5CF24C8A
 P 14540 2805
 F 0 "E404" H 14540 3005 50  0000 C CNN
 F 1 "10n" H 14690 2760 50  0000 C CNN
-F 2 "" V 14540 2805 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 14540 2805 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14540 2805 50  0001 C CNN
 	1    14540 2805
 	-1   0    0    -1  
@@ -757,7 +757,7 @@ U 1 1 5CFAFD37
 P 14155 4965
 F 0 "E433" V 14115 5125 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 14009 4965 50  0001 C CNN
-F 2 "" V 14085 4965 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 14085 4965 50  0001 C CNN
 F 3 "~" H 14155 4965 50  0001 C CNN
 	1    14155 4965
 	0    1    1    0   
@@ -768,7 +768,7 @@ U 1 1 5CFAFFD0
 P 14155 5165
 F 0 "E432" V 14115 5325 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 14009 5165 50  0001 C CNN
-F 2 "" V 14085 5165 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 14085 5165 50  0001 C CNN
 F 3 "~" H 14155 5165 50  0001 C CNN
 	1    14155 5165
 	0    1    1    0   
@@ -779,7 +779,7 @@ U 1 1 5CFB0114
 P 14155 5365
 F 0 "E431" V 14115 5525 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 14009 5365 50  0001 C CNN
-F 2 "" V 14085 5365 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 14085 5365 50  0001 C CNN
 F 3 "~" H 14155 5365 50  0001 C CNN
 	1    14155 5365
 	0    1    1    0   
@@ -814,7 +814,7 @@ U 1 1 5D034FA1
 P 13000 5940
 F 0 "E402" H 13000 6135 50  0000 C CNN
 F 1 "150p" H 13165 5895 50  0000 C CNN
-F 2 "" V 13000 5940 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 13000 5940 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13000 5940 50  0001 C CNN
 	1    13000 5940
 	1    0    0    -1  
@@ -844,7 +844,7 @@ U 1 1 5D0EFA81
 P 13460 2470
 F 0 "E434" H 13460 2665 50  0000 C CNN
 F 1 "150p" H 13625 2425 50  0000 C CNN
-F 2 "" V 13460 2470 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 13460 2470 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13460 2470 50  0001 C CNN
 	1    13460 2470
 	1    0    0    -1  
@@ -1382,7 +1382,7 @@ U 1 1 5D99AF23
 P 8700 3975
 F 0 "E435" V 8660 4135 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 8554 3975 50  0001 C CNN
-F 2 "" V 8630 3975 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 8630 3975 50  0001 C CNN
 F 3 "~" H 8700 3975 50  0001 C CNN
 	1    8700 3975
 	0    1    1    0   

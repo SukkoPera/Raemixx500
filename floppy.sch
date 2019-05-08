@@ -119,7 +119,7 @@ U 1 1 607A922B
 P 9500 2475
 F 0 "CN12" H 9628 2516 50  0000 L CNN
 F 1 "FLOPPY_POWER" H 9628 2425 50  0000 L CNN
-F 2 "" H 9500 2475 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 2475 50  0001 C CNN
 F 3 "" H 9500 2475 50  0001 C CNN
 	1    9500 2475
 	1    0    0    -1  
@@ -418,7 +418,7 @@ AR Path="/5E7E9EC4/5D643210" Ref="E?"  Part="1"
 AR Path="/6072A453/5D643210" Ref="E601"  Part="1" 
 F 0 "E601" H 2795 6550 50  0000 C CNN
 F 1 "10n" H 2750 6330 50  0000 C CNN
-F 2 "" V 2935 6360 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 2935 6360 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 6360 50  0001 C CNN
 	1    2935 6360
 	1    0    0    -1  
@@ -805,7 +805,7 @@ AR Path="/5E7E9EC4/5D6D1FAE" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6D1FAE" Ref="E602"  Part="1" 
 F 0 "E602" H 5215 6450 50  0000 C CNN
 F 1 "10n" H 5165 6235 50  0000 C CNN
-F 2 "" V 5355 6260 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 5355 6260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 6260 50  0001 C CNN
 	1    5355 6260
 	-1   0    0    -1  
@@ -908,7 +908,7 @@ U 1 1 5D746087
 P 9500 3550
 F 0 "CN15" H 9628 3591 50  0000 L CNN
 F 1 "IDE_I/F" H 9628 3500 50  0000 L CNN
-F 2 "" H 9500 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 3550 50  0001 C CNN
 F 3 "" H 9500 3550 50  0001 C CNN
 	1    9500 3550
 	1    0    0    -1  
@@ -934,7 +934,7 @@ U 1 1 5D7501AC
 P 9500 4735
 F 0 "CN14" H 9628 4776 50  0000 L CNN
 F 1 "IDE_POWER" H 9628 4685 50  0000 L CNN
-F 2 "" H 9500 4735 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 4735 50  0001 C CNN
 F 3 "" H 9500 4735 50  0001 C CNN
 	1    9500 4735
 	1    0    0    -1  
