@@ -1008,17 +1008,6 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 $EndComp
 Wire Wire Line
 	8955 7410 8345 7410
-$Comp
-L emi_filter_lcl_small:EMI_Filter_LCL E536
-U 1 1 5EC70AF7
-P 8045 7510
-F 0 "E536" H 7905 7700 50  0000 C CNN
-F 1 "470p" H 7860 7480 50  0000 C CNN
-F 2 "Raemixx500:EMI_Filter_Short" V 8045 7510 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 7510 50  0001 C CNN
-	1    8045 7510
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8955 7810 8345 7810
 $Comp
@@ -1552,11 +1541,7 @@ F 3 "DOCUMENTATION" H 5585 6860 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5780 7060 6950 7060
-Wire Wire Line
-	5885 7210 8130 7210
 NoConn ~ 6090 7310
-Wire Wire Line
-	5885 7810 7745 7810
 NoConn ~ 5585 7710
 Wire Wire Line
 	5385 7810 4980 7810
@@ -1564,8 +1549,6 @@ Wire Wire Line
 	4980 7810 4980 5875
 Wire Wire Line
 	4980 5875 4065 5875
-Wire Wire Line
-	6390 7410 7745 7410
 Wire Wire Line
 	5890 7410 5080 7410
 Wire Wire Line
@@ -2350,6 +2333,53 @@ Wire Wire Line
 	13685 7495 13715 7495
 Wire Wire Line
 	13385 7495 13215 7495
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E536
+U 1 1 5EC70AF7
+P 8045 7510
+F 0 "E536" H 7905 7700 50  0000 C CNN
+F 1 "470p" H 7860 7480 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 8045 7510 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 7510 50  0001 C CNN
+	1    8045 7510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7040 7210 7040 7410
+Wire Wire Line
+	7040 7210 8130 7210
+Wire Wire Line
+	6820 7810 7745 7810
+Wire Wire Line
+	5885 7210 6820 7210
+Wire Wire Line
+	6820 7210 6820 7810
+Wire Wire Line
+	5885 7810 6545 7810
+Wire Wire Line
+	6390 7410 7040 7410
+Wire Wire Line
+	7745 7410 7235 7410
+Wire Wire Line
+	7235 7410 7235 7585
+Wire Wire Line
+	7235 7585 6545 7585
+Wire Wire Line
+	6545 7585 6545 7810
+$Comp
+L power:GND #PWR?
+U 1 1 5DBE430E
+P 10690 8395
+F 0 "#PWR?" H 10690 8145 50  0001 C CNN
+F 1 "GND" H 10695 8222 50  0000 C CNN
+F 2 "" H 10690 8395 50  0001 C CNN
+F 3 "" H 10690 8395 50  0001 C CNN
+	1    10690 8395
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10690 8395 10690 8310
+Connection ~ 10690 8310
 Wire Bus Line
 	1785 3110 1785 6275
 Wire Bus Line

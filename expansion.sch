@@ -618,6 +618,12 @@ Text GLabel 4035 4100 0    50   BiDi ~ 0
 Text GLabel 3805 4200 0    50   BiDi ~ 0
 ~HLT
 Wire Wire Line
+	7765 1070 7765 1115
+Wire Wire Line
+	7765 1115 7405 1115
+Wire Wire Line
+	7405 1115 7405 1745
+Wire Wire Line
 	3800 3000 4965 3000
 Wire Wire Line
 	6465 3900 7715 3900
@@ -635,4 +641,5 @@ Wire Bus Line
 	4275 760  4275 4500
 Wire Bus Line
 	7155 760  7155 4200
+Connection ~ 7405 1745
 $EndSCHEMATC
