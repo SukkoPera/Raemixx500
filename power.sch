@@ -86,7 +86,7 @@ U 1 1 5EE9CBC5
 P 4320 4110
 F 0 "E101" V 4274 4289 50  0000 L CNN
 F 1 "10n" V 4365 4289 50  0000 L CNN
-F 2 "" V 4320 4110 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 4320 4110 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4320 4110 50  0001 C CNN
 	1    4320 4110
 	0    1    1    0   
@@ -133,7 +133,7 @@ U 1 1 5EE9D7A0
 P 5770 4110
 F 0 "E110" V 5724 4289 50  0000 L CNN
 F 1 "10n" V 5815 4289 50  0000 L CNN
-F 2 "" V 5770 4110 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 5770 4110 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5770 4110 50  0001 C CNN
 	1    5770 4110
 	0    1    1    0   
@@ -166,7 +166,7 @@ U 1 1 5EE9D8C8
 P 6270 5110
 F 0 "C701" H 6385 5156 50  0000 L CNN
 F 1 "10n" H 6385 5065 50  0000 L CNN
-F 2 "" H 6308 4960 50  0001 C CNN
+F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 6308 4960 50  0001 C CNN
 F 3 "~" H 6270 5110 50  0001 C CNN
 	1    6270 5110
 	1    0    0    -1  
@@ -763,12 +763,6 @@ $EndComp
 Text Notes 2210 2020 2    50   ~ 0
 Note: This is the pinout\nof the MALE connector\non the CABLE's end!
 Wire Wire Line
-	3120 1840 3200 1840
-Wire Wire Line
-	3200 1840 3200 1770
-Wire Wire Line
-	3200 1770 3540 1770
-Wire Wire Line
 	3120 1990 3270 1990
 Wire Wire Line
 	3270 1990 3270 1870
@@ -1176,4 +1170,29 @@ F 3 "" H 8660 10420 50  0001 C CNN
 $EndComp
 Text Notes 8090 9060 0    315  ~ 0
 GROUNDED\nHOLES
+$Comp
+L Device:C_Small C800
+U 1 1 5D4BE8BA
+P 3270 1770
+F 0 "C800" H 3170 1940 50  0000 L CNN
+F 1 "10n" H 3290 1705 50  0000 L CNN
+F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 3270 1770 50  0001 C CNN
+F 3 "~" H 3270 1770 50  0001 C CNN
+	1    3270 1770
+	1    0    0    -1  
+$EndComp
+Connection ~ 3270 1870
+Wire Wire Line
+	3120 1840 3150 1840
+Wire Wire Line
+	3150 1840 3150 1670
+Wire Wire Line
+	3150 1670 3270 1670
+Wire Wire Line
+	3270 1670 3415 1670
+Wire Wire Line
+	3415 1670 3415 1770
+Wire Wire Line
+	3415 1770 3540 1770
+Connection ~ 3270 1670
 $EndSCHEMATC

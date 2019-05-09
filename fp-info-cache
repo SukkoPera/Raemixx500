@@ -1,4 +1,4 @@
-18622371793628591
+18625486490055591
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -62496,6 +62496,13 @@ Through hole pin header THT 1x03 2.54mm single row
 3
 3
 Raemixx500
+Ferrite_Axial_L9.0mm_D3.2mm_P12.70mm
+Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
+0
+2
+2
+Raemixx500
 Jumper2-Bridged
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
 solder jumper open
@@ -62551,6 +62558,13 @@ TopTracks
 0
 0
 0
+Raemixx500
+xx
+Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
+0
+2
+2
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf

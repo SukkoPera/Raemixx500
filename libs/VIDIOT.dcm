@@ -5,4 +5,9 @@ D Video DAC
 F https://github.com/SukkoPera/OpenAmigaVideoHybrid
 $ENDCMP
 #
+$CMP VIDIOT_ANNEX
+D Video DAC Color Annex
+F https://github.com/SukkoPera/OpenAmigaVideoHybrid
+$ENDCMP
+#
 #End Doc Library

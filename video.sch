@@ -432,7 +432,6 @@ Wire Wire Line
 Connection ~ 2515 4775
 Wire Wire Line
 	2515 4775 2685 4775
-NoConn ~ 4185 5275
 Wire Wire Line
 	13940 6110 14200 6110
 Wire Wire Line
@@ -584,8 +583,6 @@ Text Label 12125 4365 0    50   ~ 0
 bb3
 Text Label 12125 4465 0    50   ~ 0
 bb0
-Wire Wire Line
-	5830 4675 6260 4675
 Wire Wire Line
 	5830 4775 6260 4775
 Text Label 5840 4675 0    50   ~ 0
@@ -1048,7 +1045,7 @@ U 1 1 5D176766
 P 3450 7200
 F 0 "E406" H 3450 7395 50  0000 C CNN
 F 1 "10n" H 3615 7155 50  0000 C CNN
-F 2 "" V 3450 7200 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 3450 7200 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3450 7200 50  0001 C CNN
 	1    3450 7200
 	0    1    1    0   
@@ -1421,7 +1418,7 @@ U 1 1 5DA05B94
 P 9740 4235
 F 0 "R409" H 9750 4385 50  0000 L CNN
 F 1 "150" V 9740 4165 50  0000 L CNN
-F 2 "" V 9670 4235 50  0001 C CNN
+F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" V 9670 4235 50  0001 C CNN
 F 3 "~" H 9740 4235 50  0001 C CNN
 	1    9740 4235
 	1    0    0    -1  
@@ -1448,6 +1445,48 @@ Wire Wire Line
 	13460 2965 13940 2965
 Wire Wire Line
 	8390 3975 8600 3975
+$Comp
+L VIDIOT:VIDIOT_ANNEX HY2
+U 1 1 5D5227DD
+P 7540 5390
+F 0 "HY2" H 7540 5425 50  0000 C CNN
+F 1 "COLOR_ANNEX" H 7540 5335 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7540 5390 50  0001 C CNN
+F 3 "https://github.com/SukkoPera/OpenAmigaVideoHybrid" H 7540 5390 50  0001 C CNN
+	1    7540 5390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6560 4675 6560 5240
+Wire Wire Line
+	6560 5240 6690 5240
+Wire Wire Line
+	5830 4675 6560 4675
+Wire Wire Line
+	4185 5275 4380 5275
+Wire Wire Line
+	4380 5275 4380 5710
+Wire Wire Line
+	4380 5710 6560 5710
+Wire Wire Line
+	6560 5710 6560 5540
+Wire Wire Line
+	6560 5540 6690 5540
+$Comp
+L power:+12V #PWR0265
+U 1 1 5D59CEB5
+P 8500 5195
+F 0 "#PWR0265" H 8500 5045 50  0001 C CNN
+F 1 "+12V" H 8515 5368 50  0000 C CNN
+F 2 "" H 8500 5195 50  0001 C CNN
+F 3 "" H 8500 5195 50  0001 C CNN
+	1    8500 5195
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8390 5240 8500 5240
+Wire Wire Line
+	8500 5240 8500 5195
 Wire Bus Line
 	2005 3775 2005 4475
 Wire Bus Line

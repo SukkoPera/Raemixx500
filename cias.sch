@@ -964,7 +964,7 @@ U 1 1 5EC70ADB
 P 8045 6710
 F 0 "E532" H 7905 6900 50  0000 C CNN
 F 1 "150p" H 7855 6680 50  0000 C CNN
-F 2 "" V 8045 6710 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 8045 6710 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 6710 50  0001 C CNN
 	1    8045 6710
 	1    0    0    -1  
@@ -975,7 +975,7 @@ U 1 1 5EC70AE1
 P 8430 6910
 F 0 "E534" H 8430 7105 50  0000 C CNN
 F 1 "150p" H 8595 6880 50  0000 C CNN
-F 2 "" V 8430 6910 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 8430 6910 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 6910 50  0001 C CNN
 	1    8430 6910
 	1    0    0    -1  
@@ -990,7 +990,7 @@ U 1 1 5EC70AE9
 P 8045 7110
 F 0 "E533" H 7905 7300 50  0000 C CNN
 F 1 "470p" H 7855 7085 50  0000 C CNN
-F 2 "" V 8045 7110 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 8045 7110 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 7110 50  0001 C CNN
 	1    8045 7110
 	1    0    0    -1  
@@ -1001,7 +1001,7 @@ U 1 1 5EC70AEF
 P 8430 7310
 F 0 "E535" H 8430 7505 50  0000 C CNN
 F 1 "470p" H 8600 7280 50  0000 C CNN
-F 2 "" V 8430 7310 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 8430 7310 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 7310 50  0001 C CNN
 	1    8430 7310
 	1    0    0    -1  
@@ -1014,7 +1014,7 @@ U 1 1 5EC70AF7
 P 8045 7510
 F 0 "E536" H 7905 7700 50  0000 C CNN
 F 1 "470p" H 7860 7480 50  0000 C CNN
-F 2 "" V 8045 7510 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 8045 7510 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 7510 50  0001 C CNN
 	1    8045 7510
 	1    0    0    -1  
@@ -1027,7 +1027,7 @@ U 1 1 5EC70B04
 P 8045 7910
 F 0 "E537" H 7905 8100 50  0000 C CNN
 F 1 "470p" H 7860 7880 50  0000 C CNN
-F 2 "" V 8045 7910 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 8045 7910 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 7910 50  0001 C CNN
 	1    8045 7910
 	1    0    0    -1  
@@ -1225,7 +1225,7 @@ U 1 1 5EEC226F
 P 8460 8410
 F 0 "C502" V 8570 8410 50  0000 C CNN
 F 1 "330n" V 8415 8280 50  0000 C CNN
-F 2 "" H 8460 8410 50  0001 C CNN
+F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 8460 8410 50  0001 C CNN
 F 3 "~" H 8460 8410 50  0001 C CNN
 	1    8460 8410
 	0    1    1    0   
@@ -1921,7 +1921,7 @@ U 1 1 5FC0C8A2
 P 14545 4085
 F 0 "E632" H 14545 4275 50  0000 C CNN
 F 1 "100p" H 14350 4055 50  0000 C CNN
-F 2 "" V 14545 4085 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 14545 4085 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14545 4085 50  0001 C CNN
 	1    14545 4085
 	1    0    0    -1  
@@ -1932,7 +1932,7 @@ U 1 1 5FD0A3D9
 P 14545 4440
 F 0 "E631" H 14545 4630 50  0000 C CNN
 F 1 "100p" H 14350 4410 50  0000 C CNN
-F 2 "" V 14545 4440 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 14545 4440 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14545 4440 50  0001 C CNN
 	1    14545 4440
 	1    0    0    -1  

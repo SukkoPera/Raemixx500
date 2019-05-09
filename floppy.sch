@@ -362,7 +362,7 @@ AR Path="/5E7E9EC4/5D6431F2" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6431F2" Ref="E613"  Part="1" 
 F 0 "E613" H 2795 5750 50  0000 C CNN
 F 1 "100p" H 2745 5530 50  0000 C CNN
-F 2 "" V 2935 5560 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 2935 5560 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 5560 50  0001 C CNN
 	1    2935 5560
 	1    0    0    -1  
@@ -375,7 +375,7 @@ AR Path="/5E7E9EC4/5D6431F9" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6431F9" Ref="E614"  Part="1" 
 F 0 "E614" H 3320 5955 50  0000 C CNN
 F 1 "100p" H 3485 5730 50  0000 C CNN
-F 2 "" V 3320 5760 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 3320 5760 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3320 5760 50  0001 C CNN
 	1    3320 5760
 	1    0    0    -1  
@@ -390,7 +390,7 @@ AR Path="/5E7E9EC4/5D643201" Ref="E?"  Part="1"
 AR Path="/6072A453/5D643201" Ref="E615"  Part="1" 
 F 0 "E615" H 2795 6150 50  0000 C CNN
 F 1 "100p" H 2745 5935 50  0000 C CNN
-F 2 "" V 2935 5960 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 2935 5960 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 5960 50  0001 C CNN
 	1    2935 5960
 	1    0    0    -1  
@@ -403,7 +403,7 @@ AR Path="/5E7E9EC4/5D643208" Ref="E?"  Part="1"
 AR Path="/6072A453/5D643208" Ref="E616"  Part="1" 
 F 0 "E616" H 3320 6355 50  0000 C CNN
 F 1 "100p" H 3490 6130 50  0000 C CNN
-F 2 "" V 3320 6160 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 3320 6160 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3320 6160 50  0001 C CNN
 	1    3320 6160
 	1    0    0    -1  
@@ -565,7 +565,7 @@ AR Path="/5E7E9EC4/5D693C4F" Ref="E?"  Part="1"
 AR Path="/6072A453/5D693C4F" Ref="E611"  Part="1" 
 F 0 "E611" H 2795 4350 50  0000 C CNN
 F 1 "100p" H 2745 4130 50  0000 C CNN
-F 2 "" V 2935 4160 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 2935 4160 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 4160 50  0001 C CNN
 	1    2935 4160
 	1    0    0    -1  
@@ -578,7 +578,7 @@ AR Path="/5E7E9EC4/5D693C55" Ref="E?"  Part="1"
 AR Path="/6072A453/5D693C55" Ref="E612"  Part="1" 
 F 0 "E612" H 3320 4555 50  0000 C CNN
 F 1 "100p" H 3485 4330 50  0000 C CNN
-F 2 "" V 3320 4360 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 3320 4360 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3320 4360 50  0001 C CNN
 	1    3320 4360
 	1    0    0    -1  
@@ -617,7 +617,7 @@ AR Path="/5E7E9EC4/5D6A84E5" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6A84E5" Ref="E617"  Part="1" 
 F 0 "E617" H 5215 4450 50  0000 C CNN
 F 1 "100p" H 5165 4230 50  0000 C CNN
-F 2 "" V 5355 4260 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 5355 4260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 4260 50  0001 C CNN
 	1    5355 4260
 	-1   0    0    -1  
@@ -630,7 +630,7 @@ AR Path="/5E7E9EC4/5D6A84EB" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6A84EB" Ref="E618"  Part="1" 
 F 0 "E618" H 4970 4655 50  0000 C CNN
 F 1 "100p" H 5135 4430 50  0000 C CNN
-F 2 "" V 4970 4460 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 4970 4460 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 4460 50  0001 C CNN
 	1    4970 4460
 	-1   0    0    -1  
@@ -645,7 +645,7 @@ AR Path="/5E7E9EC4/5D6A84F2" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6A84F2" Ref="E619"  Part="1" 
 F 0 "E619" H 5215 4850 50  0000 C CNN
 F 1 "100p" H 5165 4635 50  0000 C CNN
-F 2 "" V 5355 4660 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 5355 4660 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 4660 50  0001 C CNN
 	1    5355 4660
 	-1   0    0    -1  
@@ -658,7 +658,7 @@ AR Path="/5E7E9EC4/5D6A84F8" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6A84F8" Ref="E620"  Part="1" 
 F 0 "E620" H 4970 5055 50  0000 C CNN
 F 1 "100p" H 5140 4830 50  0000 C CNN
-F 2 "" V 4970 4860 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 4970 4860 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 4860 50  0001 C CNN
 	1    4970 4860
 	-1   0    0    -1  
@@ -697,7 +697,7 @@ AR Path="/5E7E9EC4/5D6CA78C" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6CA78C" Ref="E621"  Part="1" 
 F 0 "E621" H 5215 5250 50  0000 C CNN
 F 1 "100p" H 5165 5030 50  0000 C CNN
-F 2 "" V 5355 5060 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 5355 5060 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 5060 50  0001 C CNN
 	1    5355 5060
 	-1   0    0    -1  
@@ -710,7 +710,7 @@ AR Path="/5E7E9EC4/5D6CA792" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6CA792" Ref="E622"  Part="1" 
 F 0 "E622" H 4970 5455 50  0000 C CNN
 F 1 "100p" H 5135 5230 50  0000 C CNN
-F 2 "" V 4970 5260 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 4970 5260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 5260 50  0001 C CNN
 	1    4970 5260
 	-1   0    0    -1  
@@ -725,7 +725,7 @@ AR Path="/5E7E9EC4/5D6CA799" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6CA799" Ref="E623"  Part="1" 
 F 0 "E623" H 5215 5650 50  0000 C CNN
 F 1 "100p" H 5165 5435 50  0000 C CNN
-F 2 "" V 5355 5460 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 5355 5460 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 5460 50  0001 C CNN
 	1    5355 5460
 	-1   0    0    -1  
@@ -738,7 +738,7 @@ AR Path="/5E7E9EC4/5D6CA79F" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6CA79F" Ref="E624"  Part="1" 
 F 0 "E624" H 4970 5855 50  0000 C CNN
 F 1 "100p" H 5140 5630 50  0000 C CNN
-F 2 "" V 4970 5660 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 4970 5660 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 5660 50  0001 C CNN
 	1    4970 5660
 	-1   0    0    -1  
@@ -777,7 +777,7 @@ AR Path="/5E7E9EC4/5D6D1FA1" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6D1FA1" Ref="E625"  Part="1" 
 F 0 "E625" H 5215 6050 50  0000 C CNN
 F 1 "100p" H 5165 5830 50  0000 C CNN
-F 2 "" V 5355 5860 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 5355 5860 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 5860 50  0001 C CNN
 	1    5355 5860
 	-1   0    0    -1  
@@ -790,7 +790,7 @@ AR Path="/5E7E9EC4/5D6D1FA7" Ref="E?"  Part="1"
 AR Path="/6072A453/5D6D1FA7" Ref="E626"  Part="1" 
 F 0 "E626" H 4970 6255 50  0000 C CNN
 F 1 "100p" H 5135 6030 50  0000 C CNN
-F 2 "" V 4970 6060 50  0001 C CNN
+F 2 "Raemixx500:EMI_Filter_Short" V 4970 6060 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 6060 50  0001 C CNN
 	1    4970 6060
 	-1   0    0    -1  
