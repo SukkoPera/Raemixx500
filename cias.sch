@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 14
 Title "Rämixx500"
-Date "2019-05-08"
+Date "2019-05-11"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "RS232 AND PARALLEL PORT"
@@ -323,34 +323,6 @@ Text Label 9590 1690 0    50   ~ 0
 ~err
 Wire Wire Line
 	9555 1490 9805 1490
-$Comp
-L power:VCC #PWR0160
-U 1 1 5E872212
-P 10215 1425
-F 0 "#PWR0160" H 10215 1275 50  0001 C CNN
-F 1 "VCC" H 10232 1598 50  0000 C CNN
-F 2 "" H 10215 1425 50  0001 C CNN
-F 3 "" H 10215 1425 50  0001 C CNN
-	1    10215 1425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10215 1425 10215 1490
-Wire Wire Line
-	10215 1490 10105 1490
-$Comp
-L Device:R E501
-U 1 1 5E870508
-P 9955 1490
-F 0 "E501" V 9870 1490 50  0000 C CNN
-F 1 "47" V 9955 1490 50  0000 C CNN
-F 2 "Raemixx500:EMI_Filter_Longer" V 9885 1490 50  0001 C CNN
-F 3 "~" H 9955 1490 50  0001 C CNN
-	1    9955 1490
-	0    1    1    0   
-$EndComp
-Text Notes 9845 1345 0    50   ~ 0
-1/2W
 Text Label 9590 1490 0    50   ~ 0
 ~auto
 $Comp
@@ -367,8 +339,8 @@ $EndComp
 Wire Wire Line
 	9555 1890 9650 1890
 Wire Wire Line
-	10250 1890 10390 1890
-Text GLabel 10390 1890 2    50   Input ~ 0
+	10250 1890 10495 1890
+Text GLabel 10495 1890 2    50   Input ~ 0
 ~IORESET
 Connection ~ 9950 2090
 Text Label 9650 1890 2    50   ~ 0
@@ -1070,8 +1042,6 @@ $EndComp
 Wire Wire Line
 	8780 9235 8780 9115
 Wire Wire Line
-	8780 7610 8780 9115
-Wire Wire Line
 	8430 7610 8780 7610
 Wire Wire Line
 	8955 7610 8780 7610
@@ -1115,40 +1085,10 @@ Wire Wire Line
 Text Label 8815 6410 0    50   ~ 0
 fg
 NoConn ~ 8560 6410
-$Comp
-L Device:R E503
-U 1 1 5EDCA2BC
-P 8505 8210
-F 0 "E503" V 8420 8210 50  0000 C CNN
-F 1 "47" V 8505 8210 50  0000 C CNN
-F 2 "Raemixx500:EMI_Filter_Longer" V 8435 8210 50  0001 C CNN
-F 3 "~" H 8505 8210 50  0001 C CNN
-	1    8505 8210
-	0    1    1    0   
-$EndComp
-Text Notes 8180 8300 0    50   ~ 0
-1/2W
-$Comp
-L Device:R E502
-U 1 1 5EDDB02D
-P 8505 8010
-F 0 "E502" V 8420 8010 50  0000 C CNN
-F 1 "47" V 8505 8010 50  0000 C CNN
-F 2 "Raemixx500:EMI_Filter_Longer" V 8435 8010 50  0001 C CNN
-F 3 "~" H 8505 8010 50  0001 C CNN
-	1    8505 8010
-	0    1    1    0   
-$EndComp
-Text Notes 8185 8095 0    50   ~ 0
-1/2W
-Wire Wire Line
-	8655 8010 8955 8010
-Wire Wire Line
-	8655 8210 8955 8210
 Wire Wire Line
 	7495 8010 7495 7990
 Wire Wire Line
-	7495 8010 8355 8010
+	7495 8010 8130 8010
 $Comp
 L power:+12V #PWR0164
 U 1 1 5EE426AB
@@ -1174,7 +1114,7 @@ $EndComp
 Wire Wire Line
 	7495 8210 7495 8170
 Wire Wire Line
-	7495 8210 8355 8210
+	7495 8210 7745 8210
 Wire Wire Line
 	8560 8610 8955 8610
 Text Label 8815 8610 0    50   ~ 0
@@ -1206,22 +1146,20 @@ Wire Wire Line
 	10150 7310 10355 7310
 Text GLabel 10355 7310 2    50   Output ~ 0
 AUDIN
-Wire Wire Line
-	8955 8410 8560 8410
 $Comp
 L Device:C_Small C502
 U 1 1 5EEC226F
-P 8460 8410
-F 0 "C502" V 8570 8410 50  0000 C CNN
-F 1 "330n" V 8415 8280 50  0000 C CNN
-F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 8460 8410 50  0001 C CNN
-F 3 "~" H 8460 8410 50  0001 C CNN
-	1    8460 8410
+P 7935 8610
+F 0 "C502" V 8045 8610 50  0000 C CNN
+F 1 "330n" V 7890 8480 50  0000 C CNN
+F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 7935 8610 50  0001 C CNN
+F 3 "~" H 7935 8610 50  0001 C CNN
+	1    7935 8610
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8360 8410 8155 8410
-Text GLabel 8155 8410 0    50   Input ~ 0
+	7835 8610 7390 8610
+Text GLabel 7390 8610 0    50   Input ~ 0
 AUDOUT
 Wire Wire Line
 	9555 7510 9950 7510
@@ -1562,7 +1500,7 @@ Wire Wire Line
 	5175 7210 5175 5675
 Wire Wire Line
 	5175 5675 4065 5675
-Text Notes 7240 8735 2    315  ~ 0
+Text Notes 7270 9190 2    315  ~ 0
 RS232
 Text Notes 8525 1090 2    315  ~ 0
 PARALLEL PORT
@@ -2317,7 +2255,7 @@ Wire Wire Line
 	8045 8080 7615 8080
 Connection ~ 7615 8080
 Wire Wire Line
-	7615 8080 7615 9115
+	7615 8080 7615 8480
 $Comp
 L Device:R R713
 U 1 1 5CFD0A7C
@@ -2380,6 +2318,88 @@ $EndComp
 Wire Wire Line
 	10690 8395 10690 8310
 Connection ~ 10690 8310
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E502
+U 1 1 5E0EA71F
+P 8430 8110
+F 0 "E502" H 8430 8305 50  0000 C CNN
+F 1 "47 1/2W" H 8600 8080 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Longer" V 8430 8110 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8430 8110 50  0001 C CNN
+	1    8430 8110
+	1    0    0    -1  
+$EndComp
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E503
+U 1 1 5E0EA729
+P 8045 8310
+F 0 "E503" H 7905 8500 50  0000 C CNN
+F 1 "47 1/2W" H 7800 8280 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Longer" V 8045 8310 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 8045 8310 50  0001 C CNN
+	1    8045 8310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8730 8010 8955 8010
+Wire Wire Line
+	8345 8210 8955 8210
+Wire Wire Line
+	8780 7610 8780 8270
+Wire Wire Line
+	8430 8160 8430 8270
+Wire Wire Line
+	8430 8270 8780 8270
+Connection ~ 8780 8270
+Wire Wire Line
+	8780 8270 8780 9115
+Wire Wire Line
+	8045 8360 8045 8480
+Wire Wire Line
+	8045 8480 7615 8480
+Connection ~ 7615 8480
+Wire Wire Line
+	7615 8480 7615 9115
+Wire Wire Line
+	8035 8610 8430 8610
+Wire Wire Line
+	8430 8610 8430 8410
+Wire Wire Line
+	8430 8410 8955 8410
+$Comp
+L power:VCC #PWR0160
+U 1 1 5E872212
+P 10515 1425
+F 0 "#PWR0160" H 10515 1275 50  0001 C CNN
+F 1 "VCC" H 10532 1598 50  0000 C CNN
+F 2 "" H 10515 1425 50  0001 C CNN
+F 3 "" H 10515 1425 50  0001 C CNN
+	1    10515 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10515 1425 10515 1490
+Wire Wire Line
+	10515 1490 10405 1490
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E501
+U 1 1 5E3D78DB
+P 10105 1590
+F 0 "E501" H 10105 1785 50  0000 C CNN
+F 1 "47 1/2W" H 9870 1560 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Longer" V 10105 1590 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 10105 1590 50  0001 C CNN
+	1    10105 1590
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10105 1640 10105 1720
+Wire Wire Line
+	10105 1720 10325 1720
+Wire Wire Line
+	10325 1720 10325 2290
+Wire Wire Line
+	10325 2290 9950 2290
 Wire Bus Line
 	1785 3110 1785 6275
 Wire Bus Line
