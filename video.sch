@@ -543,8 +543,6 @@ Text GLabel 12395 3865 0    50   Output ~ 0
 XCLK
 Wire Wire Line
 	14380 5565 12745 5565
-Text GLabel 12395 5565 0    50   Output ~ 0
-~XCLKEN
 Wire Wire Line
 	6030 3975 6690 3975
 Wire Wire Line
@@ -748,56 +746,11 @@ Wire Wire Line
 Connection ~ 13940 4265
 Wire Wire Line
 	13940 4265 13940 4465
-$Comp
-L Device:Ferrite_Bead_Small E433
-U 1 1 5CFAFD37
-P 14155 4965
-F 0 "E433" V 14115 5125 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 14009 4965 50  0001 C CNN
-F 2 "Raemixx500:EMI_Filter_Long" V 14085 4965 50  0001 C CNN
-F 3 "~" H 14155 4965 50  0001 C CNN
-	1    14155 4965
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small E432
-U 1 1 5CFAFFD0
-P 14155 5165
-F 0 "E432" V 14115 5325 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 14009 5165 50  0001 C CNN
-F 2 "Raemixx500:EMI_Filter_Long" V 14085 5165 50  0001 C CNN
-F 3 "~" H 14155 5165 50  0001 C CNN
-	1    14155 5165
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small E431
-U 1 1 5CFB0114
-P 14155 5365
-F 0 "E431" V 14115 5525 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 14009 5365 50  0001 C CNN
-F 2 "Raemixx500:EMI_Filter_Long" V 14085 5365 50  0001 C CNN
-F 3 "~" H 14155 5365 50  0001 C CNN
-	1    14155 5365
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14255 4965 14380 4965
-Wire Wire Line
-	14255 5165 14380 5165
-Wire Wire Line
-	14255 5365 14380 5365
-Wire Wire Line
-	14055 4965 12105 4965
-Wire Wire Line
-	14055 5165 12105 5165
-Wire Wire Line
-	14055 5365 12105 5365
-Text Label 12105 4965 0    50   ~ 0
+Text Label 10880 4965 0    50   ~ 0
 ab
-Text Label 12105 5165 0    50   ~ 0
+Text Label 10880 5165 0    50   ~ 0
 ag
-Text Label 12105 5365 0    50   ~ 0
+Text Label 10880 5365 0    50   ~ 0
 ar
 Wire Wire Line
 	14380 5465 13470 5465
@@ -828,12 +781,12 @@ Wire Wire Line
 Wire Wire Line
 	13385 5265 13385 5840
 Wire Wire Line
-	12990 3765 12010 3765
+	12990 3765 12540 3765
 Wire Wire Line
-	12010 3765 12010 5840
+	12540 3765 12540 5840
 Wire Wire Line
-	12010 5840 12700 5840
-Text Label 12460 5840 0    50   ~ 0
+	12540 5840 12700 5840
+Text Label 12540 5840 1    50   ~ 0
 cck_c
 $Comp
 L Device:EMI_Filter_LCL E434
@@ -901,7 +854,7 @@ Wire Wire Line
 	12745 3270 12745 5565
 Connection ~ 12745 5565
 Wire Wire Line
-	12745 5565 12395 5565
+	12745 5565 11210 5565
 Wire Wire Line
 	12550 2970 12550 2835
 Wire Wire Line
@@ -1374,17 +1327,6 @@ rbcsync_a
 Text Label 13390 3465 0    50   ~ 0
 rbcsync_a
 $Comp
-L Device:Ferrite_Bead_Small E435
-U 1 1 5D99AF23
-P 8700 3975
-F 0 "E435" V 8660 4135 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 8554 3975 50  0001 C CNN
-F 2 "Raemixx500:EMI_Filter_Long" V 8630 3975 50  0001 C CNN
-F 3 "~" H 8700 3975 50  0001 C CNN
-	1    8700 3975
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:Conn_Coaxial CN?
 U 1 1 5D9B0BDD
 P 10180 3975
@@ -1397,8 +1339,6 @@ F 3 " ~" H 10180 3975 50  0001 C CNN
 	1    10180 3975
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 3975 9740 3975
 $Comp
 L power:GND #PWR0264
 U 1 1 5D9F0427
@@ -1425,8 +1365,6 @@ F 3 "~" H 9740 4235 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9740 4385 9740 4460
-Wire Wire Line
-	9740 4460 10180 4460
 Connection ~ 10180 4460
 Wire Wire Line
 	10180 4460 10180 4175
@@ -1443,8 +1381,6 @@ Wire Wire Line
 	13460 2570 13460 2965
 Wire Wire Line
 	13460 2965 13940 2965
-Wire Wire Line
-	8390 3975 8600 3975
 $Comp
 L VIDIOT:VIDIOT_ANNEX HY2
 U 1 1 5D5227DD
@@ -1487,8 +1423,125 @@ Wire Wire Line
 	8390 5240 8500 5240
 Wire Wire Line
 	8500 5240 8500 5195
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E?
+U 1 1 5DD342FD
+P 12100 5065
+AR Path="/5E7E9EC4/5DD342FD" Ref="E?"  Part="1" 
+AR Path="/5CBA5669/5DD342FD" Ref="E433"  Part="1" 
+F 0 "E433" H 11960 5255 50  0000 C CNN
+F 1 "FERR" H 11910 5040 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 12100 5065 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12100 5065 50  0001 C CNN
+	1    12100 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E?
+U 1 1 5DD4BEEC
+P 12100 5465
+AR Path="/5E7E9EC4/5DD4BEEC" Ref="E?"  Part="1" 
+AR Path="/5CBA5669/5DD4BEEC" Ref="E431"  Part="1" 
+F 0 "E431" H 11960 5655 50  0000 C CNN
+F 1 "FERR" H 11910 5440 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 12100 5465 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12100 5465 50  0001 C CNN
+	1    12100 5465
+	1    0    0    -1  
+$EndComp
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E?
+U 1 1 5DD7EF86
+P 11450 5265
+AR Path="/5E7E9EC4/5DD7EF86" Ref="E?"  Part="1" 
+AR Path="/5CBA5669/5DD7EF86" Ref="E432"  Part="1" 
+F 0 "E432" H 11310 5455 50  0000 C CNN
+F 1 "FERR" H 11260 5240 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 11450 5265 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 11450 5265 50  0001 C CNN
+	1    11450 5265
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 4965 10880 4965
+Wire Wire Line
+	11150 5165 10880 5165
+Wire Wire Line
+	11800 5365 10880 5365
+Wire Wire Line
+	12400 4965 14380 4965
+Wire Wire Line
+	11750 5165 14380 5165
+Wire Wire Line
+	12400 5365 14380 5365
+Text GLabel 11210 5565 0    50   Output ~ 0
+~XCLKEN
+Connection ~ 14380 4965
+Wire Wire Line
+	14380 4965 14865 4965
+Connection ~ 14380 5165
+Wire Wire Line
+	14380 5165 14865 5165
+Connection ~ 14380 5365
+Wire Wire Line
+	14380 5365 14865 5365
+Wire Wire Line
+	12100 5115 12100 5225
+Wire Wire Line
+	12100 5225 11730 5225
+Wire Wire Line
+	11730 5225 11730 5420
+Wire Wire Line
+	11450 5315 11450 5420
+Wire Wire Line
+	11450 5420 11730 5420
+Connection ~ 11730 5420
+Wire Wire Line
+	11730 5420 11730 5625
+Wire Wire Line
+	12100 5515 12100 5625
+Wire Wire Line
+	12100 5625 11730 5625
+Connection ~ 11730 5625
+Wire Wire Line
+	11730 5625 11730 5775
+$Comp
+L power:GND #PWR0269
+U 1 1 5DF44B74
+P 11730 5775
+F 0 "#PWR0269" H 11730 5525 50  0001 C CNN
+F 1 "GND" H 11735 5602 50  0000 C CNN
+F 2 "" H 11730 5775 50  0001 C CNN
+F 3 "" H 11730 5775 50  0001 C CNN
+	1    11730 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8390 3975 8820 3975
+Wire Wire Line
+	9420 3975 9740 3975
+$Comp
+L emi_filter_lcl_small:EMI_Filter_LCL E?
+U 1 1 5DF6B27A
+P 9120 4075
+AR Path="/5E7E9EC4/5DF6B27A" Ref="E?"  Part="1" 
+AR Path="/5CBA5669/5DF6B27A" Ref="E435"  Part="1" 
+F 0 "E435" H 8980 4265 50  0000 C CNN
+F 1 "FERR" H 8930 4050 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 9120 4075 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9120 4075 50  0001 C CNN
+	1    9120 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9120 4125 9120 4460
+Wire Wire Line
+	9120 4460 9740 4460
 Wire Bus Line
 	2005 3775 2005 4475
 Wire Bus Line
 	2005 2075 2005 3575
+Connection ~ 9740 4460
+Wire Wire Line
+	9740 4460 10180 4460
 $EndSCHEMATC
