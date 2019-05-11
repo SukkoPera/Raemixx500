@@ -834,7 +834,7 @@ Text GLabel 4175 2460 2    50   Input ~ 0
 Text GLabel 4580 2610 2    50   Input ~ 0
 ~FIRE1
 Text GLabel 4310 2710 2    50   Input ~ 0
-FIRE0
+~FIRE0
 Text GLabel 4580 2810 2    50   Input ~ 0
 ~RDY
 Text GLabel 4335 2910 2    50   Input ~ 0
