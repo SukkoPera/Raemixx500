@@ -2913,12 +2913,6 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    7455 2300
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1955 6355 1955 7055
-Wire Bus Line
-	1955 4705 1955 6205
-Wire Bus Line
-	1955 4305 1955 4505
 Wire Wire Line
 	5995 5030 7280 5030
 $Comp
@@ -2932,4 +2926,10 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    7090 4930
 	-1   0    0    -1  
 $EndComp
+Wire Bus Line
+	1955 4305 1955 4505
+Wire Bus Line
+	1955 6355 1955 7055
+Wire Bus Line
+	1955 4705 1955 6205
 $EndSCHEMATC

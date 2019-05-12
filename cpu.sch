@@ -1859,7 +1859,7 @@ U 1 1 5D05A737
 P 7050 10260
 F 0 "X1" H 7105 10585 50  0000 C CNN
 F 1 "XTAL" H 7105 10494 50  0000 C CNN
-F 2 "Oscillator:Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm" H 7150 9610 50  0001 C CNN
+F 2 "Raemixx500:Xtal" H 7150 9610 50  0001 C CNN
 F 3 "http://www.txccorp.com/download/products/osc/7C_o.pdf" H 6950 10260 50  0001 C CNN
 	1    7050 10260
 	1    0    0    -1  
