@@ -7578,7 +7578,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP10 (layer F.Cu) (tedit 5A14249F) (tstamp 5D741830)
-    (at 184.023 223.52 180)
+    (at 184.023 223.393 180)
     (descr "10-pin Resistor SIP pack")
     (tags R)
     (path /5D6D5EBE/5D6F5285)
@@ -7688,7 +7688,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP10 (layer F.Cu) (tedit 5A14249F) (tstamp 5D74186A)
-    (at 185.293 226.06 180)
+    (at 185.293 226.187 180)
     (descr "10-pin Resistor SIP pack")
     (tags R)
     (path /5D6D5EBE/5D6F528B)
