@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 14
 Title "Rämixx500"
-Date "2019-05-14"
+Date "2019-05-23"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "PAULA PREFERS THE TRADITIONAL MODES"
@@ -309,17 +309,6 @@ F 3 "" H 14990 950 50  0001 C CNN
 $EndComp
 NoConn ~ 14990 950 
 $Comp
-L Device:EMI_Filter_LCL E415
-U 1 1 5D32038D
-P 7090 2100
-F 0 "E415" H 7090 2295 50  0000 C CNN
-F 1 "470p" H 7270 2050 50  0000 C CNN
-F 2 "Raemixx500:EMI_Filter_Long" V 7090 2100 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7090 2100 50  0001 C CNN
-	1    7090 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:EMI_Filter_LCL E416
 U 1 1 5D321710
 P 7090 2700
@@ -362,11 +351,11 @@ L Device:EMI_Filter_LCL E417
 U 1 1 5D32E41F
 P 7580 2900
 F 0 "E417" H 7580 3095 50  0000 C CNN
-F 1 "470p" H 7760 2845 50  0000 C CNN
+F 1 "470p" H 7405 2855 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7580 2900 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7580 2900 50  0001 C CNN
 	1    7580 2900
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7090 2200 7090 2400
@@ -540,11 +529,11 @@ L Device:EMI_Filter_LCL E427
 U 1 1 5D36BC3A
 P 7580 5130
 F 0 "E427" H 7580 5325 50  0000 C CNN
-F 1 "470p" H 7760 5075 50  0000 C CNN
+F 1 "470p" H 7400 5085 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7580 5130 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7580 5130 50  0001 C CNN
 	1    7580 5130
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7090 4430 7090 4630
@@ -661,22 +650,22 @@ L Device:EMI_Filter_LCL E411
 U 1 1 5D3C0092
 P 9645 1685
 F 0 "E411" H 9645 1880 50  0000 C CNN
-F 1 "6800p" H 9830 1635 50  0000 C CNN
+F 1 "6800p" H 9460 1635 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9645 1685 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 1685 50  0001 C CNN
 	1    9645 1685
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E412
 U 1 1 5D3C0098
 P 9645 2115
 F 0 "E412" H 9645 2305 50  0000 C CNN
-F 1 "6800p" H 9830 2065 50  0000 C CNN
+F 1 "6800p" H 9455 2065 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9645 2115 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 2115 50  0001 C CNN
 	1    9645 2115
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E413
@@ -755,33 +744,33 @@ L Device:EMI_Filter_LCL E421
 U 1 1 5D4B014E
 P 9645 3915
 F 0 "E421" H 9645 4110 50  0000 C CNN
-F 1 "6800p" H 9830 3865 50  0000 C CNN
+F 1 "6800p" H 9460 3865 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9645 3915 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 3915 50  0001 C CNN
 	1    9645 3915
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E422
 U 1 1 5D4B0154
 P 9645 4345
 F 0 "E422" H 9645 4535 50  0000 C CNN
-F 1 "6800p" H 9830 4295 50  0000 C CNN
+F 1 "6800p" H 9455 4295 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9645 4345 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 4345 50  0001 C CNN
 	1    9645 4345
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E424
 U 1 1 5D4B0160
 P 9645 5165
 F 0 "E424" H 9645 5360 50  0000 C CNN
-F 1 "6800p" H 9825 5110 50  0000 C CNN
+F 1 "6800p" H 9455 5115 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9645 5165 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 5165 50  0001 C CNN
 	1    9645 5165
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9075 4330 9215 4330
@@ -2280,8 +2269,6 @@ rga[1..8]
 Wire Wire Line
 	6225 2800 7280 2800
 Wire Wire Line
-	6625 2200 7155 2200
-Wire Wire Line
 	6625 4430 7155 4430
 Text Label 1580 4305 0    50   ~ 0
 ipl[0..2]
@@ -2883,11 +2870,11 @@ L Device:EMI_Filter_LCL E423
 U 1 1 5D4B015A
 P 9645 4745
 F 0 "E423" H 9645 4940 50  0000 C CNN
-F 1 "6800p" H 9825 4695 50  0000 C CNN
+F 1 "6800p" H 9455 4695 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9645 4745 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 4745 50  0001 C CNN
 	1    9645 4745
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_LCL E408
@@ -2911,21 +2898,34 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    7455 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5995 5030 7280 5030
 $Comp
 L Device:EMI_Filter_LCL E426
 U 1 1 5D36BC25
 P 7090 4930
 F 0 "E426" H 7090 5125 50  0000 C CNN
-F 1 "470p" H 7270 4880 50  0000 C CNN
+F 1 "470p" H 6905 4885 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7090 4930 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7090 4930 50  0001 C CNN
 	1    7090 4930
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Connection ~ 9090 7430
 Connection ~ 9090 9225
+$Comp
+L Device:EMI_Filter_LCL E415
+U 1 1 5D32038D
+P 7090 2100
+F 0 "E415" H 7090 2295 50  0000 C CNN
+F 1 "470p" H 6920 2050 50  0000 C CNN
+F 2 "Raemixx500:EMI_Filter_Long" V 7090 2100 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7090 2100 50  0001 C CNN
+	1    7090 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 2200 7155 2200
+Wire Wire Line
+	5995 5030 7280 5030
 Wire Bus Line
 	1955 4305 1955 4505
 Wire Bus Line
