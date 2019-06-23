@@ -1,4 +1,4 @@
-18628622290241591
+18631748529226591
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -62419,6 +62419,13 @@ A500_SIDE_CONNECTOR
 87
 86
 Raemixx500
+A2000_COPRO_SLOT
+
+
+0
+87
+86
+Raemixx500
 Battery_Holder_Coin_2032_BS-7
 http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
 
@@ -62454,12 +62461,12 @@ Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W leng
 2
 2
 Raemixx500
-DB_23
-D-SUB 25 pin plug, Tyco P/N 5747842-5
+DB_9M
+D-SUB 9 pin plug, Tyco P/N 4-338168-2
 
 0
-25
-23
+11
+10
 Raemixx500
 DB_23F
 D-SUB 25 pin plug, Tyco P/N 5747842-5
@@ -62468,12 +62475,26 @@ D-SUB 25 pin plug, Tyco P/N 5747842-5
 25
 24
 Raemixx500
+DB_23M
+D-SUB 25 pin plug, Tyco P/N 5747842-5
+
+0
+25
+23
+Raemixx500
 DB_25F
 D-SUB 25 pin plug, Tyco P/N 5747842-5
 
 0
 27
-25
+26
+Raemixx500
+DB_25M
+D-SUB 25 pin plug, Tyco P/N 5747842-5
+
+0
+27
+26
 Raemixx500
 EMI_Filter_Long
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
