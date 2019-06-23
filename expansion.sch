@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 14
 Title "Rämixx500"
-Date "2019-04-20"
+Date "2019-06-23"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 ""
@@ -560,11 +560,8 @@ F 3 "" H 8260 1830 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6465 2000 6840 2000
-Wire Wire Line
-	6840 2000 6840 1700
-Connection ~ 6840 1700
-Text Notes 6485 2000 0    50   ~ 0
+	6465 2000 6710 2000
+Text Notes 6415 2000 0    50   ~ 0
 ~CONFIG
 NoConn ~ 6465 2400
 Wire Wire Line
@@ -623,14 +620,18 @@ Wire Wire Line
 	7765 1115 7405 1115
 Wire Wire Line
 	7405 1115 7405 1745
+Connection ~ 7405 1745
 Wire Wire Line
-	3800 3000 4965 3000
-Wire Wire Line
-	6465 3900 7715 3900
+	6710 1600 6710 2000
+Connection ~ 6710 1600
 Wire Bus Line
 	7730 3300 7730 3500
 Wire Wire Line
+	6465 3900 7715 3900
+Wire Wire Line
 	6465 2500 8595 2500
+Wire Wire Line
+	3800 3000 4965 3000
 Wire Bus Line
 	3700 3090 3700 3300
 Wire Bus Line
@@ -641,5 +642,4 @@ Wire Bus Line
 	4275 760  4275 4500
 Wire Bus Line
 	7155 760  7155 4200
-Connection ~ 7405 1745
 $EndSCHEMATC
