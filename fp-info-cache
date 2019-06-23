@@ -1,4 +1,4 @@
-18625496092392591
+18628618684776591
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -62467,6 +62467,20 @@ D-SUB 25 pin plug, Tyco P/N 5747842-5
 0
 25
 23
+Raemixx500
+DB_23F
+D-SUB 25 pin plug, Tyco P/N 5747842-5
+
+0
+25
+24
+Raemixx500
+DB_25F
+D-SUB 25 pin plug, Tyco P/N 5747842-5
+
+0
+27
+25
 Raemixx500
 EMI_Filter_Long
 Through hole straight pin header, 1x03, 2.54mm pitch, single row

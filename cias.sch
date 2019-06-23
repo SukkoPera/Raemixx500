@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 14
 Title "Rämixx500"
-Date "2019-05-11"
+Date "2019-06-23"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "RS232 AND PARALLEL PORT"
@@ -129,21 +129,21 @@ Wire Wire Line
 Text GLabel 1605 6975 0    50   Output ~ 0
 ~INT6
 Text Label 2415 5225 0    50   ~ 0
-d7
+d15
 Text Label 2415 5325 0    50   ~ 0
-d6
+d14
 Text Label 2415 5425 0    50   ~ 0
-d5
+d13
 Text Label 2415 5525 0    50   ~ 0
-d4
+d12
 Text Label 2415 5625 0    50   ~ 0
-d3
+d11
 Text Label 2415 5725 0    50   ~ 0
-d2
+d10
 Text Label 2415 5825 0    50   ~ 0
-d1
+d9
 Text Label 2415 5925 0    50   ~ 0
-d0
+d8
 Text Label 2415 6075 0    50   ~ 0
 a11
 Text Label 2415 6175 0    50   ~ 0
@@ -269,7 +269,7 @@ U 1 1 5E8537DA
 P 9255 2590
 F 0 "CN7" H 9255 4082 50  0000 C CNN
 F 1 "PARALLEL_DB25F" H 9255 3991 50  0000 C CNN
-F 2 "w_conn_d-sub:DB_25M" H 9255 2590 50  0001 C CNN
+F 2 "Raemixx500:DB_25F" H 9255 2590 50  0001 C CNN
 F 3 " ~" H 9255 2590 50  0001 C CNN
 	1    9255 2590
 	1    0    0    -1  

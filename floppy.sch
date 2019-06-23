@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 14
 Title "Rämixx500"
-Date "2019-04-18"
+Date "2019-06-23"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "FLOPPY STUFF"
@@ -347,7 +347,7 @@ U 1 1 5D5C4F68
 P 4145 5260
 F 0 "CN5" H 4145 3768 50  0000 C CNN
 F 1 "EXTFLOPPY_DB23F" H 4145 3859 50  0000 C CNN
-F 2 "Raemixx500:DB_23" H 4145 5260 50  0001 C CNN
+F 2 "Raemixx500:DB_23F" H 4145 5260 50  0001 C CNN
 F 3 " ~" H 4145 5260 50  0001 C CNN
 	1    4145 5260
 	1    0    0    1   
