@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemix500.sch)
-    (date "dom 23 giu 2019 18:59:57 CEST")
+    (date "lun 22 lug 2019 22:27:55 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -30,7 +30,7 @@
         (title Rämixx500)
         (company SukkoPera)
         (rev 1git)
-        (date 2019-04-24)
+        (date 2019-07-12)
         (source ram.sch)
         (comment (number 1) (value "MEMORY AND...WELL, I USED TO REMEMBER"))
         (comment (number 2) (value ""))
@@ -2339,7 +2339,7 @@
       (tstamp 5EF27F5A))
     (comp (ref CN8)
       (value Power_Conn)
-      (footprint w_conn_av:din-5)
+      (footprint Raemixx500:power_ami+din5)
       (datasheet ~)
       (libsource (lib amipower) (part Amiga_Power_Conn) (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names "/Power & Decoupling/") (tstamps /5E9E4C57/))

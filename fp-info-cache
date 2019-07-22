@@ -1,4 +1,4 @@
-18631748529226591
+18633312357076591
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -62480,7 +62480,7 @@ D-SUB 25 pin plug, Tyco P/N 5747842-5
 
 0
 25
-23
+24
 Raemixx500
 DB_25F
 D-SUB 25 pin plug, Tyco P/N 5747842-5
@@ -62565,6 +62565,13 @@ Through hole pin header THT 2x04 1.00mm double row
 0
 8
 8
+Raemixx500
+power_ami+din5
+Din 5 (MIDI), Pro Signal P/N PSG03463
+
+0
+12
+6
 Raemixx500
 R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal
 Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
