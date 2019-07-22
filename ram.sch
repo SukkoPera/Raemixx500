@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 14
 Title "Rämixx500"
-Date "2019-04-24"
+Date "2019-07-12"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "MEMORY AND...WELL, I USED TO REMEMBER"
@@ -1404,8 +1404,6 @@ Wire Wire Line
 Connection ~ 6470 8260
 Wire Wire Line
 	6470 8260 6935 8260
-Text Notes 15910 4895 2    50   ~ 0
-Note: U20-23, U23 not loaded for 512K system
 Text Label 6060 2680 2    50   ~ 0
 ma5
 Wire Wire Line
@@ -2173,4 +2171,6 @@ Wire Bus Line
 	10180 3150 10180 4230
 Wire Bus Line
 	7335 870  7335 4715
+Text Notes 15910 4895 2    50   ~ 0
+Note: U20-23, U32 not loaded for 512K system
 $EndSCHEMATC
