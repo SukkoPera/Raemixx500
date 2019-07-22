@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Keyboard_Connector
+#
+DEF Keyboard_Connector P 0 40 Y N 1 F N
+F0 "P" -50 0 60 V V C CNN
+F1 "Keyboard_Connector" 50 0 60 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 400 100 -400 0 1 0 N
+X P1 1 -350 350 250 R 50 50 1 1 P I
+X P2 2 -350 250 250 R 50 50 1 1 P I
+X P3 3 -350 150 250 R 50 50 1 1 P I
+X P4 4 -350 50 250 R 50 50 1 1 P I
+X P6 6 -350 -150 250 R 50 50 1 1 P I
+X P7 7 -350 -250 250 R 50 50 1 1 P I
+X P8 8 -350 -350 250 R 50 50 1 1 P I
+ENDDRAW
+ENDDEF
+#
+#End Library

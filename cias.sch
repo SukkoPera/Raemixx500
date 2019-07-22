@@ -1683,18 +1683,13 @@ U 1 1 5F93CF11
 P 15110 3390
 F 0 "CN13" H 14978 2793 60  0000 C CNN
 F 1 "KEYBOARD" H 14978 2899 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 15110 3390 50  0001 C CNN
+F 2 "Raemixx500:Keyboard_Connector" H 15110 3390 50  0001 C CNN
 F 3 "" H 15110 3390 50  0001 C CNN
 	1    15110 3390
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	14760 3340 14370 3340
-Wire Wire Line
 	14760 3540 14370 3540
-NoConn ~ 14370 3340
-Text Label 14515 3340 0    50   ~ 0
-key
 Wire Wire Line
 	13480 2945 13480 3040
 Wire Wire Line
@@ -2408,4 +2403,6 @@ Wire Bus Line
 	6430 1490 6430 4260
 Wire Bus Line
 	1950 2260 1950 5825
+Text Notes 14850 3365 0    50   ~ 0
+KEY
 $EndSCHEMATC
