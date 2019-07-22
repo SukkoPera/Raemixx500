@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemix500.sch)
-    (date "lun 22 lug 2019 23:22:58 CEST")
+    (date "lun 22 lug 2019 23:31:16 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -223,6 +223,7 @@
       (tstamp 5CCBE5F9))
     (comp (ref C99)
       (value 100n)
+      (footprint Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm)
       (datasheet ~)
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /CPU+Agnus/) (tstamps /5CAE5331/))
