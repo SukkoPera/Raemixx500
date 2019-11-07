@@ -1,4 +1,4 @@
-18634876186290591
+18595918924069626
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49748,6 +49748,27 @@ net tie
 0
 4
 4
+OpenFlops
+MountingHole_M3_Pad
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+1
+1
+OpenFlops
+PUSH_BUTTON_RIGHT_ANGLE
+
+
+0
+4
+2
+OpenFlops
+USB_A_FEMALE
+
+
+0
+6
+5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -62411,202 +62432,6 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
-Raemixx500
-A500_SIDE_CONNECTOR
-
-
-0
-87
-86
-Raemixx500
-A2000_COPRO_SLOT
-
-
-0
-87
-86
-Raemixx500
-Battery_Holder_Coin_2032_BS-7
-http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
-
-0
-2
-2
-Raemixx500
-BottomTracks
-
-
-0
-0
-0
-Raemixx500
-Crystal_RTC
-Crystal THT C26-LF 6.5mm length 2.06mm diameter
-['C26-LF']
-0
-3
-3
-Raemixx500
-C_Axial_L6.3mm_D2.5mm_P10.16mm
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
-0
-2
-2
-Raemixx500
-C_Axial_L9.0mm_D3.2mm_P12.70mm
-Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
-0
-2
-2
-Raemixx500
-DB_9M
-D-SUB 9 pin plug, Tyco P/N 4-338168-2
-
-0
-11
-10
-Raemixx500
-DB_23F
-D-SUB 25 pin plug, Tyco P/N 5747842-5
-
-0
-25
-24
-Raemixx500
-DB_23M
-D-SUB 25 pin plug, Tyco P/N 5747842-5
-
-0
-25
-24
-Raemixx500
-DB_25F
-D-SUB 25 pin plug, Tyco P/N 5747842-5
-
-0
-27
-26
-Raemixx500
-DB_25M
-D-SUB 25 pin plug, Tyco P/N 5747842-5
-
-0
-27
-26
-Raemixx500
-EMI_Filter_Long
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-4
-3
-Raemixx500
-EMI_Filter_Longer
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-4
-3
-Raemixx500
-EMI_Filter_Short
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-Raemixx500
-Ferrite_Axial_L9.0mm_D3.2mm_P12.70mm
-Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
-0
-2
-2
-Raemixx500
-Jumper2-Bridged
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-2
-2
-Raemixx500
-Jumper2-Open
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-2
-2
-Raemixx500
-Jumper3-Bridged12
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Raemixx500
-Jumper3-Bridged23
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Raemixx500
-Jumper3-Open
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Raemixx500
-Keyboard_Connector
-Through hole straight pin header, 1x08, 2.54mm pitch, single row
-Through hole pin header THT 1x08 2.54mm single row
-0
-7
-7
-Raemixx500
-LineFilter
-Through hole straight pin header, 2x04, 1.00mm pitch, double rows
-Through hole pin header THT 2x04 1.00mm double row
-0
-8
-8
-Raemixx500
-power_ami+din5
-Din 5 (MIDI), Pro Signal P/N PSG03463
-
-0
-12
-6
-Raemixx500
-R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal
-Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
-0
-2
-2
-Raemixx500
-TopTracks
-
-
-0
-0
-0
-Raemixx500
-VariCap
-CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
-CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
-0
-2
-2
-Raemixx500
-Xtal
-14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
-0
-4
-4
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
