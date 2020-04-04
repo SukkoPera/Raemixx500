@@ -17,9 +17,12 @@ Following is a list of deliberate changes with respect to the original layout of
 - The footprints for all DIP chips use "long pads". This makes them easier to solder and more solid to the board should you need to rework them. This forced a few tracks running very close to the original pads to be slightly offset away.
 - The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. To make this work, R913 has been replaced with a diode.
 - The need to solder D912 to a leg of the former R913 has been removed.
+- The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seems somehow improvised anyway...).
+- The above allowed a couple of tracks to be added so that the left and right audio channels will be somehow mixed whenever a single output jack is connected. This was lifted from the A600.
 - The font used to label the components and to do all the writing on the board is not the original one, but rather the default Kicad font. Neither was the font size matched in all cases. Some labels were also moved for clarity.
 - The silkscreen for some components does not match the original one. We used the built-in Kicad footprints as-is, when available.
 - The silkscreen and pitch of C303 and C304 have been made smaller so that they don't overlap.
+- The vias inside the pads of JP10A and JP11 have been slightly offset.
 
 ### Assembly and Installation
 Good luck ;).

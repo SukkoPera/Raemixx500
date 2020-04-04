@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PJRAN1X1U01X
+#
+DEF PJRAN1X1U01X J 0 40 Y N 1 L N
+F0 "J" -200 350 50 H V L BNN
+F1 "PJRAN1X1U01X" -200 -300 50 H V L BNN
+F2 "SWITCHCRAFT_PJRAN1X1U01X" 0 0 50 H I L BNN
+F3 "A" 0 0 50 H I L BNN
+F4 "Switchcraft" 0 0 50 H I L BNN
+F5 "13mm" 0 0 50 H I L BNN
+F6 "Manufacturer Recommendations" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -200 200 -200 0 N
+P 2 0 0 6 -200 0 -300 0 N
+P 2 0 0 6 -300 0 -300 200 N
+P 2 0 0 6 -300 200 -200 200 N
+P 2 0 0 6 -200 0 -200 -100 N
+P 2 0 0 6 -200 -100 100 -100 N
+P 2 0 0 6 -100 200 -50 150 N
+P 2 0 0 6 -50 150 0 200 N
+P 2 0 0 6 0 200 100 200 N
+P 3 0 0 6 75 150 100 200 125 150 F
+P 2 0 0 6 100 150 100 0 N
+X 1 1 300 -100 200 L 40 40 0 0 P 
+X 3 3 300 0 200 L 40 40 0 0 P 
+X 2 2 300 200 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
