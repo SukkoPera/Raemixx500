@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Raemix500-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -474,14 +473,14 @@ L Device:D D913
 U 1 1 5CFBBF2C
 P 3365 5100
 F 0 "D913" H 3365 4884 50  0000 C CNN
-F 1 "1n5817" H 3365 4975 50  0000 C CNN
+F 1 "1n4148" H 3365 4975 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 3365 5100 50  0001 C CNN
 F 3 "~" H 3365 5100 50  0001 C CNN
 	1    3365 5100
 	-1   0    0    1   
 $EndComp
-Text Notes 3170 5025 2    50   ~ 0
-This diode replaces R913 on the original schematics\nso that we can use a non-rechargeable battery. Use\na Schottky diode to minimize the voltage drop.
+Text Notes 3165 4990 2    50   ~ 0
+This diode replaces R913 on the original schematics\nso that we can use a non-rechargeable battery.
 Wire Wire Line
 	3470 2525 3595 2525
 Wire Wire Line

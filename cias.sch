@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Raemix500-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -2395,6 +2394,9 @@ Wire Wire Line
 	10325 1720 10325 2290
 Wire Wire Line
 	10325 2290 9950 2290
+Text Notes 14565 3375 0    50   ~ 0
+KEY
+NoConn ~ 14760 3340
 Wire Bus Line
 	1785 3110 1785 6275
 Wire Bus Line
@@ -2403,6 +2405,4 @@ Wire Bus Line
 	6430 1490 6430 4260
 Wire Bus Line
 	1950 2260 1950 5825
-Text Notes 14850 3365 0    50   ~ 0
-KEY
 $EndSCHEMATC

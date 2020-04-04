@@ -1,12 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:Raemix500-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 14
 Title "Rämixx500"
-Date "2019-07-12"
+Date "2020-04-04"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "MEMORY AND...WELL, I USED TO REMEMBER"
@@ -568,7 +567,7 @@ Wire Wire Line
 	6155 5105 6155 5640
 Wire Wire Line
 	5590 5640 6155 5640
-Text Notes 6125 5000 2    50   ~ 0
+Text Notes 5300 5000 0    50   ~ 0
 JP3 swaps upper and\nlower RAM banks
 $Comp
 L Device:R R201
@@ -1323,10 +1322,10 @@ Wire Wire Line
 	13560 4080 13825 4080
 Connection ~ 11890 2945
 $Comp
-L Jumper:Jumper_3_Open JPA4
+L Jumper:Jumper_3_Open JP4A1
 U 1 1 5DCD8A02
 P 7185 7470
-F 0 "JPA4" H 7185 7602 50  0000 C CNN
+F 0 "JP4A1" H 7185 7602 50  0000 C CNN
 F 1 "Jumper_3_Open" H 7185 7693 50  0001 C CNN
 F 2 "Raemixx500:Jumper3-Open" H 7185 7470 50  0001 C CNN
 F 3 "~" H 7185 7470 50  0001 C CNN
@@ -1366,10 +1365,10 @@ Wire Wire Line
 Wire Wire Line
 	4210 7105 7185 7105
 $Comp
-L Jumper:Jumper_3_Open JPB4
+L Jumper:Jumper_3_Open JP4B1
 U 1 1 5E08E93D
 P 7185 8260
-F 0 "JPB4" H 7185 8392 50  0000 C CNN
+F 0 "JP4B1" H 7185 8392 50  0000 C CNN
 F 1 "Jumper_3_Open" H 7185 8483 50  0001 C CNN
 F 2 "Raemixx500:Jumper3-Open" H 7185 8260 50  0001 C CNN
 F 3 "~" H 7185 8260 50  0001 C CNN
@@ -2131,6 +2130,8 @@ Text GLabel 7135 5105 2    50   Output ~ 0
 ~BRAS1
 Text GLabel 6785 5190 2    50   Output ~ 0
 ~BRAS0
+Text Notes 15910 4895 2    50   ~ 0
+Note: U20-23, U32 not loaded for 512K system
 Wire Bus Line
 	10245 755  10245 1450
 Wire Bus Line
@@ -2171,6 +2172,4 @@ Wire Bus Line
 	10180 3150 10180 4230
 Wire Bus Line
 	7335 870  7335 4715
-Text Notes 15910 4895 2    50   ~ 0
-Note: U20-23, U32 not loaded for 512K system
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Raemix500-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -95,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	4090 4370 1710 4370
 Text GLabel 1710 4370 0    50   Input ~ 0
-~XLCKEN
+~XCLKEN
 Wire Wire Line
 	3640 3450 3640 3550
 Wire Wire Line
