@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemix500.sch)
-    (date "dom 5 apr 2020, 11:22:43")
+    (date "dom 5 apr 2020, 12:44:15")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2604,7 +2604,7 @@
       (tstamp 5CFBBF2C))
     (comp (ref P9)
       (value TRAPDOOR)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Horizontal)
+      (footprint Raemixx500:Trapdoor)
       (datasheet DOCUMENTATION)
       (libsource (lib TRAPDOOR) (part TRAPDOOR) (description ""))
       (sheetpath (names "/Trapdoor Expansion/") (tstamps /5D00C589/))

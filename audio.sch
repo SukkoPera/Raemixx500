@@ -2982,15 +2982,15 @@ Wire Wire Line
 	12665 9115 12445 9115
 Wire Wire Line
 	12445 9115 12445 7120
+Connection ~ 12445 7120
+Wire Wire Line
+	12445 7120 12665 7120
+Text Notes 12620 8315 0    50   ~ 0
+These links were not present on original\nA500 boards. introduced since we use\ndifferent audio jacks. This was taken\nfrom the A600 and should mix the R/L\nchannels whenever a single audio jack\nis connected.
 Wire Bus Line
 	1955 4305 1955 4505
 Wire Bus Line
 	1955 6355 1955 7055
 Wire Bus Line
 	1955 4705 1955 6205
-Connection ~ 12445 7120
-Wire Wire Line
-	12445 7120 12665 7120
-Text Notes 12620 8315 0    50   ~ 0
-These links were not present on original\nA500 boards. introduced since we use\ndifferent audio jacks. This was taken\nfrom the A600 and should mix the R/L\nchannels whenever a single audio jack\nis connected.
 $EndSCHEMATC
