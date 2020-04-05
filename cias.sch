@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 14
 Title "Rämixx500"
-Date "2019-06-23"
+Date "2020-04-05"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "RS232 AND PARALLEL PORT"
@@ -237,17 +237,6 @@ Text GLabel 1605 7225 0    50   Input ~ 0
 ~HSYNC
 Text GLabel 1605 7375 0    50   Input ~ 0
 ~RESET
-$Comp
-L Jumper:Jumper_3_Bridged12 JP7B1
-U 1 1 5E848639
-P 1240 4360
-F 0 "JP7B1" V 1240 4427 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 1195 4426 50  0001 L CNN
-F 2 "Raemixx500:Jumper3-Bridged12" H 1240 4360 50  0001 C CNN
-F 3 "~" H 1240 4360 50  0001 C CNN
-	1    1240 4360
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1390 4360 2565 4360
 Wire Wire Line
@@ -2397,6 +2386,17 @@ Wire Wire Line
 Text Notes 14565 3375 0    50   ~ 0
 KEY
 NoConn ~ 14760 3340
+$Comp
+L Jumper_3_Bridged23:Jumper_3_Bridged23 JP7B1
+U 1 1 5E8A9D97
+P 1240 4360
+F 0 "JP7B1" V 1240 4427 50  0000 L CNN
+F 1 "Jumper_3_Bridged23" V 1195 4427 50  0001 L CNN
+F 2 "Raemixx500:Jumper3-Bridged23" H 1240 4360 50  0001 C CNN
+F 3 "~" H 1240 4360 50  0001 C CNN
+	1    1240 4360
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	1785 3110 1785 6275
 Wire Bus Line

@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 14 14
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Rämixx500"
+Date "2020-04-05"
+Rev "1git"
+Comp "SukkoPera"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Licensed under CERN OHL v.1.2"
 $EndDescr
 $Comp
 L TRAPDOOR:TRAPDOOR P9
@@ -322,19 +322,6 @@ Entry Wire Line
 Wire Bus Line
 	7890 1360 4420 1360
 Connection ~ 4420 1360
-$Comp
-L Jumper:Jumper_3_Bridged12 JP7B?
-U 1 1 5D0BD392
-P 9705 4200
-AR Path="/5E7E9EC4/5D0BD392" Ref="JP7B?"  Part="1" 
-AR Path="/5D00C589/5D0BD392" Ref="JP7A1"  Part="1" 
-F 0 "JP7A1" V 9705 4267 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 9660 4266 50  0001 L CNN
-F 2 "Raemixx500:Jumper3-Open" H 9705 4200 50  0001 C CNN
-F 3 "~" H 9705 4200 50  0001 C CNN
-	1    9705 4200
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	9705 4450 9705 4580
 Wire Wire Line
@@ -458,6 +445,17 @@ Wire Wire Line
 	5065 3980 5405 3980
 Text GLabel 5065 3980 0    50   Input ~ 0
 ~CLKCS
+$Comp
+L Jumper_3_Bridged23:Jumper_3_Open JP7A1
+U 1 1 5E92560D
+P 9705 4200
+F 0 "JP7A1" V 9705 4287 50  0000 L CNN
+F 1 "Jumper_3_Open" V 9660 4287 50  0001 L CNN
+F 2 "Raemixx500:Jumper3-Open" H 9705 4200 50  0001 C CNN
+F 3 "~" H 9705 4200 50  0001 C CNN
+	1    9705 4200
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	7970 4680 7970 5480
 Wire Bus Line
