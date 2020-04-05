@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemix500.sch)
-    (date "dom 5 apr 2020, 12:44:15")
+    (date "dom 5 apr 2020, 15:55:44")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2597,7 +2597,7 @@
       (tstamp 5CFABC9A))
     (comp (ref D913)
       (value 1n4148)
-      (footprint Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal)
+      (footprint Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names "/Real-Time Clock/") (tstamps /5CF615AB/))
