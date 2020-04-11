@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemix500.sch)
-    (date "sab 11 apr 2020, 22:22:19")
+    (date "sab 11 apr 2020, 22:47:12")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -160,7 +160,7 @@
   (components
     (comp (ref V0)
       (value OSHW_LOGO)
-      (footprint Symbol:OSHW-Logo2_14.6x12mm_Copper)
+      (footprint Symbol:OSHW-Logo2_14.6x12mm_SilkScreen)
       (libsource (lib void) (part Void) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5ED3E7FB))
