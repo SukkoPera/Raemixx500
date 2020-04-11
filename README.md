@@ -56,22 +56,22 @@ Every release is accompanied by its Bill Of Materials (BOM) file and any relevan
 
 The released gerber files are password-protected. The original reason behind my projects was to allow anyone to make their own retrocomputing accessories cheaply. Instead of this, what I achieved was actually fuelling greedy people grabbing my work, making boards for a couple of bucks, badly soldering cheap Chinese components on them and selling them at outrageous prices.
 
-I still believe in free software and open hardware, and that is why my projects will remain as such. **I am not providing ready-to-use gerber files**, but you can still generate them from the KiCad project or ask me for the password, if you think you don't fit the above statement.
-
-If all you want is to get boards made, I would really appreciate if you did so in a way that supports the project, that is ordering them from PCBWay through this link:
-
-[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_V1.html)
-
-You get my gratitude and cheap, professionally-made and good quality PCBs, I get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
-
-Also, if you still have to register to that site, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and yield me some more).
+I still believe in free software and open hardware, and that is why my projects will remain as such. **I am not providing ready-to-use gerber files**. If all you want is *to get boards made, I would really appreciate if you did so [in a way that supports the project](#support-the-project)*. You can also ask me for the password, if you think you don't fit the above statement.
 
 Note that **the license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and I want to allow everybody to have a board at a REASONABLE price. I estimate that **having a few of these boards produced costs about 20€ per board**, so let me tell you that **if this board is sold at more than 25€, 25% MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example.
 
 Also, please **do not remove the credits, URL and license statement**. There is **no reason do so**, you have the right to sell this board, there is no need to pretend you got it somewhere else. Ironically, If you removed those, you'd lose that right as you'd be violating the license terms.
 
 ### Support the Project
-You can buy me a coffee if you want:
+If you want to support the project, you can order the boards from PCBWay through this link:
+
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_V1.html)
+
+You get my gratitude and cheap, professionally-made and good quality PCBs, I get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
+
+Also, if you still have to register, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and yield me some more).
+
+You can also buy me a coffee if you want:
 
 <a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
