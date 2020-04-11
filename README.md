@@ -15,6 +15,7 @@ This mainboard was designed with *reasonable* -  not *maniacal* - accuracy to th
 
 Following is a list of deliberate changes with respect to the original layout of the A500+ rev.8A.1 board:
 - The footprints for all DIP chips use "long pads". This makes them easier to solder and more solid to the board should you need to rework them. This forced a few tracks running very close to the original pads to be slightly offset away.
+- C99 was added to allow for the correct usage of 318069-10/11 Agnus chips. Leave open for others (only 8375 will work).
 - The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. To make this work, R913 has been replaced with a diode and a couple of tracks needed some displacement.
 - The need to solder D912 to a leg of the former R913 has been removed.
 - The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seems somehow improvised anyway...).
