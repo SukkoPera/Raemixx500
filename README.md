@@ -1,37 +1,41 @@
 # Rämixx500
-Rämixx500 is an Open Hardware implementation of the Commodore Amiga 500+ mainboard, revision 8A.1.
+Rämixx500 is an Open Hardware remake of the Commodore Amiga 500+ mainboard, revision 8A.1.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/Raemixx500/master/doc/render-top.png)
 
 ### Summary
 Many Amiga 500+ computers are suffering an early death because of the built-in barrel battery that powers their internal real-time clocks. Such batteries have long exceeded their planned lives and in many cases have started to leak alkaline liquids over the mainboard, corroding copper traces and destroying components.
 
-This damage can sometimes be repaired trivially, but many times it requires a lot of time and effort. Sometimes it adds up to other damage occurred over time and so it would be better to just have a new board built with new components to move the few critical chips over. Amiga mainboards haven't been produced for the last 30 years, but they are relatively simple by today's standards, thus an amateur project to make new ones was started.
+This damage can sometimes be repaired trivially, but many times it requires a lot of time and effort. Sometimes it adds up to other damage occurred over time and so it would just be better to have a new board built with new components to move the few critical chips over. Amiga mainboards haven't been produced for the last 30 years, but they are relatively simple by today's standards, thus an amateur project to make new ones was started.
 
 ### Differences from original
-The initial objective was to come up with a new mainboard, as similar to the original one as possible, while including minor modifications that would improve its usability. First the schematics were drawn from scratch in Kicad and then the board was routed, staying close to the original layout.
+The initial objective was to come up with a new mainboard as similar to the original one as possible, while including minor modifications that would improve its usability. First the schematics were drawn from scratch in Kicad and then the board was routed, staying close to the original layout.
 
-This mainboard was designed with *reasonable* -  not *maniacal* - accuracy to the original design. Most care was taken in the positioning of components the ought to be in a certain position (i.e.: screw holes and I/O connectors), to ensure drop-in replaceability. Other components and tracks are "more or less" there, but as the board was wholly laid out from scratch by hand, don't expect sub-millimeter accuracy.
+This mainboard was designed with *reasonable* - not *maniacal* - accuracy to the original design. Most care was taken in the positioning of components the ought to be in a certain position (i.e.: screw holes and I/O connectors), to ensure drop-in replaceability. Other components and tracks are "more or less" there, but as the board was wholly laid out from scratch by hand, don't expect sub-millimeter accuracy.
 
 Following is a list of deliberate changes with respect to the original layout of the A500+ rev.8A.1 board:
 - The footprints for all DIP chips use "long pads". This makes them easier to solder and more solid to the board should you need to rework them. This forced a few tracks running very close to the original pads to be slightly offset away.
 - C99 was added to allow for the correct usage of 318069-10/11 Agnus chips. Leave open for others (only 8375 will work).
-- The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. To make this work, R913 has been replaced with a diode and a couple of tracks needed some displacement.
-- The need to solder D912 to a leg of the former R913 has been removed.
+- The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. Consequently, R913 has been replaced with a diode and a couple of tracks needed some displacement.
+- The need to solder D912 to a leg of the former R913 has been removed. Just solder it in its place.
 - The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seems somehow improvised anyway...).
 - The above allowed a couple of tracks to be added so that the left and right audio channels will be somehow mixed whenever a single output jack is connected. This was lifted from the A600.
-- The font used to label the components and to do all the writing on the board is not the original one, but rather the default Kicad font. Neither was the font size matched in all cases. Some labels were also moved for clarity.
 - The silkscreen for some components does not match the original one. I used the built-in KiCad footprints as-is, when available.
 - The silkscreen and pitch of C303 and C304 have been made smaller so that they don't overlap.
-- Speaking about the silkscreen, I have been quite liberal with it, I did not follow the original one at all costs. This was since today's technology can give us a bit more resolution in silkscreen printing, and that was worth using for the sake of clarity. Some ground stitching vias were slightly offset to make up space for labels.
+- Speaking about the silkscreen, I have been quite liberal with it. I have used the default KiCad font and I did not follow the original label placement one at all costs. This was since today's technology can give us a bit more resolution in silkscreen printing, and I think that is worth using for the sake of clarity. Some ground stitching vias were slightly offset to make up space for labels.
 - The vias inside the pads of JP10A and JP11 have been slightly offset so that they are outside the pads.
 - The ground fill is autogenerated by KiCad, so it won't match the original exactly.
+- Probably there's something more I've forgotten.
 
 ### Assembly and Installation
-Good luck ;).
+**PLEASE NOTE THAT THIS IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!**
+
+That said, good luck ;).
 
 ### License
-The Rämixx500 documentation, including the design itself, is copyright &copy; SukkoPera 2019.
+*(I am not sure I can claim any copyright on this, as the actual schematics this is based on belong to Commodore (or whoever has that right now, definitely not me). So the claim below is going to be more of a declaration of intent, in the sense that I would like that everything that uses my work stays open and free.)*
+
+The Rämixx500 documentation, including the design itself, is copyright &copy; SukkoPera 2019-2020.
 
 Rämixx500 is Open Hardware licensed under the [CERN OHL v. 1.2](http://ohwr.org/cernohl).
 
@@ -45,8 +49,16 @@ Any modifications made by Licensees (see section 3.4.b) shall be recorded in fil
 
 The Documentation Location of the original project is https://github.com/SukkoPera/Raemixx500/.
 
-### Support the Project
-Since the project is open you are free to get the PCBs made by your preferred manufacturer, however in case you want to support the development, you can order them from PCBWay through this link:
+### Releases
+If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/Raemixx500/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
+
+Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
+
+The released gerber files are password-protected. The original reason behind my projects was to allow anyone to make their own retrocomputing accessories cheaply. Instead of this, what I achieved was actually fuelling greedy people grabbing my work, making boards for a couple of bucks, badly soldering cheap Chinese components on them and selling them at outrageous prices.
+
+I still believe in free software and open hardware, and that is why my projects will remain as such. **I am not providing ready-to-use gerber files**, but you can still generate them from the KiCad project or ask me for the password, if you think you don't fit the above statement.
+
+If all you want is to get boards made, I would really appreciate if you did so in a way that supports the project, that is ordering them from PCBWay through this link:
 
 [![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_V1.html)
 
@@ -54,11 +66,20 @@ You get my gratitude and cheap, professionally-made and good quality PCBs, I get
 
 Also, if you still have to register to that site, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and yield me some more).
 
-Again, if you want to use another manufacturer, feel free to, don't feel obligated :).
+Note that **the license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and I want to allow everybody to have a board at a REASONABLE price. I estimate that **having a few of these boards produced costs about 20€ per board**, so let me tell you that **if this board is sold at more than 25€, 25% MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example.
+
+Also, please **do not remove the credits, URL and license statement**. There is **no reason do so**, you have the right to sell this board, there is no need to pretend you got it somewhere else. Ironically, If you removed those, you'd lose that right as you'd be violating the license terms.
+
+### Support the Project
+You can buy me a coffee if you want:
+
+<a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ### Get Help
 If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
 
 ### Thanks
-- [Amiga PCB Explorer](http://amigapcb.org)
-- TBD
+- Commodore, for making the coolest machine ever.
+- [Amiga PCB Explorer](http://amigapcb.org), a fundamental tool to follow the original track placement.
+- [amigawiki](https://www.amigawiki.org/doku.php?id=en:service:schematics), mainly for the schematics but also for the whole lot of information they provide.
+- majinga for helping with the measuring
