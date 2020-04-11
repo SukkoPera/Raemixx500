@@ -562,8 +562,6 @@ F 3 "" H 8260 1830 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6465 2000 6710 2000
-Text Notes 6415 2000 0    50   ~ 0
-~CONFIG
 NoConn ~ 6465 2400
 Wire Wire Line
 	6465 2100 8595 2100
