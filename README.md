@@ -8,6 +8,10 @@ Many Amiga 500+ computers are suffering an early death because of the built-in b
 
 This damage can sometimes be repaired trivially, but many times it requires a lot of time and effort. Sometimes it adds up to other damage occurred over time and so it would just be better to have a new board built with new components to move the few critical chips over. Amiga mainboards haven't been produced for the last 30 years, but they are relatively simple by today's standards, thus an amateur project to make new ones was started.
 
+There are other projects like this one out there, but none of them is Open Source and none of them comes with both schematics and board. This is a big advantage, since anyone can modify the board and make new improved versions, as long as they release their modifications it with the same license. I have come up with [some ideas for improvements](https://github.com/SukkoPera/Raemixx500/issues/14), feel free to help :).
+
+Now the bad news: **THIS BOARD IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!** It might kill your cat or burn your house down. You have been warned.
+
 ## Differences from original
 The initial objective was to come up with a new mainboard as similar to the original one as possible, while including minor modifications that would improve its usability. First the schematics were drawn from scratch in Kicad and then the board was routed, staying close to the original layout.
 
@@ -28,9 +32,17 @@ Following is a list of deliberate changes with respect to the original layout of
 - Probably there's something more I've forgotten.
 
 ## Assembly and Installation
-**PLEASE NOTE THAT THIS IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!**
+Again: **PLEASE NOTE THAT THIS IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!**
 
 That said, good luck ;).
+
+## Releases
+If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/Raemixx500/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
+
+Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
+
+**I am not providing ready-to-use gerber files**. If all you want is **to get boards made, I would really appreciate if you did so [in a way that supports the project](#support-the-project)**.
+
 
 ## License
 *(I am not sure I can claim any copyright on this, as the actual schematics this is based on belong to Commodore (or whoever has that right now, definitely not me). So the claim below is going to be more of a declaration of intent, in the sense that I would like that everything that uses my work stays open and free.)*
@@ -49,17 +61,10 @@ Any modifications made by Licensees (see section 3.4.b) shall be recorded in fil
 
 The Documentation Location of the original project is https://github.com/SukkoPera/Raemixx500/.
 
-### Selling the board
-**The license also allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 20€ per board**, so let me tell you that **if this board is sold at more than 30€, 25% MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example.
+## Selling the board
+**The license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 20€ per board**, so let me tell you that **if this board is sold at more than 30€, 25% MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example.
 
 Also, please **do not remove the credits, URL and license statement**. There is **no reason do so**, you have the right to sell this board, there is no need to pretend you got it somewhere else. Ironically, If you removed those, you'd lose that right as you'd be violating the license terms.
-
-## Releases
-If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/Raemixx500/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
-
-Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
-
-**I am not providing ready-to-use gerber files**. If all you want is **to get boards made, I would really appreciate if you did so [in a way that supports the project](#support-the-project)**.
 
 ## Support the Project
 If you want to support the project, you can order the boards from PCBWay through this link:
