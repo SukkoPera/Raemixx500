@@ -287,11 +287,11 @@ Audio Power\nSupply (+AV/-AV)
 Wire Notes Line
 	14350 535  15955 535 
 Wire Notes Line
-	15955 535  15955 1360
+	15955 535  15955 1345
 Wire Notes Line
 	15955 1345 14350 1345
 Wire Notes Line
-	14350 1345 14350 525 
+	14350 1345 14350 535 
 $Comp
 L power:GNDA #PWR0132
 U 1 1 5D31919F
@@ -2132,13 +2132,13 @@ Connection ~ 6870 6920
 Wire Wire Line
 	6870 6920 7175 6920
 Wire Notes Line
-	15430 1385 15970 1385
+	15340 1385 15970 1385
 Wire Notes Line
 	15955 1385 15955 2075
 Wire Notes Line
-	15955 2060 15415 2060
+	15955 2060 15345 2060
 Wire Notes Line
-	15415 2060 15415 1385
+	15345 2060 15340 1385
 Text Notes 9045 10220 2    50   ~ 0
 This whole circuit has some\ndifferent values on A600.
 Text Label 2330 6455 2    50   ~ 0
@@ -2379,7 +2379,7 @@ AR Path="/5CBA5669/5DA271CB" Ref="C?"  Part="1"
 AR Path="/5D2DC3A1/5DA271CB" Ref="C306"  Part="1" 
 F 0 "C306" H 4380 2161 50  0000 L CNN
 F 1 "10u" H 4380 2070 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 4265 2115 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4265 2115 50  0001 C CNN
 F 3 "~" H 4265 2115 50  0001 C CNN
 	1    4265 2115
 	1    0    0    -1  
@@ -2514,7 +2514,7 @@ AR Path="/5CBA5669/5DCA3862" Ref="C?"  Part="1"
 AR Path="/5D2DC3A1/5DCA3862" Ref="C303"  Part="1" 
 F 0 "C303" H 2175 9561 50  0000 L CNN
 F 1 "22u" H 2175 9470 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2060 9515 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2060 9515 50  0001 C CNN
 F 3 "~" H 2060 9515 50  0001 C CNN
 	1    2060 9515
 	1    0    0    -1  
@@ -2540,7 +2540,7 @@ AR Path="/5CBA5669/5DCDDA43" Ref="C?"  Part="1"
 AR Path="/5D2DC3A1/5DCDDA43" Ref="C304"  Part="1" 
 F 0 "C304" H 2175 9946 50  0000 L CNN
 F 1 "22u" H 2175 9855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2060 9900 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2060 9900 50  0001 C CNN
 F 3 "~" H 2060 9900 50  0001 C CNN
 	1    2060 9900
 	1    0    0    -1  
@@ -2894,17 +2894,6 @@ F 3 "~" H 14580 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14580 880  14580 950 
-$Comp
-L power:GNDA #PWR0270
-U 1 1 5F2DFC32
-P 15575 1800
-F 0 "#PWR0270" H 15575 1550 50  0001 C CNN
-F 1 "GNDA" H 15575 1610 50  0000 C CNN
-F 2 "" H 15575 1800 50  0001 C CNN
-F 3 "" H 15575 1800 50  0001 C CNN
-	1    15575 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15575 1800 15575 1730
 $Comp
@@ -2987,6 +2976,17 @@ Wire Wire Line
 	12445 7120 12665 7120
 Text Notes 12620 8315 0    50   ~ 0
 These links were not present on original\nA500 boards. introduced since we use\ndifferent audio jacks. This was taken\nfrom the A600 and should mix the R/L\nchannels whenever a single audio jack\nis connected.
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5EE25C45
+P 15575 1800
+F 0 "#FLG0109" H 15575 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 15575 1973 50  0000 C CNN
+F 2 "" H 15575 1800 50  0001 C CNN
+F 3 "~" H 15575 1800 50  0001 C CNN
+	1    15575 1800
+	-1   0    0    1   
+$EndComp
 Wire Bus Line
 	1955 4305 1955 4505
 Wire Bus Line

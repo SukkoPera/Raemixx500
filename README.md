@@ -43,7 +43,6 @@ Every release is accompanied by its Bill Of Materials (BOM) file and any relevan
 
 **I am not providing ready-to-use gerber files**. If all you want is **to get boards made, I would really appreciate if you did so [in a way that supports the project](#support-the-project)**.
 
-
 ## License
 *(I am not sure I can claim any copyright on this, as the actual schematics this is based on belong to Commodore (or whoever has that right now, definitely not me). So the claim below is going to be more of a declaration of intent, in the sense that I would like that everything that uses my work stays open and free.)*
 
