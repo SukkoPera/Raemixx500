@@ -12,6 +12,8 @@ There are other projects like this one out there, but none of them is Open Sourc
 
 Now the bad news: **THIS BOARD IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!** It might kill your cat or burn your house down. You have been warned.
 
+While this might look deceiving at first, **it is actually an opportunity to showcase the full potential of Open Hardware**: download the project files, inspect them and [report any errors](https://github.com/SukkoPera/Raemixx500/issues) you find! This way we can all work together to get a perfect board.
+
 ## Differences from original
 The initial objective was to come up with a new mainboard as similar to the original one as possible, while including minor modifications that would improve its usability. First the schematics were drawn from scratch in Kicad and then the board was routed, staying close to the original layout.
 
@@ -20,6 +22,7 @@ This mainboard was designed with *reasonable* - not *maniacal* - accuracy to the
 Following is a list of deliberate changes with respect to the original layout of the A500+ rev.8A.1 board:
 - The footprints for all DIP chips use "long pads". This makes them easier to solder and more solid to the board should you need to rework them. This forced a few tracks running very close to the original pads to be slightly offset away.
 - C99 was added to allow for the correct usage of 318069-10/11 Agnus chips. Leave open for others (only 8375 will work).
+- The power connector was altered to either accept the original one or a DIN-5. Make sure you get one rated for a few amps if you choose the latter.
 - The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. Consequently, R913 has been replaced with a diode and a couple of tracks needed some displacement.
 - The need to solder D912 to a leg of the former R913 has been removed. Just solder it in its place.
 - The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seems somehow improvised anyway...).
@@ -34,7 +37,21 @@ Following is a list of deliberate changes with respect to the original layout of
 ## Assembly and Installation
 Again: **PLEASE NOTE THAT THIS IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!**
 
-That said, good luck ;).
+You will probably want to install all new components on this. Most passives should be easy to find, except for the axial caps and EMI filters.
+
+The connectors are all on the market, except for the Video and Floppy ones, which are non-standard DB-23. You will need to recover these from a failed board. The same applies for the power connector, but the board should also accept a standard DIN-5 (or even DIN-8, I think). Make sure to wire it properly. Oh, I have no idea if the line filter can be bought new, so you'd better recover that, too.
+
+Other things you will need to recover are all the custom Commodore ICs, of course. CPUs can be found second-hand cheaply. Every serious electronics shop should have all the 7400-series chips.
+
+I would suggest using sockets for all ICs. Get new good-quality ones. 48-pin are hard to obtain, but you can easily replace them with two 24-pin side by side. Be carefule with the RAM chips: if you socket them, they will probably be too tall for the keyboard to fit properly.
+
+You will also need to recover the original quartz, as it has an uncommon frequency. But you can try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0). With a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the switch of a button.
+
+You can recover the original Video Hybrid, or you can [build a new one](https://github.com/SukkoPera/OpenAmigaVideoHybrid).
+
+The solder jumpers should all be preset with the most common value. You will only need to take care of JP4 if you install only 512k chip RAM: in this case DO NOT install U32 and put a blob of solder on the center and bottom pads of both JP4A and B.
+
+Good luck! ;)
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/Raemixx500/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
