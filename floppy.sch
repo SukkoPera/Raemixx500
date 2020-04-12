@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 14
 Title "Rämixx500"
 Date "2019-06-23"
-Rev "1git"
+Rev "1"
 Comp "SukkoPera"
 Comment1 "FLOPPY STUFF"
 Comment2 ""

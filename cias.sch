@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 14
 Title "Rämixx500"
 Date "2020-04-05"
-Rev "1git"
+Rev "1"
 Comp "SukkoPera"
 Comment1 "RS232 AND PARALLEL PORT"
 Comment2 ""

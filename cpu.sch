@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 14
 Title "Rämixx500"
 Date "2019-04-11"
-Rev "1git"
+Rev "1"
 Comp "SukkoPera"
 Comment1 "PROCESSOR AND OTHER USEFUL COMPONENTS"
 Comment2 "Derived from Commodore Schematic #312813, Rev. 1 - Sheet 2 of 10"

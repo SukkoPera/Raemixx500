@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 14
 Title "Rämixx500"
 Date "2020-04-04"
-Rev "1git"
+Rev "1"
 Comp "SukkoPera"
 Comment1 "MEMORY AND...WELL, I USED TO REMEMBER"
 Comment2 ""

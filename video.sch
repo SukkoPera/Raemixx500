@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 14
 Title "Rämixx500"
 Date "2020-04-05"
-Rev "1git"
+Rev "1"
 Comp "SukkoPera"
 Comment1 "DENISE IS PRETTY MUCH INTO VIDEO..."
 Comment2 ""
