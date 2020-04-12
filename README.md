@@ -1,7 +1,7 @@
 # Rämixx500
 Rämixx500 is an Open Hardware remake of the Commodore Amiga 500+ mainboard, revision 8A.1.
 
-![Board](https://raw.githubusercontent.com/SukkoPera/Raemixx500/master/doc/render-top.png)
+![Board](https://raw.githubusercontent.com/SukkoPera/Raemixx500/master/img/render-top.png)
 
 ## Summary
 Many Amiga 500+ computers are suffering an early death because of the built-in barrel battery that powers their internal real-time clocks. Such batteries have long exceeded their planned lives and in many cases have started to leak alkaline liquids over the mainboard, corroding copper traces and destroying components.
