@@ -41,9 +41,11 @@ You will probably want to install all new components on this. Most passives shou
 
 The connectors are all on the market, except for the Video and Floppy ones, which are non-standard DB-23. You will need to recover these from a failed board. The same applies for the power connector, but the board should also accept a standard DIN-5 (or even DIN-8, I think). Make sure to wire it properly. Oh, I have no idea if the line filter can be bought new, so you'd better recover that, too.
 
-Other things you will need to recover are all the custom Commodore ICs, of course. CPUs can be found second-hand cheaply. Every serious electronics shop should have all the 7400-series chips.
+Other things you will need to recover are all the custom Commodore ICs, of course. Make sure you are using an 8375 Agnus, and populate C99 accordingly.
 
-I would suggest using sockets for all ICs. Get new good-quality ones. 48-pin are hard to obtain, but you can easily replace them with two 24-pin side by side. Be carefule with the RAM chips: if you socket them, they will probably be too tall for the keyboard to fit properly.
+CPUs can be found second-hand cheaply. Every serious electronics shop should have all the 7400-series chips.
+
+I would suggest using sockets for all ICs. Get new good-quality ones. 48-pin are hard to obtain, but you can easily replace them with two 24-pin side by side. Be careful with the RAM chips: if you socket them, they will probably be too tall for the keyboard to fit properly.
 
 You will also need to recover the original quartz, as it has an uncommon frequency. But you can try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0). With a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the switch of a button.
 
@@ -78,7 +80,7 @@ Any modifications made by Licensees (see section 3.4.b) shall be recorded in fil
 The Documentation Location of the original project is https://github.com/SukkoPera/Raemixx500/.
 
 ## Selling the board
-**The license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 20€ per board**, so let me tell you that **if this board is sold at more than 30€, 25% MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example.
+**The license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 20€ per board** (with ENIG, gold plating and beveling the edge connector, don't cheat on that!), so let me add the following restriction: **if this board is sold at more than 30€, 25% of your earning MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example.
 
 Also, please **do not remove the credits, URL and license statement**. There is **no reason do so**, you have the right to sell this board, there is no need to pretend you got it somewhere else. Ironically, If you removed those, you'd lose that right as you'd be violating the license terms.
 
