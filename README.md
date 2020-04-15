@@ -15,21 +15,21 @@ Now the bad news: **THIS BOARD IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!** It mig
 While this might look deceiving at first, **it is actually an opportunity to showcase the full potential of Open Hardware**: download the project files, inspect them and [report any errors](https://github.com/SukkoPera/Raemixx500/issues) you find! This way we can all work together to get a perfect board.
 
 ## Differences from original
-The initial objective was to come up with a new mainboard as similar to the original one as possible, while including minor modifications that would improve its usability. First the schematics were drawn from scratch in Kicad and then the board was routed, staying close to the original layout.
+The initial objective was to come up with a new mainboard as similar to the original one as possible, while including minor modifications that would improve its usability. First the schematics were drawn from scratch in KiCad and then the board was routed, staying close to the original layout.
 
-This mainboard was designed with *reasonable* - not *maniacal* - accuracy to the original design. Most care was taken in the positioning of components the ought to be in a certain position (i.e.: screw holes and I/O connectors), to ensure drop-in replaceability. Other components and tracks are "more or less" there, but as the board was wholly laid out from scratch by hand, don't expect sub-millimeter accuracy.
+This mainboard was designed with *reasonable* - not *maniacal* - accuracy to the original design. Most care was taken in the positioning of components that ought to be in a certain position (i.e.: screw holes and I/O connectors), to ensure drop-in replaceability. Other components and tracks are "more or less" there, but as the board was wholly laid out from scratch by hand, don't expect sub-millimeter accuracy.
 
 Following is a list of deliberate changes with respect to the original layout of the A500+ rev.8A.1 board:
 - The footprints for all DIP chips use "long pads". This makes them easier to solder and more solid to the board should you need to rework them. This forced a few tracks running very close to the original pads to be slightly offset away.
-- C99 was added to allow for the correct usage of 318069-10/11 Agnus chips. Leave open for others (only 8375 will work).
-- The power connector was altered to either accept the original one or a DIN-5. Make sure you get one rated for a few amps if you choose the latter.
-- The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. Consequently, R913 has been replaced with a diode and a couple of tracks needed some displacement.
+- C99 was added to allow for the correct usage of 318069-10/11 Agnus chips. Leave unpopulated for others (only 8375 will work).
+- The power connector was altered to either accept the original one or a DIN-5 (which might make a DIN-8 fit as well). Make sure you get one rated for a few amps if you choose the latter.
+- The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. Consequently, R913 has been replaced with a diode (labeled D913) and a couple of tracks needed some displacement.
 - The need to solder D912 to a leg of the former R913 has been removed. Just solder it in its place.
-- The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seems somehow improvised anyway...).
+- The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seemed somehow improvised anyway...).
 - The above allowed a couple of tracks to be added so that the left and right audio channels will be somehow mixed whenever a single output jack is connected. This was lifted from the A600.
 - The silkscreen for some components does not match the original one. I used the built-in KiCad footprints as-is, when available.
 - The silkscreen and pitch of C303 C304 and C306 have been made smaller so that they don't overlap.
-- Speaking about the silkscreen, I have been quite liberal with it. I have used the default KiCad font and I did not follow the original label placement one at all costs. This was since today's technology can give us a bit more resolution in silkscreen printing, and I think that is worth using for the sake of clarity. Some ground stitching vias were slightly offset to make up space for labels.
+- Speaking about the silkscreen, I have been quite liberal with it. I have used the default KiCad font and I did not follow the original label placement at all costs. I did was this since today's technology can give us a bit more resolution in silkscreen printing, and I think that is worth using for the sake of clarity. Some ground stitching vias were slightly offset to make up space for labels.
 - The vias inside the pads of JP10A and JP11 have been slightly offset so that they are outside the pads.
 - The ground fill is autogenerated by KiCad, so it won't match the original exactly.
 - Probably there's something more I've forgotten.
@@ -47,13 +47,17 @@ CPUs can be found second-hand cheaply. Every serious electronics shop should hav
 
 I would suggest using sockets for all ICs. Get new good-quality ones. 48-pin are hard to obtain, but you can easily replace them with two 24-pin side by side. Be careful with the RAM chips: if you socket them, they will probably be too tall for the keyboard to fit properly.
 
-You will also need to recover the original quartz, as it has an uncommon frequency. But you can try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0). With a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the switch of a button.
+Probably you will also need to recover the original quartz, as it has an uncommon frequency (PAL: 28.37516 MHz, NTSC: 28.63636 MHz), but it seems to be available from some Chinese sources. You can try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0). This is untested, but with a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the switch of a button.
 
 You can recover the original Video Hybrid, or you can [build a new one](https://github.com/SukkoPera/OpenAmigaVideoHybrid).
 
 The solder jumpers should all be preset with the most common value. You will only need to take care of JP4 if you install only 512k chip RAM: in this case DO NOT install U32 and put a blob of solder on the center and bottom pads of both JP4A and B.
 
-The battery holder is called BS-7 and is very easy to find. Other ones will fit just as nicely.
+If you use the standard MSM6242B Real-Time Clock, you will need to calibrate the clock frequency through the TC9 variable cap and you will need an oscilloscope. If you decide to move it over from an old board, try not to move it during the desoldering. You'd better mark its original position with a marker before removing it. In alternative you can use an Epson RTC62421 or RTC72421. In this case, just do not install Y9, C911, TC9.
+
+If you are not interested in the Real-Time Clock at all, you can skip the following components: R911, R914, D911, D912, D913, C9, C911, C913, U9, BT9, Y9, TC9. You should also put a blob of solder on JP9 so that the system will pick up the one that might be present on a card inserted in the trapdoor slot (in this case you can also skip R916).
+
+The battery holder is called BS-7 and is very easy to find. Other ones will probably fit just as nicely. Make sure to use a NON-rechargeable battery.
 
 Good luck! ;)
 
@@ -89,7 +93,7 @@ Also, please **do not remove the credits, URL and license statement**. There is 
 ## Support the Project
 If you want to support the project, you can order the boards from PCBWay through this link:
 
-[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_V1.html)
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_1.html)
 
 You get my gratitude and cheap, professionally-made and good quality PCBs, I get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
 
@@ -106,4 +110,4 @@ If you need help or have questions, you can join [the official Telegram group](h
 - Commodore, for making the coolest machine ever.
 - [Amiga PCB Explorer](http://amigapcb.org), a fundamental tool to follow the original track placement.
 - [amigawiki](https://www.amigawiki.org/doku.php?id=en:service:schematics), mainly for the schematics but also for the whole lot of information they provide.
-- majinga for helping with the measuring
+- majinga for helping with the measuring.
