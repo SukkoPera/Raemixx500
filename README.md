@@ -86,7 +86,7 @@ Any modifications made by Licensees (see section 3.4.b) shall be recorded in fil
 The Documentation Location of the original project is https://github.com/SukkoPera/Raemixx500/.
 
 ## Selling the board
-**The license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 20€ per board** (with ENIG, gold plating and beveling the edge connector, don't cheat on that!), so let me add the following restriction: **if this board is sold at more than 30€, 25% of your earning MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example.
+**The license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 20€ per board** (with ENIG, gold plating and beveling the edge connector, don't cheat on that!), so let me add the following restriction: **if this board is sold at more than 30€ (or equivalent in your currency), 25% of your earning MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example. This amount has been set in April 2020 and will be updated, should the value of the Euro vary significantly.
 
 Also, please **do not remove the credits, URL and license statement**. There is **no reason do so**, you have the right to sell this board, there is no need to pretend you got it somewhere else. Ironically, If you removed those, you'd lose that right as you'd be violating the license terms.
 
@@ -111,3 +111,5 @@ If you need help or have questions, you can join [the official Telegram group](h
 - [Amiga PCB Explorer](http://amigapcb.org), a fundamental tool to follow the original track placement.
 - [amigawiki](https://www.amigawiki.org/doku.php?id=en:service:schematics), mainly for the schematics but also for the whole lot of information they provide.
 - majinga for helping with the measuring.
+- [Walter](http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm) for some of the footprints/3D models used.
+- [DiagROM](http://www.diagrom.com/) for inspiring the selling clause.
