@@ -12,7 +12,7 @@ There are other projects like this one out there, but none of them is Open Sourc
 
 Now the bad news: **THIS BOARD IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!** It might kill your cat or burn your house down. You have been warned.
 
-While this might look deceiving at first, **it is actually an opportunity to showcase the full potential of Open Hardware**: download the project files, inspect them and [report any errors](https://github.com/SukkoPera/Raemixx500/issues) you find! This way we can all work together to get a perfect board.
+While this might sound deceiving at first, **it is actually an opportunity to showcase the full potential of Open Hardware**: download the project files, inspect them and [report any errors](https://github.com/SukkoPera/Raemixx500/issues) you find! This way we can all work together to get a perfect board.
 
 ## Differences from original
 The initial objective was to come up with a new mainboard as similar to the original one as possible, while including minor modifications that would improve its usability. First the schematics were drawn from scratch in KiCad and then the board was routed, staying close to the original layout.
