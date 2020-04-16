@@ -47,7 +47,7 @@ CPUs can be found second-hand cheaply. Every serious electronics shop should hav
 
 I would suggest using sockets for all ICs. Get new good-quality ones. 48-pin are hard to obtain, but you can easily replace them with two 24-pin side by side. Be careful with the RAM chips: if you socket them, they will probably be too tall for the keyboard to fit properly.
 
-Probably you will also need to recover the original quartz, as it has an uncommon frequency (PAL: 28.37516 MHz, NTSC: 28.63636 MHz), but it seems to be available from some Chinese sources. You can try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0). This is untested, but with a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the switch of a button.
+Probably you will also need to recover the original quartz, as it has an uncommon frequency (PAL: 28.37516 MHz, NTSC: 28.63636 MHz), but it seems to be available from some Chinese sources. You can also try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0): this is untested, but with a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the switch of a button.
 
 You can recover the original Video Hybrid, or you can [build a new one](https://github.com/SukkoPera/OpenAmigaVideoHybrid).
 
