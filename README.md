@@ -47,13 +47,13 @@ CPUs can be found second-hand cheaply. Every serious electronics shop should hav
 
 I would suggest using sockets for all ICs. Get new good-quality ones. 48-pin are hard to obtain, but you can easily replace them with two 24-pin side by side. Be careful with the RAM chips: if you socket them, they will probably be too tall for the keyboard to fit properly.
 
-Probably you will also need to recover the original quartz, as it has an uncommon frequency (PAL: 28.37516 MHz, NTSC: 28.63636 MHz), but it seems to be available from some Chinese sources. You can also try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0): this is untested, but with a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the switch of a button.
+Probably you will also need to recover the original quartz, as it has an uncommon frequency (PAL: 28.37516 MHz, NTSC: 28.63636 MHz), but it seems to be available from some Chinese sources. You can also try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0): this is untested, but with a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the flick of a switch.
 
 You can recover the original Video Hybrid, or you can [build a new one](https://github.com/SukkoPera/OpenAmigaVideoHybrid).
 
-The solder jumpers should all be preset with the most common value. You will only need to take care of JP4 if you install only 512k chip RAM: in this case DO NOT install U32 and put a blob of solder on the center and bottom pads of both JP4A and B.
+The solder jumpers should all be preset with the most common value (Detailed info on these will be added soon). You will just need to take care of JP4 if you decide to install only 512k chip RAM: in this case DO NOT install U32 and put a blob of solder on the center and bottom pads of both JP4A and B.
 
-If you use the standard MSM6242B Real-Time Clock, you will need to calibrate the clock frequency through the TC9 variable cap and you will need an oscilloscope. If you decide to move it over from an old board, try not to move it during the desoldering. You'd better mark its original position with a marker before removing it. In alternative you can use an Epson RTC62421 or RTC72421. In this case, just do not install Y9, C911, TC9.
+If you use the standard MSM6242B Real-Time Clock, you will need to calibrate the clock frequency through the TC9 variable cap, which requires the use of an oscilloscope. If you decide to recycle it from an old board, try not to move it during the desoldering. You'd better mark its original position with a marker before removing it. In alternative you can use an Epson RTC62421 or RTC72421. In this case, do not install Y9, C911, TC9.
 
 If you are not interested in the Real-Time Clock at all, you can skip the following components: R911, R914, D911, D912, D913, C9, C911, C913, U9, BT9, Y9, TC9. You should also put a blob of solder on JP9 so that the system will pick up the one that might be present on a card inserted in the trapdoor slot (in this case you can also skip R916).
 
