@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "dom 12 apr 2020, 01:22:13")
+    (date "sab 18 apr 2020, 11:38:50")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2020-04-11)
         (source Raemixx500.sch)
         (comment (number 1) (value ""))
@@ -18,7 +18,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2019-04-11)
         (source cpu.sch)
         (comment (number 1) (value "PROCESSOR AND OTHER USEFUL COMPONENTS"))
@@ -29,7 +29,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2020-04-04)
         (source ram.sch)
         (comment (number 1) (value "MEMORY AND...WELL, I USED TO REMEMBER"))
@@ -40,7 +40,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2020-04-05)
         (source video.sch)
         (comment (number 1) (value "DENISE IS PRETTY MUCH INTO VIDEO..."))
@@ -51,7 +51,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2020-04-04)
         (source audio.sch)
         (comment (number 1) (value "PAULA PREFERS THE TRADITIONAL MODES"))
@@ -62,7 +62,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2020-04-05)
         (source cias.sch)
         (comment (number 1) (value "RS232 AND PARALLEL PORT"))
@@ -73,7 +73,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2019-06-23)
         (source floppy.sch)
         (comment (number 1) (value "FLOPPY STUFF"))
@@ -84,7 +84,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2019-04-20)
         (source terminators.sch)
         (comment (number 1) (value ""))
@@ -95,7 +95,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2019-04-20)
         (source rom.sch)
         (comment (number 1) (value ""))
@@ -106,7 +106,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2019-04-20)
         (source clockdist.sch)
         (comment (number 1) (value ""))
@@ -117,7 +117,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2019-06-23)
         (source expansion.sch)
         (comment (number 1) (value ""))
@@ -128,7 +128,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2020-04-04)
         (source power.sch)
         (comment (number 1) (value "POWER AND DECOUPLING"))
@@ -139,7 +139,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2019-04-23)
         (source rtc.sch)
         (comment (number 1) (value ""))
@@ -150,7 +150,7 @@
       (title_block
         (title Rämixx500)
         (company SukkoPera)
-        (rev 1git)
+        (rev 1)
         (date 2020-04-05)
         (source trapdoor.sch)
         (comment (number 1) (value ""))
@@ -2364,7 +2364,7 @@
       (tstamp 5EF27F5A))
     (comp (ref CN8)
       (value POWER)
-      (footprint Raemixx500:power_ami+din5)
+      (footprint Raemixx500:DS215+DIN8_COMBO)
       (datasheet ~)
       (libsource (lib amipower) (part Amiga_Power_Conn) (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names "/Power & Decoupling/") (tstamps /5E9E4C57/))

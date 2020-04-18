@@ -743,7 +743,7 @@ U 1 1 5CC1E93B
 P 2820 1940
 F 0 "CN8" H 2930 2180 50  0000 C CNN
 F 1 "POWER" H 2680 2280 50  0001 C CNN
-F 2 "Raemixx500:power_ami+din5" H 870 2390 50  0001 C CNN
+F 2 "Raemixx500:DS215+DIN8_COMBO" H 870 2390 50  0001 C CNN
 F 3 "~" H 870 2390 50  0001 C CNN
 	1    2820 1940
 	1    0    0    -1  
@@ -759,8 +759,8 @@ F 3 "~" V 3690 1970 50  0001 C CNN
 	1    3690 1920
 	1    0    0    -1  
 $EndComp
-Text Notes 2210 2020 2    50   ~ 0
-Note: This is the pinout\nof the MALE connector\non the CABLE's end!
+Text Notes 2210 2350 2    50   ~ 0
+The original Amiga power socket\nand plug were made by Power\nDynamics. The power socket is\na DS-215 and the power plug is\na DP-215.\n\nNote: This is the pinout\nof the MALE connector\non the CABLE's end (DP-215)!
 Wire Wire Line
 	3120 1990 3270 1990
 Wire Wire Line
