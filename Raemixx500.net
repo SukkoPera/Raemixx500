@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "dom 19 apr 2020, 19:26:44")
+    (date "dom 19 apr 2020, 20:07:56")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1555,7 +1555,7 @@
       (tstamp 5D66BD4F))
     (comp (ref C307)
       (value 1000u)
-      (footprint Capacitor_THT:CP_Radial_D8.0mm_P5.00mm)
+      (footprint Capacitor_THT:CP_Radial_D12.5mm_P5.00mm)
       (datasheet ~)
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names "/Paula & Audio Stuff/") (tstamps /5D2DC3A1/))
