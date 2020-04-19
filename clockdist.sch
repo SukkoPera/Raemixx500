@@ -307,6 +307,7 @@ F 1 "47p" H 6225 4725 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 6148 4620 50  0001 C CNN
 F 3 "~" H 6110 4770 50  0001 C CNN
 F 4 "CLOCK" H 6110 4770 50  0001 C CNN "Optional"
+F 5 "C" H 6110 4770 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    6110 4770
 	1    0    0    -1  
 $EndComp
@@ -321,6 +322,7 @@ F 1 "47p" H 6665 4735 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 6588 4630 50  0001 C CNN
 F 3 "~" H 6550 4780 50  0001 C CNN
 F 4 "CLOCK" H 6550 4780 50  0001 C CNN "Optional"
+F 5 "C" H 6550 4780 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    6550 4780
 	1    0    0    -1  
 $EndComp
@@ -335,6 +337,7 @@ F 1 "47p" H 7105 4735 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 7028 4630 50  0001 C CNN
 F 3 "~" H 6990 4780 50  0001 C CNN
 F 4 "CLOCK" H 6990 4780 50  0001 C CNN "Optional"
+F 5 "C" H 6990 4780 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    6990 4780
 	1    0    0    -1  
 $EndComp
@@ -349,6 +352,7 @@ F 1 "47p" H 7545 4745 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 7468 4640 50  0001 C CNN
 F 3 "~" H 7430 4790 50  0001 C CNN
 F 4 "CLOCK" H 7430 4790 50  0001 C CNN "Optional"
+F 5 "C" H 7430 4790 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    7430 4790
 	1    0    0    -1  
 $EndComp
@@ -363,6 +367,7 @@ F 1 "47p" H 7985 4745 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 7908 4640 50  0001 C CNN
 F 3 "~" H 7870 4790 50  0001 C CNN
 F 4 "CLOCK" H 7870 4790 50  0001 C CNN "Optional"
+F 5 "C" H 7870 4790 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    7870 4790
 	1    0    0    -1  
 $EndComp
@@ -423,6 +428,7 @@ F 1 "47p" H 2115 4715 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2038 4610 50  0001 C CNN
 F 3 "~" H 2000 4760 50  0001 C CNN
 F 4 "CLOCK" H 2000 4760 50  0001 C CNN "Optional"
+F 5 "C" H 2000 4760 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2000 4760
 	1    0    0    -1  
 $EndComp
@@ -437,6 +443,7 @@ F 1 "47p" H 2555 4725 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2478 4620 50  0001 C CNN
 F 3 "~" H 2440 4770 50  0001 C CNN
 F 4 "CLOCK" H 2440 4770 50  0001 C CNN "Optional"
+F 5 "C" H 2440 4770 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2440 4770
 	1    0    0    -1  
 $EndComp
@@ -451,6 +458,7 @@ F 1 "47p" H 2995 4725 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2918 4620 50  0001 C CNN
 F 3 "~" H 2880 4770 50  0001 C CNN
 F 4 "CLOCK" H 2880 4770 50  0001 C CNN "Optional"
+F 5 "C" H 2880 4770 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2880 4770
 	1    0    0    -1  
 $EndComp
@@ -521,6 +529,7 @@ F 1 "47p" H 2555 6745 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 2478 6640 50  0001 C CNN
 F 3 "~" H 2440 6790 50  0001 C CNN
 F 4 "CLOCK" H 2440 6790 50  0001 C CNN "Optional"
+F 5 "C" H 2440 6790 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2440 6790
 	1    0    0    -1  
 $EndComp
@@ -535,6 +544,7 @@ F 1 "47p" H 2995 6755 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2918 6650 50  0001 C CNN
 F 3 "~" H 2880 6800 50  0001 C CNN
 F 4 "CLOCK" H 2880 6800 50  0001 C CNN "Optional"
+F 5 "C" H 2880 6800 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2880 6800
 	1    0    0    -1  
 $EndComp
@@ -579,6 +589,7 @@ F 1 "10n" V 9735 3049 50  0000 L CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 9690 2870 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9690 2870 50  0001 C CNN
 F 4 "CLOCK" H 9690 2870 50  0001 C CNN "Optional"
+F 5 "W/FERRITE" H 9690 2870 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    9690 2870
 	0    1    1    0   
 $EndComp
@@ -597,6 +608,7 @@ F 1 "68" H 5495 4020 50  0000 L CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 5390 4050 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5390 4050 50  0001 C CNN
 F 4 "CLOCK" H 5390 4050 50  0001 C CNN "Optional"
+F 5 "R" H 5390 4050 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5390 4050
 	1    0    0    -1  
 $EndComp
@@ -611,6 +623,7 @@ F 1 "68" H 5495 4420 50  0000 L CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 5390 4450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5390 4450 50  0001 C CNN
 F 4 "CLOCK" H 5390 4450 50  0001 C CNN "Optional"
+F 5 "R" H 5390 4450 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5390 4450
 	1    0    0    -1  
 $EndComp

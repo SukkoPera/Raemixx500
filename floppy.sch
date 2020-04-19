@@ -383,6 +383,7 @@ F 0 "E613" H 2795 5750 50  0000 C CNN
 F 1 "100p" H 2745 5530 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 2935 5560 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 5560 50  0001 C CNN
+F 4 "NORMAL" H 2935 5560 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2935 5560
 	1    0    0    -1  
 $EndComp
@@ -396,6 +397,7 @@ F 0 "E614" H 3320 5955 50  0000 C CNN
 F 1 "100p" H 3485 5730 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 3320 5760 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3320 5760 50  0001 C CNN
+F 4 "NORMAL" H 3320 5760 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    3320 5760
 	1    0    0    -1  
 $EndComp
@@ -411,6 +413,7 @@ F 0 "E615" H 2795 6150 50  0000 C CNN
 F 1 "100p" H 2745 5935 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 2935 5960 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 5960 50  0001 C CNN
+F 4 "NORMAL" H 2935 5960 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2935 5960
 	1    0    0    -1  
 $EndComp
@@ -424,6 +427,7 @@ F 0 "E616" H 3320 6355 50  0000 C CNN
 F 1 "100p" H 3490 6130 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 3320 6160 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3320 6160 50  0001 C CNN
+F 4 "NORMAL" H 3320 6160 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    3320 6160
 	1    0    0    -1  
 $EndComp
@@ -439,6 +443,7 @@ F 0 "E601" H 2795 6550 50  0000 C CNN
 F 1 "10n" H 2750 6330 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 2935 6360 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 6360 50  0001 C CNN
+F 4 "W/FERRITE" H 2935 6360 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2935 6360
 	1    0    0    -1  
 $EndComp
@@ -586,6 +591,7 @@ F 0 "E611" H 2795 4350 50  0000 C CNN
 F 1 "100p" H 2745 4130 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 2935 4160 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 2935 4160 50  0001 C CNN
+F 4 "NORMAL" H 2935 4160 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    2935 4160
 	1    0    0    -1  
 $EndComp
@@ -599,6 +605,7 @@ F 0 "E612" H 3320 4555 50  0000 C CNN
 F 1 "100p" H 3485 4330 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 3320 4360 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3320 4360 50  0001 C CNN
+F 4 "NORMAL" H 3320 4360 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    3320 4360
 	1    0    0    -1  
 $EndComp
@@ -638,6 +645,7 @@ F 0 "E617" H 5215 4450 50  0000 C CNN
 F 1 "100p" H 5165 4230 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 5355 4260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 4260 50  0001 C CNN
+F 4 "NORMAL" H 5355 4260 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5355 4260
 	-1   0    0    -1  
 $EndComp
@@ -651,6 +659,7 @@ F 0 "E618" H 4970 4655 50  0000 C CNN
 F 1 "100p" H 5135 4430 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 4970 4460 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 4460 50  0001 C CNN
+F 4 "NORMAL" H 4970 4460 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    4970 4460
 	-1   0    0    -1  
 $EndComp
@@ -666,6 +675,7 @@ F 0 "E619" H 5215 4850 50  0000 C CNN
 F 1 "100p" H 5165 4635 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 5355 4660 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 4660 50  0001 C CNN
+F 4 "NORMAL" H 5355 4660 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5355 4660
 	-1   0    0    -1  
 $EndComp
@@ -679,6 +689,7 @@ F 0 "E620" H 4970 5055 50  0000 C CNN
 F 1 "100p" H 5140 4830 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 4970 4860 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 4860 50  0001 C CNN
+F 4 "NORMAL" H 4970 4860 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    4970 4860
 	-1   0    0    -1  
 $EndComp
@@ -718,6 +729,7 @@ F 0 "E621" H 5215 5250 50  0000 C CNN
 F 1 "100p" H 5165 5030 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 5355 5060 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 5060 50  0001 C CNN
+F 4 "NORMAL" H 5355 5060 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5355 5060
 	-1   0    0    -1  
 $EndComp
@@ -731,6 +743,7 @@ F 0 "E622" H 4970 5455 50  0000 C CNN
 F 1 "100p" H 5135 5230 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 4970 5260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 5260 50  0001 C CNN
+F 4 "NORMAL" H 4970 5260 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    4970 5260
 	-1   0    0    -1  
 $EndComp
@@ -746,6 +759,7 @@ F 0 "E623" H 5215 5650 50  0000 C CNN
 F 1 "100p" H 5165 5435 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 5355 5460 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 5460 50  0001 C CNN
+F 4 "NORMAL" H 5355 5460 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5355 5460
 	-1   0    0    -1  
 $EndComp
@@ -759,6 +773,7 @@ F 0 "E624" H 4970 5855 50  0000 C CNN
 F 1 "100p" H 5140 5630 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 4970 5660 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 5660 50  0001 C CNN
+F 4 "NORMAL" H 4970 5660 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    4970 5660
 	-1   0    0    -1  
 $EndComp
@@ -798,6 +813,7 @@ F 0 "E625" H 5215 6050 50  0000 C CNN
 F 1 "100p" H 5165 5830 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 5355 5860 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 5860 50  0001 C CNN
+F 4 "NORMAL" H 5355 5860 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5355 5860
 	-1   0    0    -1  
 $EndComp
@@ -811,6 +827,7 @@ F 0 "E626" H 4970 6255 50  0000 C CNN
 F 1 "100p" H 5135 6030 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 4970 6060 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4970 6060 50  0001 C CNN
+F 4 "NORMAL" H 4970 6060 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    4970 6060
 	-1   0    0    -1  
 $EndComp
@@ -826,6 +843,7 @@ F 0 "E602" H 5215 6450 50  0000 C CNN
 F 1 "10n" H 5165 6235 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 5355 6260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5355 6260 50  0001 C CNN
+F 4 "W/FERRITE" H 5355 6260 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    5355 6260
 	-1   0    0    -1  
 $EndComp

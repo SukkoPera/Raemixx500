@@ -1855,6 +1855,7 @@ F 4 "0.141" H 9970 10470 50  0001 C CNN "Cost"
 F 5 "AVX" H 9970 10470 50  0001 C CNN "MFG Name"
 F 6 "SA102A220JARC" H 9970 10470 50  0001 C CNN "MFG Part Num"
 F 7 "CLOCK" H 9970 10470 50  0001 C CNN "Optional"
+F 8 "C" H 9970 10470 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    9970 10470
 	1    0    0    -1  
 $EndComp
@@ -1929,6 +1930,7 @@ F 1 "68" H 7560 10210 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7740 10260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7740 10260 50  0001 C CNN
 F 4 "CLOCK" H 7740 10260 50  0001 C CNN "Optional"
+F 5 "R" H 7740 10260 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    7740 10260
 	1    0    0    -1  
 $EndComp
@@ -1957,6 +1959,7 @@ F 1 "150" H 9215 10310 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9395 10360 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9395 10360 50  0001 C CNN
 F 4 "CLOCK" H 9395 10360 50  0001 C CNN "Optional"
+F 5 "R" H 9395 10360 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    9395 10360
 	1    0    0    -1  
 $EndComp

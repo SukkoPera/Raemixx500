@@ -654,6 +654,7 @@ F 0 "E405" H 14655 3380 50  0000 C CNN
 F 1 "10n" H 14820 3140 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 14655 3185 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14655 3185 50  0001 C CNN
+F 4 "W/FERRITE" H 14655 3185 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    14655 3185
 	-1   0    0    -1  
 $EndComp
@@ -671,6 +672,7 @@ F 0 "E403" H 14430 2650 50  0000 C CNN
 F 1 "10n" H 14580 2400 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 14430 2445 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14430 2445 50  0001 C CNN
+F 4 "W/FERRITE" H 14430 2445 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    14430 2445
 	-1   0    0    -1  
 $EndComp
@@ -682,6 +684,7 @@ F 0 "E404" H 14540 3005 50  0000 C CNN
 F 1 "10n" H 14690 2760 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 14540 2805 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 14540 2805 50  0001 C CNN
+F 4 "W/FERRITE" H 14540 2805 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    14540 2805
 	-1   0    0    -1  
 $EndComp
@@ -779,6 +782,8 @@ F 0 "E402" H 13000 6135 50  0000 C CNN
 F 1 "150p" H 13165 5895 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 13000 5940 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13000 5940 50  0001 C CNN
+F 4 "W/FERRITE" H 13000 5940 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "VIDEO" H 13000 5940 50  0001 C CNN "Optional"
 	1    13000 5940
 	1    0    0    -1  
 $EndComp
@@ -809,6 +814,8 @@ F 0 "E434" H 13460 2665 50  0000 C CNN
 F 1 "150p" H 13625 2425 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 13460 2470 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13460 2470 50  0001 C CNN
+F 4 "W/FERRITE" H 13460 2470 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "VIDEO" H 13460 2470 50  0001 C CNN "Optional"
 	1    13460 2470
 	1    0    0    -1  
 $EndComp
@@ -1028,6 +1035,7 @@ F 0 "E406" H 3450 7395 50  0000 C CNN
 F 1 "10n" H 3615 7155 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 3450 7200 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3450 7200 50  0001 C CNN
+F 4 "W/FERRITE" H 3450 7200 50  0001 C CNN "EMI_FILTER_TYPE"
 	1    3450 7200
 	0    1    1    0   
 $EndComp
@@ -1466,6 +1474,8 @@ F 0 "E433" H 11960 5255 50  0000 C CNN
 F 1 "FERR" H 11910 5040 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 12100 5065 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12100 5065 50  0001 C CNN
+F 4 "FERRITE" H 12100 5065 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "VIDEO" H 12100 5065 50  0001 C CNN "Optional"
 	1    12100 5065
 	1    0    0    -1  
 $EndComp
@@ -1479,6 +1489,8 @@ F 0 "E431" H 11960 5655 50  0000 C CNN
 F 1 "FERR" H 11910 5440 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 12100 5465 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12100 5465 50  0001 C CNN
+F 4 "FERRITE" H 12100 5465 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "VIDEO" H 12100 5465 50  0001 C CNN "Optional"
 	1    12100 5465
 	1    0    0    -1  
 $EndComp
@@ -1492,6 +1504,8 @@ F 0 "E432" H 11310 5455 50  0000 C CNN
 F 1 "FERR" H 11260 5240 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 11450 5265 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 11450 5265 50  0001 C CNN
+F 4 "FERRITE" H 11450 5265 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "VIDEO" H 11450 5265 50  0001 C CNN "Optional"
 	1    11450 5265
 	1    0    0    -1  
 $EndComp
@@ -1563,6 +1577,8 @@ F 0 "E435" H 8980 4265 50  0000 C CNN
 F 1 "FERR" H 8930 4050 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9120 4075 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9120 4075 50  0001 C CNN
+F 4 "FERRITE" H 9120 4075 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "VIDEO" H 9120 4075 50  0001 C CNN "Optional"
 	1    9120 4075
 	1    0    0    -1  
 $EndComp
