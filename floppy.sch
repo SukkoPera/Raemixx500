@@ -56,6 +56,9 @@ F 1 "74LS05" H 3940 1745 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 1560 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 1560 50  0001 C CNN
 F 4 "FLOPPY/RTC" H 3940 1560 50  0001 C CNN "Optional"
+F 5 "0.668" H 3940 1560 50  0001 C CNN "Cost"
+F 6 "TI" H 3940 1560 50  0001 C CNN "MFG Name"
+F 7 "SN74LS05N" H 3940 1560 50  0001 C CNN "MFG Part Num"
 	1    3940 1560
 	1    0    0    -1  
 $EndComp
@@ -68,6 +71,9 @@ F 1 "74LS05" H 3940 2140 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 1960 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 1960 50  0001 C CNN
 F 4 "FLOPPY/RTC" H 3940 1960 50  0001 C CNN "Optional"
+F 5 "0.668" H 3940 1960 50  0001 C CNN "Cost"
+F 6 "TI" H 3940 1960 50  0001 C CNN "MFG Name"
+F 7 "SN74LS05N" H 3940 1960 50  0001 C CNN "MFG Part Num"
 	2    3940 1960
 	1    0    0    -1  
 $EndComp
@@ -80,6 +86,9 @@ F 1 "74LS05" H 3940 2545 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 2360 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 2360 50  0001 C CNN
 F 4 "FLOPPY/RTC" H 3940 2360 50  0001 C CNN "Optional"
+F 5 "0.668" H 3940 2360 50  0001 C CNN "Cost"
+F 6 "TI" H 3940 2360 50  0001 C CNN "MFG Name"
+F 7 "SN74LS05N" H 3940 2360 50  0001 C CNN "MFG Part Num"
 	3    3940 2360
 	1    0    0    -1  
 $EndComp
@@ -92,6 +101,9 @@ F 1 "74LS05" H 3940 2940 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 2760 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 2760 50  0001 C CNN
 F 4 "FLOPPY/RTC" H 3940 2760 50  0001 C CNN "Optional"
+F 5 "0.668" H 3940 2760 50  0001 C CNN "Cost"
+F 6 "TI" H 3940 2760 50  0001 C CNN "MFG Name"
+F 7 "SN74LS05N" H 3940 2760 50  0001 C CNN "MFG Part Num"
 	4    3940 2760
 	1    0    0    -1  
 $EndComp

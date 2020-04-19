@@ -22,6 +22,7 @@ F 1 "74LS258" H 3340 2350 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3640 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 3640 2550 50  0001 C CNN
 F 4 "CLOCK" H 3640 2550 50  0001 C CNN "Optional"
+F 5 "N/A" H 3640 2550 50  0001 C CNN "MFG Name"
 	1    3640 2550
 	1    0    0    -1  
 $EndComp
@@ -73,6 +74,7 @@ F 1 "74LS258" H 3340 3750 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 6740 1650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 6740 1650 50  0001 C CNN
 F 4 "CLOCK" H 3640 3950 50  0001 C CNN "Optional"
+F 5 "N/A" H 3640 3950 50  0001 C CNN "MFG Name"
 	2    3640 3950
 	1    0    0    -1  
 $EndComp
@@ -85,6 +87,7 @@ F 1 "74LS258" H 3340 3050 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 6740 950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 6740 950 50  0001 C CNN
 F 4 "CLOCK" H 3640 3250 50  0001 C CNN "Optional"
+F 5 "N/A" H 3640 3250 50  0001 C CNN "MFG Name"
 	3    3640 3250
 	1    0    0    -1  
 $EndComp
@@ -120,6 +123,7 @@ F 0 "RP103" V 4823 3250 50  0000 C CNN
 F 1 "39" V 4914 3250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 5615 3250 50  0001 C CNN
 F 3 "~" H 5240 3250 50  0001 C CNN
+F 4 "CLOCK" H 5240 3250 50  0001 C CNN "Optional"
 	1    5240 3250
 	0    1    1    0   
 $EndComp
@@ -192,6 +196,7 @@ F 1 "74LS258" H 9830 3450 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 12890 1470 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 12890 1470 50  0001 C CNN
 F 4 "CLOCK" H 9790 3770 50  0001 C CNN "Optional"
+F 5 "N/A" H 9790 3770 50  0001 C CNN "MFG Name"
 	5    9790 3770
 	1    0    0    -1  
 $EndComp
@@ -278,6 +283,7 @@ F 3 "~" H 10190 3870 50  0001 C CNN
 F 4 "KEMET" H 10190 3870 50  0001 C CNN "MFG Name"
 F 5 "C410C103K1H5TAAUTO" H 10190 3870 50  0001 C CNN "MFG Part Num"
 F 6 "0.071" H 10190 3870 50  0001 C CNN "Cost"
+F 7 "CLOCK" H 10190 3870 50  0001 C CNN "Optional"
 	1    10190 3870
 	1    0    0    -1  
 $EndComp
@@ -300,6 +306,7 @@ F 0 "E793" H 6225 4816 50  0000 L CNN
 F 1 "47p" H 6225 4725 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 6148 4620 50  0001 C CNN
 F 3 "~" H 6110 4770 50  0001 C CNN
+F 4 "CLOCK" H 6110 4770 50  0001 C CNN "Optional"
 	1    6110 4770
 	1    0    0    -1  
 $EndComp
@@ -313,6 +320,7 @@ F 0 "E792" H 6665 4826 50  0000 L CNN
 F 1 "47p" H 6665 4735 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 6588 4630 50  0001 C CNN
 F 3 "~" H 6550 4780 50  0001 C CNN
+F 4 "CLOCK" H 6550 4780 50  0001 C CNN "Optional"
 	1    6550 4780
 	1    0    0    -1  
 $EndComp
@@ -326,6 +334,7 @@ F 0 "E791" H 7105 4826 50  0000 L CNN
 F 1 "47p" H 7105 4735 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 7028 4630 50  0001 C CNN
 F 3 "~" H 6990 4780 50  0001 C CNN
+F 4 "CLOCK" H 6990 4780 50  0001 C CNN "Optional"
 	1    6990 4780
 	1    0    0    -1  
 $EndComp
@@ -339,6 +348,7 @@ F 0 "E109" H 7545 4836 50  0000 L CNN
 F 1 "47p" H 7545 4745 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 7468 4640 50  0001 C CNN
 F 3 "~" H 7430 4790 50  0001 C CNN
+F 4 "CLOCK" H 7430 4790 50  0001 C CNN "Optional"
 	1    7430 4790
 	1    0    0    -1  
 $EndComp
@@ -352,6 +362,7 @@ F 0 "E102" H 7985 4836 50  0000 L CNN
 F 1 "47p" H 7985 4745 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 7908 4640 50  0001 C CNN
 F 3 "~" H 7870 4790 50  0001 C CNN
+F 4 "CLOCK" H 7870 4790 50  0001 C CNN "Optional"
 	1    7870 4790
 	1    0    0    -1  
 $EndComp
@@ -411,6 +422,7 @@ F 0 "E106" H 2115 4806 50  0000 L CNN
 F 1 "47p" H 2115 4715 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2038 4610 50  0001 C CNN
 F 3 "~" H 2000 4760 50  0001 C CNN
+F 4 "CLOCK" H 2000 4760 50  0001 C CNN "Optional"
 	1    2000 4760
 	1    0    0    -1  
 $EndComp
@@ -424,6 +436,7 @@ F 0 "E107" H 2555 4816 50  0000 L CNN
 F 1 "47p" H 2555 4725 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2478 4620 50  0001 C CNN
 F 3 "~" H 2440 4770 50  0001 C CNN
+F 4 "CLOCK" H 2440 4770 50  0001 C CNN "Optional"
 	1    2440 4770
 	1    0    0    -1  
 $EndComp
@@ -437,6 +450,7 @@ F 0 "E108" H 2995 4816 50  0000 L CNN
 F 1 "47p" H 2995 4725 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2918 4620 50  0001 C CNN
 F 3 "~" H 2880 4770 50  0001 C CNN
+F 4 "CLOCK" H 2880 4770 50  0001 C CNN "Optional"
 	1    2880 4770
 	1    0    0    -1  
 $EndComp
@@ -506,6 +520,7 @@ F 0 "E794" H 2555 6836 50  0000 L CNN
 F 1 "47p" H 2555 6745 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 2478 6640 50  0001 C CNN
 F 3 "~" H 2440 6790 50  0001 C CNN
+F 4 "CLOCK" H 2440 6790 50  0001 C CNN "Optional"
 	1    2440 6790
 	1    0    0    -1  
 $EndComp
@@ -519,6 +534,7 @@ F 0 "E103" H 2995 6846 50  0000 L CNN
 F 1 "47p" H 2995 6755 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" H 2918 6650 50  0001 C CNN
 F 3 "~" H 2880 6800 50  0001 C CNN
+F 4 "CLOCK" H 2880 6800 50  0001 C CNN "Optional"
 	1    2880 6800
 	1    0    0    -1  
 $EndComp
@@ -562,6 +578,7 @@ F 0 "E407" V 9644 3049 50  0000 L CNN
 F 1 "10n" V 9735 3049 50  0000 L CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 9690 2870 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9690 2870 50  0001 C CNN
+F 4 "CLOCK" H 9690 2870 50  0001 C CNN "Optional"
 	1    9690 2870
 	0    1    1    0   
 $EndComp
@@ -579,6 +596,7 @@ F 0 "E105" H 5295 4255 50  0000 L CNN
 F 1 "68" H 5495 4020 50  0000 L CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 5390 4050 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5390 4050 50  0001 C CNN
+F 4 "CLOCK" H 5390 4050 50  0001 C CNN "Optional"
 	1    5390 4050
 	1    0    0    -1  
 $EndComp
@@ -592,6 +610,7 @@ F 0 "E104" H 5295 4655 50  0000 L CNN
 F 1 "68" H 5495 4420 50  0000 L CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 5390 4450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5390 4450 50  0001 C CNN
+F 4 "CLOCK" H 5390 4450 50  0001 C CNN "Optional"
 	1    5390 4450
 	1    0    0    -1  
 $EndComp
