@@ -21,6 +21,7 @@ F 0 "U5" H 2685 2425 50  0000 C CNN
 F 1 "GARY_5719" H 2685 2334 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 2685 2060 50  0001 C CNN
 F 3 "DOCUMENTATION" H 2685 1610 50  0001 C CNN
+F 4 "CUSTOM" H 2685 1860 50  0001 C CNN "Optional"
 	2    2685 1860
 	1    0    0    -1  
 $EndComp
@@ -54,6 +55,7 @@ F 0 "U36" H 3905 1565 50  0000 C CNN
 F 1 "74LS05" H 3940 1745 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 1560 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 1560 50  0001 C CNN
+F 4 "FLOPPY/RTC" H 3940 1560 50  0001 C CNN "Optional"
 	1    3940 1560
 	1    0    0    -1  
 $EndComp
@@ -65,6 +67,7 @@ F 0 "U36" H 3910 1960 50  0000 C CNN
 F 1 "74LS05" H 3940 2140 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 1960 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 1960 50  0001 C CNN
+F 4 "FLOPPY/RTC" H 3940 1960 50  0001 C CNN "Optional"
 	2    3940 1960
 	1    0    0    -1  
 $EndComp
@@ -76,6 +79,7 @@ F 0 "U36" H 3910 2360 50  0000 C CNN
 F 1 "74LS05" H 3940 2545 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 2360 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 2360 50  0001 C CNN
+F 4 "FLOPPY/RTC" H 3940 2360 50  0001 C CNN "Optional"
 	3    3940 2360
 	1    0    0    -1  
 $EndComp
@@ -87,6 +91,7 @@ F 0 "U36" H 3915 2760 50  0000 C CNN
 F 1 "74LS05" H 3940 2940 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3940 2760 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 3940 2760 50  0001 C CNN
+F 4 "FLOPPY/RTC" H 3940 2760 50  0001 C CNN "Optional"
 	4    3940 2760
 	1    0    0    -1  
 $EndComp
@@ -120,6 +125,7 @@ F 0 "CN12" H 9628 2516 50  0000 L CNN
 F 1 "FLOPPY_POWER" H 9628 2425 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 2475 50  0001 C CNN
 F 3 "" H 9500 2475 50  0001 C CNN
+F 4 "FLOPPY" H 9500 2475 50  0001 C CNN "Optional"
 	1    9500 2475
 	1    0    0    -1  
 $EndComp
@@ -181,6 +187,7 @@ F 0 "CN11" H 6965 3267 50  0000 C CNN
 F 1 "INTERNAL_FLOPPY" H 6965 3176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical" H 6915 2250 50  0001 C CNN
 F 3 "~" H 6915 2250 50  0001 C CNN
+F 4 "FLOPPY" H 6915 2250 50  0001 C CNN "Optional"
 	1    6915 2250
 	-1   0    0    -1  
 $EndComp
@@ -348,6 +355,7 @@ F 0 "CN5" H 4145 3768 50  0000 C CNN
 F 1 "EXTFLOPPY_DB23F" H 4145 3859 50  0000 C CNN
 F 2 "Raemixx500:DB_23F" H 4145 5260 50  0001 C CNN
 F 3 " ~" H 4145 5260 50  0001 C CNN
+F 4 "FLOPPY" H 4145 5260 50  0001 C CNN "Optional"
 	1    4145 5260
 	1    0    0    1   
 $EndComp
@@ -909,6 +917,8 @@ F 0 "CN15" H 9628 3591 50  0000 L CNN
 F 1 "IDE_I/F" H 9628 3500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 3550 50  0001 C CNN
 F 3 "" H 9500 3550 50  0001 C CNN
+F 4 "SKIP" H 9500 3550 50  0001 C CNN "MFG Name"
+F 5 "SKIP" H 9500 3550 50  0001 C CNN "MFG Part Num"
 	1    9500 3550
 	1    0    0    -1  
 $EndComp
@@ -935,6 +945,8 @@ F 0 "CN14" H 9628 4776 50  0000 L CNN
 F 1 "IDE_POWER" H 9628 4685 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 4735 50  0001 C CNN
 F 3 "" H 9500 4735 50  0001 C CNN
+F 4 "SKIP" H 9500 4735 50  0001 C CNN "MFG Name"
+F 5 "SKIP" H 9500 4735 50  0001 C CNN "MFG Part Num"
 	1    9500 4735
 	1    0    0    -1  
 $EndComp

@@ -21,6 +21,7 @@ F 0 "R114" V 13135 2800 50  0000 C CNN
 F 1 "68" V 13230 2800 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13160 2800 50  0001 C CNN
 F 3 "~" H 13230 2800 50  0001 C CNN
+F 4 "MEMORY" H 13230 2800 50  0001 C CNN "Optional"
 	1    13230 2800
 	0    1    1    0   
 $EndComp
@@ -62,6 +63,7 @@ F 0 "U2" H 11480 7535 50  0000 C CNN
 F 1 "FAT_AGNUS_8375" H 11480 7435 50  0000 C CNN
 F 2 "Package_LCC:PLCC-84_THT-Socket" H 11480 7485 50  0001 C CNN
 F 3 "DOCUMENTATION" H 11480 7485 50  0001 C CNN
+F 4 "CUSTOM" H 11480 7485 50  0001 C CNN "Optional"
 	1    11480 7485
 	1    0    0    -1  
 $EndComp
@@ -73,6 +75,7 @@ F 0 "R103" V 11595 4650 50  0000 L CNN
 F 1 "47" V 11685 4695 50  0000 L CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11610 4745 50  0001 C CNN
 F 3 "~" H 11680 4745 50  0001 C CNN
+F 4 "CLOCK" H 11680 4745 50  0001 C CNN "Optional"
 	1    11680 4745
 	1    0    0    -1  
 $EndComp
@@ -84,6 +87,7 @@ F 0 "R104" V 11795 4650 50  0000 L CNN
 F 1 "47" V 11885 4695 50  0000 L CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11810 4745 50  0001 C CNN
 F 3 "~" H 11880 4745 50  0001 C CNN
+F 4 "CLOCK" H 11880 4745 50  0001 C CNN "Optional"
 	1    11880 4745
 	1    0    0    -1  
 $EndComp
@@ -95,6 +99,7 @@ F 0 "R105" V 11995 4650 50  0000 L CNN
 F 1 "47" V 12085 4695 50  0000 L CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 12010 4745 50  0001 C CNN
 F 3 "~" H 12080 4745 50  0001 C CNN
+F 4 "CLOCK" H 12080 4745 50  0001 C CNN "Optional"
 	1    12080 4745
 	1    0    0    -1  
 $EndComp
@@ -422,6 +427,7 @@ F 0 "U37" H 13210 4120 50  0000 C CNN
 F 1 "74LS32" H 13170 4325 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 13200 4120 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 13200 4120 50  0001 C CNN
+F 4 "PARALLEL/FLOPPY/KEYBOARD" H 13200 4120 50  0001 C CNN "Optional"
 	1    13200 4120
 	1    0    0    -1  
 $EndComp
@@ -433,6 +439,7 @@ F 0 "U37" H 13220 4455 50  0000 C CNN
 F 1 "74LS32" H 13170 4660 50  0001 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 13200 4455 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 13200 4455 50  0001 C CNN
+F 4 "PARALLEL/FLOPPY/KEYBOARD" H 13200 4455 50  0001 C CNN "Optional"
 	2    13200 4455
 	1    0    0    -1  
 $EndComp
@@ -504,6 +511,9 @@ F 0 "JP2" V 9900 4952 50  0000 L CNN
 F 1 "Jumper_3_Bridged23" V 9855 4951 50  0001 L CNN
 F 2 "Raemixx500:Jumper3-Bridged23" H 9900 4885 50  0001 C CNN
 F 3 "~" H 9900 4885 50  0001 C CNN
+F 4 "SKIP" H 9900 4885 50  0001 C CNN "MFG Name"
+F 5 "SKIP" H 9900 4885 50  0001 C CNN "MFG Part Num"
+F 6 "JMP" H 9900 4885 50  0001 C CNN "Optional"
 	1    9900 4885
 	0    -1   1    0   
 $EndComp
@@ -596,6 +606,7 @@ F 0 "R106" V 13350 8855 50  0000 C CNN
 F 1 "47" V 13395 8635 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13325 8635 50  0001 C CNN
 F 3 "~" H 13395 8635 50  0001 C CNN
+F 4 "CLOCK" H 13395 8635 50  0001 C CNN "Optional"
 	1    13395 8635
 	0    1    1    0   
 $EndComp
@@ -613,6 +624,7 @@ F 0 "R107" V 13350 8710 50  0000 C CNN
 F 1 "47" V 13395 8495 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13325 8495 50  0001 C CNN
 F 3 "~" H 13395 8495 50  0001 C CNN
+F 4 "CLOCK" H 13395 8495 50  0001 C CNN "Optional"
 	1    13395 8495
 	0    1    1    0   
 $EndComp
@@ -635,6 +647,9 @@ F 0 "C99" H 14590 8661 50  0000 L CNN
 F 1 "100n" H 14590 8570 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 14513 8465 50  0001 C CNN
 F 3 "~" H 14475 8615 50  0001 C CNN
+F 4 "0.035" H 14475 8615 50  0001 C CNN "Cost"
+F 5 "AVX" H 14475 8615 50  0001 C CNN "MFG Name"
+F 6 "SA115C104KAR" H 14475 8615 50  0001 C CNN "MFG Part Num"
 	1    14475 8615
 	1    0    0    -1  
 $EndComp
@@ -691,6 +706,7 @@ F 0 "R101" V 9755 3200 50  0000 C CNN
 F 1 "27" V 9850 3200 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9780 3200 50  0001 C CNN
 F 3 "~" H 9850 3200 50  0001 C CNN
+F 4 "MEMORY" H 9850 3200 50  0001 C CNN "Optional"
 	1    9850 3200
 	0    1    1    0   
 $EndComp
@@ -756,6 +772,7 @@ F 0 "U1" H 3635 4685 50  0000 C CNN
 F 1 "68000D" H 3635 4575 50  0000 C CNN
 F 2 "Package_DIP:DIP-64_W22.86mm_Socket_LongPads" H 3635 4635 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 3635 4635 50  0001 C CNN
+F 4 "CPU" H 3635 4635 50  0001 C CNN "Optional"
 	1    3635 4635
 	1    0    0    -1  
 $EndComp
@@ -987,6 +1004,7 @@ F 0 "U13" V 6825 3835 50  0000 C CNN
 F 1 "74LS373" V 6705 3835 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 3835 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6775 3835 50  0001 C CNN
+F 4 "MEMORY" H 6775 3835 50  0001 C CNN "Optional"
 	1    6775 3835
 	-1   0    0    1   
 $EndComp
@@ -998,6 +1016,7 @@ F 0 "U11" V 6815 6635 50  0000 C CNN
 F 1 "74LS373" V 6710 6635 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 6635 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6775 6635 50  0001 C CNN
+F 4 "MEMORY" H 6775 6635 50  0001 C CNN "Optional"
 	1    6775 6635
 	-1   0    0    1   
 $EndComp
@@ -1034,6 +1053,7 @@ F 0 "R112" V 9230 1365 50  0000 C CNN
 F 1 "68" V 9270 1150 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1150 50  0001 C CNN
 F 3 "~" H 9270 1150 50  0001 C CNN
+F 4 "MEMORY" H 9270 1150 50  0001 C CNN "Optional"
 	1    9270 1150
 	0    1    1    0   
 $EndComp
@@ -1045,6 +1065,7 @@ F 0 "R111" V 9230 1465 50  0000 C CNN
 F 1 "68" V 9270 1250 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1250 50  0001 C CNN
 F 3 "~" H 9270 1250 50  0001 C CNN
+F 4 "MEMORY" H 9270 1250 50  0001 C CNN "Optional"
 	1    9270 1250
 	0    1    1    0   
 $EndComp
@@ -1064,6 +1085,7 @@ F 0 "U10" V 6740 5230 50  0000 C CNN
 F 1 "74LS244" V 6825 5230 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 5230 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 6775 5230 50  0001 C CNN
+F 4 "MEMORY" H 6775 5230 50  0001 C CNN "Optional"
 	1    6775 5230
 	1    0    0    1   
 $EndComp
@@ -1075,6 +1097,7 @@ F 0 "U12" V 6720 2425 50  0000 C CNN
 F 1 "74LS244" V 6830 2425 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6775 2425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 6775 2425 50  0001 C CNN
+F 4 "MEMORY" H 6775 2425 50  0001 C CNN "Optional"
 	1    6775 2425
 	1    0    0    1   
 $EndComp
@@ -1725,6 +1748,7 @@ F 0 "U5" H 11480 2505 50  0000 C CNN
 F 1 "GARY_5719" H 11480 2370 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 11480 2650 50  0001 C CNN
 F 3 "DOCUMENTATION" H 11480 2200 50  0001 C CNN
+F 4 "CUSTOM" H 11480 2450 50  0001 C CNN "Optional"
 	1    11480 2450
 	1    0    0    -1  
 $EndComp
@@ -1794,6 +1818,7 @@ F 0 "U33" H 8635 10585 50  0000 C CNN
 F 1 "74LS258" H 8635 10494 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 11710 7960 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 11710 7960 50  0001 C CNN
+F 4 "CLOCK" H 8610 10260 50  0001 C CNN "Optional"
 	4    8610 10260
 	1    0    0    -1  
 $EndComp
@@ -1807,6 +1832,10 @@ F 0 "E666" H 10062 10516 50  0000 L CNN
 F 1 "22p" H 10062 10425 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 9970 10470 50  0001 C CNN
 F 3 "~" H 9970 10470 50  0001 C CNN
+F 4 "0.141" H 9970 10470 50  0001 C CNN "Cost"
+F 5 "AVX" H 9970 10470 50  0001 C CNN "MFG Name"
+F 6 "SA102A220JARC" H 9970 10470 50  0001 C CNN "MFG Part Num"
+F 7 "CLOCK" H 9970 10470 50  0001 C CNN "Optional"
 	1    9970 10470
 	1    0    0    -1  
 $EndComp
@@ -1860,6 +1889,7 @@ F 0 "X1" H 7105 10585 50  0000 C CNN
 F 1 "XTAL" H 7105 10494 50  0000 C CNN
 F 2 "Oscillator:Oscillator_DIP-14" H 7150 9610 50  0001 C CNN
 F 3 "http://www.txccorp.com/download/products/osc/7C_o.pdf" H 6950 10260 50  0001 C CNN
+F 4 "CLOCK" H 7050 10260 50  0001 C CNN "Optional"
 	1    7050 10260
 	1    0    0    -1  
 $EndComp
@@ -1879,6 +1909,7 @@ F 0 "FB101" H 7740 10455 50  0000 C CNN
 F 1 "68" H 7560 10210 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7740 10260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7740 10260 50  0001 C CNN
+F 4 "CLOCK" H 7740 10260 50  0001 C CNN "Optional"
 	1    7740 10260
 	1    0    0    -1  
 $EndComp
@@ -1906,6 +1937,7 @@ F 0 "FB102" H 9395 10555 50  0000 C CNN
 F 1 "150" H 9215 10310 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 9395 10360 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9395 10360 50  0001 C CNN
+F 4 "CLOCK" H 9395 10360 50  0001 C CNN "Optional"
 	1    9395 10360
 	1    0    0    -1  
 $EndComp

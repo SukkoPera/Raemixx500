@@ -21,6 +21,7 @@ F 0 "U33" H 3690 2700 50  0000 C CNN
 F 1 "74LS258" H 3340 2350 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3640 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 3640 2550 50  0001 C CNN
+F 4 "CLOCK" H 3640 2550 50  0001 C CNN "Optional"
 	1    3640 2550
 	1    0    0    -1  
 $EndComp
@@ -71,6 +72,7 @@ F 0 "U33" H 3690 4100 50  0000 C CNN
 F 1 "74LS258" H 3340 3750 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 6740 1650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 6740 1650 50  0001 C CNN
+F 4 "CLOCK" H 3640 3950 50  0001 C CNN "Optional"
 	2    3640 3950
 	1    0    0    -1  
 $EndComp
@@ -82,6 +84,7 @@ F 0 "U33" H 3690 3400 50  0000 C CNN
 F 1 "74LS258" H 3340 3050 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 6740 950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 6740 950 50  0001 C CNN
+F 4 "CLOCK" H 3640 3250 50  0001 C CNN "Optional"
 	3    3640 3250
 	1    0    0    -1  
 $EndComp
@@ -188,6 +191,7 @@ F 0 "U33" H 9870 4030 50  0000 L CNN
 F 1 "74LS258" H 9830 3450 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 12890 1470 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 12890 1470 50  0001 C CNN
+F 4 "CLOCK" H 9790 3770 50  0001 C CNN "Optional"
 	5    9790 3770
 	1    0    0    -1  
 $EndComp
@@ -271,6 +275,9 @@ F 0 "C33" H 10305 3916 50  0000 L CNN
 F 1 "10n" H 10305 3825 50  0000 L CNN
 F 2 "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm" H 10228 3720 50  0001 C CNN
 F 3 "~" H 10190 3870 50  0001 C CNN
+F 4 "KEMET" H 10190 3870 50  0001 C CNN "MFG Name"
+F 5 "C410C103K1H5TAAUTO" H 10190 3870 50  0001 C CNN "MFG Part Num"
+F 6 "0.071" H 10190 3870 50  0001 C CNN "Cost"
 	1    10190 3870
 	1    0    0    -1  
 $EndComp
