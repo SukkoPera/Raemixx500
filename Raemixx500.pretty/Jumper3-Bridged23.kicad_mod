@@ -1,4 +1,4 @@
-(module Jumper3-Bridged23 (layer F.Cu) (tedit 5CD6DDD7)
+(module Jumper3-Bridged23 (layer F.Cu) (tedit 5EA1EF99)
   (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
   (tags "solder jumper open")
   (attr virtual)
@@ -22,14 +22,10 @@
   (fp_text user 3 (at 2.6 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_poly (pts (xy 0.454 -0.3) (xy 1.451 -0.3) (xy 1.451 0.3) (xy 0.454 0.3)) (layer F.Cu) (width 0))
   (pad 1 smd rect (at -1.905 0) (size 1.5 1.5) (layers F.Cu F.Mask)
     (zone_connect 0))
   (pad 2 smd rect (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask))
-  (pad 3 smd custom (at 1.905 0) (size 1.5 1.5) (layers F.Cu F.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy -1.27 -0.3) (xy -0.273 -0.3) (xy -0.273 0.3) (xy -1.27 0.3)) (width 0))
-    ))
+  (pad 3 smd rect (at 1.905 0) (size 1.5 1.5) (layers F.Cu F.Mask)
+    (zone_connect 0))
 )
