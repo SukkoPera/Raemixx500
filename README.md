@@ -22,7 +22,7 @@ This mainboard was designed with *reasonable* - not *maniacal* - accuracy to the
 Following is a list of deliberate changes with respect to the original layout of the A500+ rev.8A.1 board:
 - The footprints for all DIP chips use "long pads". This makes them easier to solder and more solid to the board should you need to rework them. This forced a few tracks running very close to the original pads to be slightly offset away.
 - C99 was added to allow for the correct usage of 318069-10/11 Agnus chips. Leave unpopulated for others (only 8375 will work).
-- The power connector was altered to either accept the original one or a DIN-5 (which might make a DIN-8 fit as well). Make sure you get one rated for a few amps if you choose the latter.
+- The power connector footprint was altered to either accept the original connector, a DIN-6 or a DIN-8. I actually recommend the latter, as it uses more than one pin for the +5V and +12V rails, allowing for more current.
 - The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. Consequently, R913 has been replaced with a diode (labeled D913) and a couple of tracks needed some displacement.
 - The need to solder D912 to a leg of the former R913 has been removed. Just solder it in its place.
 - The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seemed somehow improvised anyway...).
@@ -39,7 +39,7 @@ Again: **PLEASE NOTE THAT THIS IS UNTESTED!!! IT MIGHT NOT WORK AT ALL!**
 
 You will probably want to install all new components on this. Most passives should be easy to find, except for the axial caps and EMI filters.
 
-The connectors are all on the market, except for the Video and Floppy ones, which are non-standard DB-23. You will need to recover these from a failed board. The same applies for the power connector, but the board should also accept a standard DIN-5 (or even DIN-8, I think). Make sure to wire it properly. Oh, I have no idea if the line filter can be bought new, so you'd better recover that, too.
+The connectors are all on the market, except for the Video and Floppy ones, which are non-standard DB-23. You will need to recover these from a failed board. The same applies for the power connector, but the board should also accept cheaper DIN-6 or DIN-8 connectors. Make sure to wire it properly (Info soon). Oh, I have no idea if the line filter can be bought new, so you'd better recover that, too.
 
 Other things you will need to recover are all the custom Commodore ICs, of course. Make sure you are using an 8375 Agnus, and populate C99 accordingly.
 
