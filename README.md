@@ -51,7 +51,7 @@ Probably you will also need to recover the original quartz, as it has an uncommo
 
 You can recover the original Video Hybrid, or you can [build a new one](https://github.com/SukkoPera/OpenAmigaVideoHybrid).
 
-The solder jumpers should all be preset with the most common value (Detailed info on these will be added soon). You will just need to take care of JP4 if you decide to install only 512k chip RAM: in this case DO NOT install U32 and put a blob of solder on the center and bottom pads of both JP4A and B.
+The solder jumpers should all be preset with the most common value (Detailed info on these will be added soon). You will just need to take care of JP4 if you decide to install only 512k chip RAM: in this case DO NOT install U32 and put a blob of solder on all the three pads of both JP4A and B.
 
 If you use the standard MSM6242B Real-Time Clock, you will need to calibrate the clock frequency through the TC9 variable cap, which requires the use of an oscilloscope. If you decide to recycle it from an old board, try not to move it during the desoldering. You'd better mark its original position with a marker before removing it. In alternative you can use an Epson RTC62421 or RTC72421. In this case, do not install Y9, C911, TC9.
 
