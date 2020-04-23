@@ -590,6 +590,9 @@ F 2 "Raemixx500:EMI_Filter_Short" V 9690 2870 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9690 2870 50  0001 C CNN
 F 4 "CLOCK" H 9690 2870 50  0001 C CNN "Optional"
 F 5 "W/FERRITE" H 9690 2870 50  0001 C CNN "EMI_FILTER_TYPE"
+F 6 "0.234" H 9690 2870 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9690 2870 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A151Q91A" H 9690 2870 50  0001 C CNN "MFG Part Num"
 	1    9690 2870
 	0    1    1    0   
 $EndComp

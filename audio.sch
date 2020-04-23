@@ -324,6 +324,9 @@ F 1 "470p" H 6910 2655 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7090 2700 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7090 2700 50  0001 C CNN
 F 4 "W/FERRITE" H 7090 2700 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 7090 2700 50  0001 C CNN "Cost"
+F 6 "MURATA" H 7090 2700 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 7090 2700 50  0001 C CNN "MFG Part Num"
 	1    7090 2700
 	1    0    0    -1  
 $EndComp
@@ -363,6 +366,9 @@ F 1 "470p" H 7405 2855 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7580 2900 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7580 2900 50  0001 C CNN
 F 4 "W/FERRITE" H 7580 2900 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 7580 2900 50  0001 C CNN "Cost"
+F 6 "MURATA" H 7580 2900 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 7580 2900 50  0001 C CNN "MFG Part Num"
 	1    7580 2900
 	1    0    0    -1  
 $EndComp
@@ -517,6 +523,9 @@ F 1 "470p" H 6910 4285 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7090 4330 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7090 4330 50  0001 C CNN
 F 4 "W/FERRITE" H 7090 4330 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 7090 4330 50  0001 C CNN "Cost"
+F 6 "MURATA" H 7090 4330 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 7090 4330 50  0001 C CNN "MFG Part Num"
 	1    7090 4330
 	1    0    0    -1  
 $EndComp
@@ -556,6 +565,9 @@ F 1 "470p" H 7400 5085 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7580 5130 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7580 5130 50  0001 C CNN
 F 4 "W/FERRITE" H 7580 5130 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 7580 5130 50  0001 C CNN "Cost"
+F 6 "MURATA" H 7580 5130 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 7580 5130 50  0001 C CNN "MFG Part Num"
 	1    7580 5130
 	1    0    0    -1  
 $EndComp
@@ -679,6 +691,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 1685 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 1685 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 1685 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 1685 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 1685 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 1685 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 1685 50  0001 C CNN "MFG Part Num"
 	1    9645 1685
 	-1   0    0    -1  
 $EndComp
@@ -692,6 +707,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 2115 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 2115 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 2115 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 2115 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 2115 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 2115 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 2115 50  0001 C CNN "MFG Part Num"
 	1    9645 2115
 	-1   0    0    -1  
 $EndComp
@@ -705,6 +723,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 2515 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 2515 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 2515 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 2515 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 2515 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 2515 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 2515 50  0001 C CNN "MFG Part Num"
 	1    9645 2515
 	-1   0    0    -1  
 $EndComp
@@ -783,6 +804,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 3915 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 3915 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 3915 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 3915 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 3915 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 3915 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 3915 50  0001 C CNN "MFG Part Num"
 	1    9645 3915
 	-1   0    0    -1  
 $EndComp
@@ -796,6 +820,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 4345 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 4345 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 4345 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 4345 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 4345 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 4345 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 4345 50  0001 C CNN "MFG Part Num"
 	1    9645 4345
 	-1   0    0    -1  
 $EndComp
@@ -809,6 +836,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 5165 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 5165 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 5165 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 5165 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 5165 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 5165 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 5165 50  0001 C CNN "MFG Part Num"
 	1    9645 5165
 	-1   0    0    -1  
 $EndComp
@@ -982,6 +1012,9 @@ F 1 "470p" H 13605 2630 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 13420 2680 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 2680 50  0001 C CNN
 F 4 "W/FERRITE" H 13420 2680 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 13420 2680 50  0001 C CNN "Cost"
+F 6 "MURATA" H 13420 2680 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 13420 2680 50  0001 C CNN "MFG Part Num"
 	1    13420 2680
 	1    0    0    -1  
 $EndComp
@@ -994,6 +1027,9 @@ F 1 "470p" H 13605 3060 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 13420 3110 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 3110 50  0001 C CNN
 F 4 "W/FERRITE" H 13420 3110 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 13420 3110 50  0001 C CNN "Cost"
+F 6 "MURATA" H 13420 3110 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 13420 3110 50  0001 C CNN "MFG Part Num"
 	1    13420 3110
 	1    0    0    -1  
 $EndComp
@@ -1006,6 +1042,9 @@ F 1 "470p" H 13600 3460 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 13420 3510 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 3510 50  0001 C CNN
 F 4 "W/FERRITE" H 13420 3510 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 13420 3510 50  0001 C CNN "Cost"
+F 6 "MURATA" H 13420 3510 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 13420 3510 50  0001 C CNN "MFG Part Num"
 	1    13420 3510
 	1    0    0    -1  
 $EndComp
@@ -1018,6 +1057,9 @@ F 1 "470p" H 13600 3875 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 13420 3930 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 13420 3930 50  0001 C CNN
 F 4 "W/FERRITE" H 13420 3930 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 13420 3930 50  0001 C CNN "Cost"
+F 6 "MURATA" H 13420 3930 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 13420 3930 50  0001 C CNN "MFG Part Num"
 	1    13420 3930
 	1    0    0    -1  
 $EndComp
@@ -1337,6 +1379,9 @@ F 1 "270p" H 6490 6970 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 6310 7020 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 6310 7020 50  0001 C CNN
 F 4 "W/FERRITE" H 6310 7020 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 6310 7020 50  0001 C CNN "Cost"
+F 6 "MURATA" H 6310 7020 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A271Q91A" H 6310 7020 50  0001 C CNN "MFG Part Num"
 	1    6310 7020
 	1    0    0    -1  
 $EndComp
@@ -1349,6 +1394,9 @@ F 1 "270p" H 6490 8765 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 6310 8815 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 6310 8815 50  0001 C CNN
 F 4 "W/FERRITE" H 6310 8815 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 6310 8815 50  0001 C CNN "Cost"
+F 6 "MURATA" H 6310 8815 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A271Q91A" H 6310 8815 50  0001 C CNN "MFG Part Num"
 	1    6310 8815
 	1    0    0    -1  
 $EndComp
@@ -1545,6 +1593,9 @@ F 1 "6800p" H 12200 8965 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 12020 9015 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12020 9015 50  0001 C CNN
 F 4 "W/FERRITE" H 12020 9015 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 12020 9015 50  0001 C CNN "Cost"
+F 6 "MURATA" H 12020 9015 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A682Q91A" H 12020 9015 50  0001 C CNN "MFG Part Num"
 	1    12020 9015
 	1    0    0    -1  
 $EndComp
@@ -1853,6 +1904,9 @@ F 1 "6800p" H 12200 7170 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Short" V 12020 7220 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12020 7220 50  0001 C CNN
 F 4 "W/FERRITE" H 12020 7220 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 12020 7220 50  0001 C CNN "Cost"
+F 6 "MURATA" H 12020 7220 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A682Q91A" H 12020 7220 50  0001 C CNN "MFG Part Num"
 	1    12020 7220
 	1    0    0    -1  
 $EndComp
@@ -2911,6 +2965,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 2935 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 2935 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 2935 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 2935 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 2935 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 2935 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 2935 50  0001 C CNN "MFG Part Num"
 	1    9645 2935
 	-1   0    0    -1  
 $EndComp
@@ -2955,6 +3012,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9645 4745 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9645 4745 50  0001 C CNN
 F 4 "W/FERRITE" H 9645 4745 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 9645 4745 50  0001 C CNN "Optional"
+F 6 "0.233" H 9645 4745 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9645 4745 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A682Q91A" H 9645 4745 50  0001 C CNN "MFG Part Num"
 	1    9645 4745
 	-1   0    0    -1  
 $EndComp
@@ -2968,6 +3028,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 7455 4530 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7455 4530 50  0001 C CNN
 F 4 "W/FERRITE" H 7455 4530 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 7455 4530 50  0001 C CNN "Optional"
+F 6 "0.234" H 7455 4530 50  0001 C CNN "Cost"
+F 7 "MURATA" H 7455 4530 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A151Q91A" H 7455 4530 50  0001 C CNN "MFG Part Num"
 	1    7455 4530
 	1    0    0    -1  
 $EndComp
@@ -2981,6 +3044,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 7455 2300 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7455 2300 50  0001 C CNN
 F 4 "W/FERRITE" H 7455 2300 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "JOYSTICK" H 7455 2300 50  0001 C CNN "Optional"
+F 6 "0.234" H 7455 2300 50  0001 C CNN "Cost"
+F 7 "MURATA" H 7455 2300 50  0001 C CNN "MFG Name"
+F 8 "DSS1NB32A151Q91A" H 7455 2300 50  0001 C CNN "MFG Part Num"
 	1    7455 2300
 	1    0    0    -1  
 $EndComp
@@ -2993,6 +3059,9 @@ F 1 "470p" H 6905 4885 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7090 4930 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7090 4930 50  0001 C CNN
 F 4 "W/FERRITE" H 7090 4930 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 7090 4930 50  0001 C CNN "Cost"
+F 6 "MURATA" H 7090 4930 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 7090 4930 50  0001 C CNN "MFG Part Num"
 	1    7090 4930
 	1    0    0    -1  
 $EndComp
@@ -3007,6 +3076,9 @@ F 1 "470p" H 6920 2050 50  0000 C CNN
 F 2 "Raemixx500:EMI_Filter_Long" V 7090 2100 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7090 2100 50  0001 C CNN
 F 4 "W/FERRITE" H 7090 2100 50  0001 C CNN "EMI_FILTER_TYPE"
+F 5 "0.233" H 7090 2100 50  0001 C CNN "Cost"
+F 6 "MURATA" H 7090 2100 50  0001 C CNN "MFG Name"
+F 7 "DSS1NB32A471Q91A" H 7090 2100 50  0001 C CNN "MFG Part Num"
 	1    7090 2100
 	1    0    0    -1  
 $EndComp
