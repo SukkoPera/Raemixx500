@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "dom 26 apr 2020, 15:03:03")
+    (date "dom 26 apr 2020, 20:01:40")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2682,7 +2682,7 @@
       (tstamp 607A922B))
     (comp (ref CN11)
       (value INTERNAL_FLOPPY)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical)
+      (footprint Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical)
       (datasheet ~)
       (fields
         (field (name Optional) FLOPPY))
