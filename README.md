@@ -116,3 +116,4 @@ If you need help or have questions, you can join [the official Telegram group](h
 - [Jason Warnes](https://www.everythingamiga.com/2019/10/alternative-to-amiga-500-600-1200-power-connector.html) for information about the original power connector and how to replace it with a DIN-8.
 - [Szabó Zoltán](https://twitter.com/DeGenTd) for designing the board logo.
 - [Workshopshed](https://twitter.com/Workshopshed) for the 3D models of the EMI filters.
+- [StormTrooper](https://github.com/StormTrooper/Commodore-Plus4) for a few other 3D models, taken from his Plus/4 remake.
