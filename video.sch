@@ -657,7 +657,7 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 F 4 "W/FERRITE" H 14655 3185 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "0.234" H 14655 3185 50  0001 C CNN "Cost"
 F 6 "MURATA" H 14655 3185 50  0001 C CNN "MFG Name"
-F 7 "DSS1NB32A151Q91A" H 14655 3185 50  0001 C CNN "MFG Part Num"
+F 7 "DSS1NB32A103Q91A" H 14655 3185 50  0001 C CNN "MFG Part Num"
 	1    14655 3185
 	-1   0    0    -1  
 $EndComp
@@ -678,7 +678,7 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 F 4 "W/FERRITE" H 14430 2445 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "0.234" H 14430 2445 50  0001 C CNN "Cost"
 F 6 "MURATA" H 14430 2445 50  0001 C CNN "MFG Name"
-F 7 "DSS1NB32A151Q91A" H 14430 2445 50  0001 C CNN "MFG Part Num"
+F 7 "DSS1NB32A103Q91A" H 14430 2445 50  0001 C CNN "MFG Part Num"
 	1    14430 2445
 	-1   0    0    -1  
 $EndComp
@@ -693,7 +693,7 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 F 4 "W/FERRITE" H 14540 2805 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "0.234" H 14540 2805 50  0001 C CNN "Cost"
 F 6 "MURATA" H 14540 2805 50  0001 C CNN "MFG Name"
-F 7 "DSS1NB32A151Q91A" H 14540 2805 50  0001 C CNN "MFG Part Num"
+F 7 "DSS1NB32A103Q91A" H 14540 2805 50  0001 C CNN "MFG Part Num"
 	1    14540 2805
 	-1   0    0    -1  
 $EndComp
@@ -1053,7 +1053,7 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 F 4 "W/FERRITE" H 3450 7200 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "0.234" H 3450 7200 50  0001 C CNN "Cost"
 F 6 "MURATA" H 3450 7200 50  0001 C CNN "MFG Name"
-F 7 "DSS1NB32A151Q91A" H 3450 7200 50  0001 C CNN "MFG Part Num"
+F 7 "DSS1NB32A103Q91A" H 3450 7200 50  0001 C CNN "MFG Part Num"
 	1    3450 7200
 	0    1    1    0   
 $EndComp
@@ -1417,7 +1417,7 @@ U 1 1 5DA05B94
 P 9740 4195
 F 0 "R409" H 9750 4345 50  0000 L CNN
 F 1 "150" V 9740 4125 50  0000 L CNN
-F 2 "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm" V 9670 4195 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9670 4195 50  0001 C CNN
 F 3 "~" H 9740 4195 50  0001 C CNN
 	1    9740 4195
 	1    0    0    -1  
@@ -1494,6 +1494,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 12100 5065 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12100 5065 50  0001 C CNN
 F 4 "FERRITE" H 12100 5065 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "VIDEO" H 12100 5065 50  0001 C CNN "Optional"
+F 6 "0.129" H 12100 5065 50  0001 C CNN "Cost"
+F 7 "MURATA" H 12100 5065 50  0001 C CNN "MFG Name"
+F 8 "BL02RN2R1M2B" H 12100 5065 50  0001 C CNN "MFG Part Num"
 	1    12100 5065
 	1    0    0    -1  
 $EndComp
@@ -1509,6 +1512,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 12100 5465 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 12100 5465 50  0001 C CNN
 F 4 "FERRITE" H 12100 5465 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "VIDEO" H 12100 5465 50  0001 C CNN "Optional"
+F 6 "0.129" H 12100 5465 50  0001 C CNN "Cost"
+F 7 "MURATA" H 12100 5465 50  0001 C CNN "MFG Name"
+F 8 "BL02RN2R1M2B" H 12100 5465 50  0001 C CNN "MFG Part Num"
 	1    12100 5465
 	1    0    0    -1  
 $EndComp
@@ -1524,6 +1530,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 11450 5265 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 11450 5265 50  0001 C CNN
 F 4 "FERRITE" H 11450 5265 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "VIDEO" H 11450 5265 50  0001 C CNN "Optional"
+F 6 "0.129" H 11450 5265 50  0001 C CNN "Cost"
+F 7 "MURATA" H 11450 5265 50  0001 C CNN "MFG Name"
+F 8 "BL02RN2R1M2B" H 11450 5265 50  0001 C CNN "MFG Part Num"
 	1    11450 5265
 	1    0    0    -1  
 $EndComp
@@ -1588,6 +1597,9 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9120 4075 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9120 4075 50  0001 C CNN
 F 4 "FERRITE" H 9120 4075 50  0001 C CNN "EMI_FILTER_TYPE"
 F 5 "VIDEO" H 9120 4075 50  0001 C CNN "Optional"
+F 6 "0.129" H 9120 4075 50  0001 C CNN "Cost"
+F 7 "MURATA" H 9120 4075 50  0001 C CNN "MFG Name"
+F 8 "BL02RN2R1M2B" H 9120 4075 50  0001 C CNN "MFG Part Num"
 	1    9120 4075
 	1    0    0    -1  
 $EndComp
@@ -1648,10 +1660,10 @@ Wire Wire Line
 	9870 4275 9870 4420
 Wire Wire Line
 	9740 4420 9740 4490
+Text Notes 9950 4600 0    50   ~ 0
+R409 CONTROLS COMPOSITE\nOUTPUT LEVEL FOR 390229-01\nHYBRID
 Wire Bus Line
 	2005 3775 2005 4475
 Wire Bus Line
 	2005 2075 2005 3575
-Text Notes 9950 4600 0    50   ~ 0
-R409 CONTROLS COMPOSITE\nOUTPUT LEVEL FOR 390229-01\nHYBRID
 $EndSCHEMATC

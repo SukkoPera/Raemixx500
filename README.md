@@ -114,3 +114,5 @@ If you need help or have questions, you can join [the official Telegram group](h
 - [Walter](http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm) for some of the footprints/3D models used.
 - [DiagROM](http://www.diagrom.com/) for inspiring the selling clause.
 - [Jason Warnes](https://www.everythingamiga.com/2019/10/alternative-to-amiga-500-600-1200-power-connector.html) for information about the original power connector and how to replace it with a DIN-8.
+- [Szabó Zoltán](https://twitter.com/DeGenTd) for designing the board logo.
+- [Workshopshed](https://twitter.com/Workshopshed) for the 3D models of the EMI filters.
