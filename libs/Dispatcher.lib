@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Dispatcher_3to1
+#
+DEF Dispatcher_3to1 J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Dispatcher_3to1" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 5 100 -5 1 1 6 N
+X In_1 1 -200 100 150 R 50 50 1 1 P
+X In_2 2 -200 0 150 R 50 50 1 1 P
+X In_3 3 -200 -100 150 R 50 50 1 1 P
+X Out 4 300 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

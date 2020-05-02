@@ -25,6 +25,7 @@ Following is a list of deliberate changes with respect to the original layout of
 - The power connector footprint was altered to either accept the original connector, a DIN-6 or a DIN-8. I actually recommend the latter, as it uses more than one pin for the +5V and +12V rails, allowing for more current.
 - The floppy connector footprint was changed to that of a full IDC connector.
 - A simple floppy drive switcher was integrated, just below the floppy connector. If you want to use it, cut the marked tracks under J90, solder a pin header and use jumpers/switches to switch.
+- A simple Kickstart switcher was integrated as well, which supports up to 8x256Kb ROM images. If you want to use it, cut the marked tracks under J91/92/93, solder some pin headers and use jumpers/switches to switch.
 - The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. Consequently, R913 has been replaced with a diode (labeled D913) and a couple of tracks needed some displacement.
 - The need to solder D912 to a leg of the former R913 has been removed. Just solder it in its place.
 - The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seemed somehow improvised anyway...).
