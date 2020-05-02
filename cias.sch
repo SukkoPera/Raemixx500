@@ -946,10 +946,6 @@ Wire Wire Line
 Wire Wire Line
 	4065 6525 4580 6525
 Wire Wire Line
-	4065 6625 4315 6625
-Wire Wire Line
-	4065 6725 4580 6725
-Wire Wire Line
 	4065 6825 4315 6825
 Wire Wire Line
 	4065 6925 4580 6925
@@ -961,10 +957,6 @@ Text GLabel 4315 6425 2    50   Output ~ 0
 ~SEL3
 Text GLabel 4580 6525 2    50   Output ~ 0
 ~SEL2
-Text GLabel 4315 6625 2    50   Output ~ 0
-~SEL1
-Text GLabel 4580 6725 2    50   Output ~ 0
-~SEL0
 Text GLabel 4315 6825 2    50   Output ~ 0
 ~SIDE
 Text GLabel 4580 6925 2    50   Output ~ 0
@@ -2615,6 +2607,51 @@ F 7 "POR" H 11745 7795 50  0001 C CNN "Optional"
 	1    11745 7795
 	1    0    0    -1  
 $EndComp
+Text GLabel 2610 8235 0    50   Output ~ 0
+~SEL0
+Text GLabel 4035 8235 2    50   Output ~ 0
+~SEL1
+Wire Wire Line
+	4065 6625 4530 6625
+Wire Wire Line
+	4065 6725 4530 6725
+Text Label 4530 6725 2    50   ~ 0
+sel0_out
+Text Label 4530 6625 2    50   ~ 0
+sel1_out
+Text Label 2680 8135 0    50   ~ 0
+sel0_out
+Wire Wire Line
+	3070 8335 2680 8335
+Text Label 2680 8335 0    50   ~ 0
+sel1_out
+Text Label 3960 8135 2    50   ~ 0
+sel0_out
+Wire Wire Line
+	3960 8135 3570 8135
+Text Label 3960 8335 2    50   ~ 0
+sel1_out
+Text Notes 2725 8840 0    50   ~ 0
+Simple implementation of a\nfloppy drive switcher that will\nallow using the first external\ndrive as DF0:. The internal drive\nwill not be accessible in this case.
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J90
+U 1 1 5EFAA487
+P 3270 8235
+F 0 "J90" H 3320 8552 50  0000 C CNN
+F 1 "DRIVE_SWITCHER" H 3320 8461 50  0000 C CNN
+F 2 "Raemixx500:DriveSwitchHeader" H 3270 8235 50  0001 C CNN
+F 3 "~" H 3270 8235 50  0001 C CNN
+	1    3270 8235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2680 8135 3070 8135
+Wire Wire Line
+	2610 8235 3070 8235
+Wire Wire Line
+	3570 8235 4035 8235
+Wire Wire Line
+	3570 8335 3960 8335
 Wire Bus Line
 	1785 3110 1785 6275
 Wire Bus Line
