@@ -107,7 +107,7 @@ You can also buy me a coffee if you want:
 <a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Get Help
-If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
+If you need help or have any questions or suggestions, you can join `#OpenRetroWorks` on FreeNode through your favorite IRC client or [the webchat](https://webchat.freenode.net/), or [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
 
 ## Thanks
 - Commodore, for making the coolest machine ever.
