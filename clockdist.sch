@@ -23,6 +23,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3640 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 3640 2550 50  0001 C CNN
 F 4 "CLOCK" H 3640 2550 50  0001 C CNN "Optional"
 F 5 "N/A" H 3640 2550 50  0001 C CNN "MFG Name"
+F 6 "Y" H 3640 2550 50  0001 C CNN "Required"
 	1    3640 2550
 	1    0    0    -1  
 $EndComp
@@ -75,6 +76,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 6740 1650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 6740 1650 50  0001 C CNN
 F 4 "CLOCK" H 3640 3950 50  0001 C CNN "Optional"
 F 5 "N/A" H 3640 3950 50  0001 C CNN "MFG Name"
+F 6 "Y" H 3640 3950 50  0001 C CNN "Required"
 	2    3640 3950
 	1    0    0    -1  
 $EndComp
@@ -88,6 +90,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 6740 950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 6740 950 50  0001 C CNN
 F 4 "CLOCK" H 3640 3250 50  0001 C CNN "Optional"
 F 5 "N/A" H 3640 3250 50  0001 C CNN "MFG Name"
+F 6 "Y" H 3640 3250 50  0001 C CNN "Required"
 	3    3640 3250
 	1    0    0    -1  
 $EndComp
@@ -124,6 +127,7 @@ F 1 "39" V 4914 3250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 5615 3250 50  0001 C CNN
 F 3 "~" H 5240 3250 50  0001 C CNN
 F 4 "CLOCK" H 5240 3250 50  0001 C CNN "Optional"
+F 5 "Y" H 5240 3250 50  0001 C CNN "Required"
 	1    5240 3250
 	0    1    1    0   
 $EndComp
@@ -197,6 +201,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 12890 1470 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 12890 1470 50  0001 C CNN
 F 4 "CLOCK" H 9790 3770 50  0001 C CNN "Optional"
 F 5 "N/A" H 9790 3770 50  0001 C CNN "MFG Name"
+F 6 "Y" H 9790 3770 50  0001 C CNN "Required"
 	5    9790 3770
 	1    0    0    -1  
 $EndComp
@@ -284,6 +289,7 @@ F 4 "KEMET" H 10190 3870 50  0001 C CNN "MFG Name"
 F 5 "C410C103K1H5TAAUTO" H 10190 3870 50  0001 C CNN "MFG Part Num"
 F 6 "0.071" H 10190 3870 50  0001 C CNN "Cost"
 F 7 "CLOCK" H 10190 3870 50  0001 C CNN "Optional"
+F 8 "R" H 10190 3870 50  0001 C CNN "Required"
 	1    10190 3870
 	1    0    0    -1  
 $EndComp
@@ -593,6 +599,7 @@ F 5 "W/FERRITE" H 9690 2870 50  0001 C CNN "EMI_FILTER_TYPE"
 F 6 "0.234" H 9690 2870 50  0001 C CNN "Cost"
 F 7 "MURATA" H 9690 2870 50  0001 C CNN "MFG Name"
 F 8 "DSS1NB32A103Q91A" H 9690 2870 50  0001 C CNN "MFG Part Num"
+F 9 "Y" H 9690 2870 50  0001 C CNN "Required"
 	1    9690 2870
 	0    1    1    0   
 $EndComp
@@ -612,6 +619,7 @@ F 2 "Raemixx500:EMI_Filter_Long" V 5390 4050 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5390 4050 50  0001 C CNN
 F 4 "CLOCK" H 5390 4050 50  0001 C CNN "Optional"
 F 5 "R" H 5390 4050 50  0001 C CNN "EMI_FILTER_TYPE"
+F 6 "Y" H 5390 4050 50  0001 C CNN "Required"
 	1    5390 4050
 	1    0    0    -1  
 $EndComp
@@ -627,6 +635,7 @@ F 2 "Raemixx500:EMI_Filter_Long" V 5390 4450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5390 4450 50  0001 C CNN
 F 4 "CLOCK" H 5390 4450 50  0001 C CNN "Optional"
 F 5 "R" H 5390 4450 50  0001 C CNN "EMI_FILTER_TYPE"
+F 6 "Y" H 5390 4450 50  0001 C CNN "Required"
 	1    5390 4450
 	1    0    0    -1  
 $EndComp

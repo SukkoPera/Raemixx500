@@ -126,6 +126,7 @@ F 1 "ROM" H 6640 4869 50  0000 C CNN
 F 2 "Package_DIP:DIP-42_W15.24mm_Socket_LongPads" H 6640 3595 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6640 3595 50  0001 C CNN
 F 4 "ROM" H 6640 3595 50  0001 C CNN "Optional"
+F 5 "Y" H 6640 3595 50  0001 C CNN "Required"
 	1    6640 3595
 	1    0    0    -1  
 $EndComp
@@ -265,6 +266,7 @@ F 1 "ROM" H 9848 3575 50  0000 L CNN
 F 2 "Package_DIP:DIP-42_W15.24mm_Socket_LongPads" H 9620 3595 50  0001 C CNN
 F 3 "DOCUMENTATION" H 9620 3595 50  0001 C CNN
 F 4 "ROM" H 9620 3595 50  0001 C CNN "Optional"
+F 5 "Y" H 9620 3595 50  0001 C CNN "Required"
 	2    9620 3595
 	1    0    0    -1  
 $EndComp
@@ -305,6 +307,7 @@ F 3 "~" H 10425 3555 50  0001 C CNN
 F 4 "KEMET" H 10425 3555 50  0001 C CNN "MFG Name"
 F 5 "C412C334M5U5TA" H 10425 3555 50  0001 C CNN "MFG Part Num"
 F 6 "0.078" H 10425 3555 50  0001 C CNN "Cost"
+F 7 "R" H 10425 3555 50  0001 C CNN "Required"
 	1    10425 3555
 	1    0    0    -1  
 $EndComp
@@ -515,12 +518,12 @@ Entry Wire Line
 	2150 4465 2050 4365
 Wire Wire Line
 	2150 4465 2550 4465
+Text Notes 1865 2030 0    50   ~ 0
+Simple Kickstart switcher, allowing\narbitrary driving of the high ROM\naddress lines. With a 27C160 EPROM,\nup to 8x256K Kickstart images can\nbe selected.
 Wire Bus Line
 	2050 2315 2050 4365
 Wire Bus Line
 	7900 1940 7900 4495
 Wire Bus Line
 	5200 2395 5200 4295
-Text Notes 1865 2030 0    50   ~ 0
-Simple Kickstart switcher, allowing\narbitrary driving of the high ROM\naddress lines. With a 27C160 EPROM,\nup to 8x256K Kickstart images can\nbe selected.
 $EndSCHEMATC

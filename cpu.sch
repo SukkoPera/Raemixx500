@@ -22,6 +22,7 @@ F 1 "68" V 13230 2800 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13160 2800 50  0001 C CNN
 F 3 "~" H 13230 2800 50  0001 C CNN
 F 4 "MEMORY" H 13230 2800 50  0001 C CNN "Optional"
+F 5 "Y" H 13230 2800 50  0001 C CNN "Required"
 	1    13230 2800
 	0    1    1    0   
 $EndComp
@@ -64,6 +65,7 @@ F 1 "FAT_AGNUS_8375" H 11480 7435 50  0000 C CNN
 F 2 "Package_LCC:PLCC-84_THT-Socket" H 11480 7485 50  0001 C CNN
 F 3 "DOCUMENTATION" H 11480 7485 50  0001 C CNN
 F 4 "CUSTOM" H 11480 7485 50  0001 C CNN "Optional"
+F 5 "Y" H 11480 7485 50  0001 C CNN "Required"
 	1    11480 7485
 	1    0    0    -1  
 $EndComp
@@ -76,6 +78,7 @@ F 1 "47" V 11685 4695 50  0000 L CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11610 4745 50  0001 C CNN
 F 3 "~" H 11680 4745 50  0001 C CNN
 F 4 "CLOCK" H 11680 4745 50  0001 C CNN "Optional"
+F 5 "Y" H 11680 4745 50  0001 C CNN "Required"
 	1    11680 4745
 	1    0    0    -1  
 $EndComp
@@ -88,6 +91,7 @@ F 1 "47" V 11885 4695 50  0000 L CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11810 4745 50  0001 C CNN
 F 3 "~" H 11880 4745 50  0001 C CNN
 F 4 "CLOCK" H 11880 4745 50  0001 C CNN "Optional"
+F 5 "Y" H 11880 4745 50  0001 C CNN "Required"
 	1    11880 4745
 	1    0    0    -1  
 $EndComp
@@ -100,6 +104,7 @@ F 1 "47" V 12085 4695 50  0000 L CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 12010 4745 50  0001 C CNN
 F 3 "~" H 12080 4745 50  0001 C CNN
 F 4 "CLOCK" H 12080 4745 50  0001 C CNN "Optional"
+F 5 "Y" H 12080 4745 50  0001 C CNN "Required"
 	1    12080 4745
 	1    0    0    -1  
 $EndComp
@@ -431,6 +436,7 @@ F 4 "PARALLEL/FLOPPY/KEYBOARD" H 13200 4120 50  0001 C CNN "Optional"
 F 5 "0.442" H 13200 4120 50  0001 C CNN "Cost"
 F 6 "TI" H 13200 4120 50  0001 C CNN "MFG Name"
 F 7 "SN74LS32N" H 13200 4120 50  0001 C CNN "MFG Part Num"
+F 8 "Y" H 13200 4120 50  0001 C CNN "Required"
 	1    13200 4120
 	1    0    0    -1  
 $EndComp
@@ -446,6 +452,7 @@ F 4 "PARALLEL/FLOPPY/KEYBOARD" H 13200 4455 50  0001 C CNN "Optional"
 F 5 "0.442" H 13200 4455 50  0001 C CNN "Cost"
 F 6 "TI" H 13200 4455 50  0001 C CNN "MFG Name"
 F 7 "SN74LS32N" H 13200 4455 50  0001 C CNN "MFG Part Num"
+F 8 "Y" H 13200 4455 50  0001 C CNN "Required"
 	2    13200 4455
 	1    0    0    -1  
 $EndComp
@@ -613,6 +620,7 @@ F 1 "47" V 13395 8635 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13325 8635 50  0001 C CNN
 F 3 "~" H 13395 8635 50  0001 C CNN
 F 4 "CLOCK" H 13395 8635 50  0001 C CNN "Optional"
+F 5 "Y" H 13395 8635 50  0001 C CNN "Required"
 	1    13395 8635
 	0    1    1    0   
 $EndComp
@@ -631,6 +639,7 @@ F 1 "47" V 13395 8495 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 13325 8495 50  0001 C CNN
 F 3 "~" H 13395 8495 50  0001 C CNN
 F 4 "CLOCK" H 13395 8495 50  0001 C CNN "Optional"
+F 5 "Y" H 13395 8495 50  0001 C CNN "Required"
 	1    13395 8495
 	0    1    1    0   
 $EndComp
@@ -713,6 +722,7 @@ F 1 "27" V 9850 3200 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9780 3200 50  0001 C CNN
 F 3 "~" H 9850 3200 50  0001 C CNN
 F 4 "MEMORY" H 9850 3200 50  0001 C CNN "Optional"
+F 5 "Y" H 9850 3200 50  0001 C CNN "Required"
 	1    9850 3200
 	0    1    1    0   
 $EndComp
@@ -754,6 +764,7 @@ F 0 "R102" V 9180 2350 50  0000 C CNN
 F 1 "27" V 9275 2350 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9205 2350 50  0001 C CNN
 F 3 "~" H 9275 2350 50  0001 C CNN
+F 4 "Y" H 9275 2350 50  0001 C CNN "Required"
 	1    9275 2350
 	0    1    1    0   
 $EndComp
@@ -779,6 +790,7 @@ F 1 "68000D" H 3635 4575 50  0000 C CNN
 F 2 "Package_DIP:DIP-64_W22.86mm_Socket_LongPads" H 3635 4635 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 3635 4635 50  0001 C CNN
 F 4 "CPU" H 3635 4635 50  0001 C CNN "Optional"
+F 5 "Y" H 3635 4635 50  0001 C CNN "Required"
 	1    3635 4635
 	1    0    0    -1  
 $EndComp
@@ -1014,6 +1026,7 @@ F 4 "MEMORY" H 6775 3835 50  0001 C CNN "Optional"
 F 5 "0.68" H 6775 3835 50  0001 C CNN "Cost"
 F 6 "TI" H 6775 3835 50  0001 C CNN "MFG Name"
 F 7 "SN74LS373N" H 6775 3835 50  0001 C CNN "MFG Part Num"
+F 8 "Y" H 6775 3835 50  0001 C CNN "Required"
 	1    6775 3835
 	-1   0    0    1   
 $EndComp
@@ -1029,6 +1042,7 @@ F 4 "MEMORY" H 6775 6635 50  0001 C CNN "Optional"
 F 5 "0.68" H 6775 6635 50  0001 C CNN "Cost"
 F 6 "TI" H 6775 6635 50  0001 C CNN "MFG Name"
 F 7 "SN74LS373N" H 6775 6635 50  0001 C CNN "MFG Part Num"
+F 8 "Y" H 6775 6635 50  0001 C CNN "Required"
 	1    6775 6635
 	-1   0    0    1   
 $EndComp
@@ -1054,6 +1068,7 @@ F 0 "R113" V 9230 1265 50  0000 C CNN
 F 1 "47" V 9270 1050 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1050 50  0001 C CNN
 F 3 "~" H 9270 1050 50  0001 C CNN
+F 4 "Y" H 9270 1050 50  0001 C CNN "Required"
 	1    9270 1050
 	0    1    1    0   
 $EndComp
@@ -1066,6 +1081,7 @@ F 1 "68" V 9270 1150 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1150 50  0001 C CNN
 F 3 "~" H 9270 1150 50  0001 C CNN
 F 4 "MEMORY" H 9270 1150 50  0001 C CNN "Optional"
+F 5 "Y" H 9270 1150 50  0001 C CNN "Required"
 	1    9270 1150
 	0    1    1    0   
 $EndComp
@@ -1078,6 +1094,7 @@ F 1 "68" V 9270 1250 50  0000 C CNN
 F 2 "Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9200 1250 50  0001 C CNN
 F 3 "~" H 9270 1250 50  0001 C CNN
 F 4 "MEMORY" H 9270 1250 50  0001 C CNN "Optional"
+F 5 "Y" H 9270 1250 50  0001 C CNN "Required"
 	1    9270 1250
 	0    1    1    0   
 $EndComp
@@ -1101,6 +1118,7 @@ F 4 "MEMORY" H 6775 5230 50  0001 C CNN "Optional"
 F 5 "0.62" H 6775 5230 50  0001 C CNN "Cost"
 F 6 "TI" H 6775 5230 50  0001 C CNN "MFG Name"
 F 7 "SN74LS244N" H 6775 5230 50  0001 C CNN "MFG Part Num"
+F 8 "Y" H 6775 5230 50  0001 C CNN "Required"
 	1    6775 5230
 	1    0    0    1   
 $EndComp
@@ -1116,6 +1134,7 @@ F 4 "MEMORY" H 6775 2425 50  0001 C CNN "Optional"
 F 5 "0.62" H 6775 2425 50  0001 C CNN "Cost"
 F 6 "TI" H 6775 2425 50  0001 C CNN "MFG Name"
 F 7 "SN74LS244N" H 6775 2425 50  0001 C CNN "MFG Part Num"
+F 8 "Y" H 6775 2425 50  0001 C CNN "Required"
 	1    6775 2425
 	1    0    0    1   
 $EndComp
@@ -1767,6 +1786,7 @@ F 1 "GARY_5719" H 11480 2370 50  0000 C CNN
 F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 11480 2650 50  0001 C CNN
 F 3 "DOCUMENTATION" H 11480 2200 50  0001 C CNN
 F 4 "CUSTOM" H 11480 2450 50  0001 C CNN "Optional"
+F 5 "Y" H 11480 2450 50  0001 C CNN "Required"
 	1    11480 2450
 	1    0    0    -1  
 $EndComp
@@ -1838,6 +1858,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 11710 7960 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 11710 7960 50  0001 C CNN
 F 4 "CLOCK" H 8610 10260 50  0001 C CNN "Optional"
 F 5 "N/A" H 8610 10260 50  0001 C CNN "MFG Name"
+F 6 "Y" H 8610 10260 50  0001 C CNN "Required"
 	4    8610 10260
 	1    0    0    -1  
 $EndComp
@@ -1856,6 +1877,7 @@ F 5 "AVX" H 9970 10470 50  0001 C CNN "MFG Name"
 F 6 "SA102A220JARC" H 9970 10470 50  0001 C CNN "MFG Part Num"
 F 7 "CLOCK" H 9970 10470 50  0001 C CNN "Optional"
 F 8 "C" H 9970 10470 50  0001 C CNN "EMI_FILTER_TYPE"
+F 9 "R" H 9970 10470 50  0001 C CNN "Required"
 	1    9970 10470
 	1    0    0    -1  
 $EndComp
@@ -1910,6 +1932,7 @@ F 1 "XTAL" H 7105 10494 50  0000 C CNN
 F 2 "Oscillator:Oscillator_DIP-14" H 7150 9610 50  0001 C CNN
 F 3 "http://www.txccorp.com/download/products/osc/7C_o.pdf" H 6950 10260 50  0001 C CNN
 F 4 "CLOCK" H 7050 10260 50  0001 C CNN "Optional"
+F 5 "Y" H 7050 10260 50  0001 C CNN "Required"
 	1    7050 10260
 	1    0    0    -1  
 $EndComp
@@ -1931,6 +1954,7 @@ F 2 "Raemixx500:EMI_Filter_Long" V 7740 10260 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7740 10260 50  0001 C CNN
 F 4 "CLOCK" H 7740 10260 50  0001 C CNN "Optional"
 F 5 "R" H 7740 10260 50  0001 C CNN "EMI_FILTER_TYPE"
+F 6 "Y" H 7740 10260 50  0001 C CNN "Required"
 	1    7740 10260
 	1    0    0    -1  
 $EndComp
@@ -1960,6 +1984,7 @@ F 2 "Raemixx500:EMI_Filter_Long" V 9395 10360 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 9395 10360 50  0001 C CNN
 F 4 "CLOCK" H 9395 10360 50  0001 C CNN "Optional"
 F 5 "R" H 9395 10360 50  0001 C CNN "EMI_FILTER_TYPE"
+F 6 "Y" H 9395 10360 50  0001 C CNN "Required"
 	1    9395 10360
 	1    0    0    -1  
 $EndComp
