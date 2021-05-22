@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 14
 Title "Rämixx500"
-Date "2019-04-20"
+Date "2021-05-16"
 Rev "1"
 Comp "SukkoPera"
 Comment1 ""
@@ -738,7 +738,7 @@ L Device:R_Network09 RP104
 U 1 1 5D756FA6
 P 6300 6485
 F 0 "RP104" V 6250 6765 50  0000 C CNN
-F 1 "4.7k" V 6360 6760 50  0000 C CNN
+F 1 "470" V 6360 6760 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 6875 6485 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6300 6485 50  0001 C CNN
 	1    6300 6485
