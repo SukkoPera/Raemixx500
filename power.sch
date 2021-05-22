@@ -11,7 +11,7 @@ Comp "SukkoPera"
 Comment1 "POWER AND DECOUPLING"
 Comment2 ""
 Comment3 ""
-Comment4 "Licensed under CERN OHL v.1.2"
+Comment4 "Licensed under CC BY-NC-SA 4.0"
 $EndDescr
 $Comp
 L 74xx:74LS32 U37

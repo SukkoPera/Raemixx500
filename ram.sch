@@ -11,7 +11,7 @@ Comp "SukkoPera"
 Comment1 "MEMORY AND...WELL, I USED TO REMEMBER"
 Comment2 ""
 Comment3 ""
-Comment4 "Licensed under CERN OHL v.1.2"
+Comment4 "Licensed under CC BY-NC-SA 4.0"
 $EndDescr
 Wire Wire Line
 	8800 1250 8530 1250

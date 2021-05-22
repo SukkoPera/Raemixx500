@@ -11,7 +11,7 @@ Comp "SukkoPera"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "Licensed under CERN OHL v.1.2"
+Comment4 "Licensed under CC BY-NC-SA 4.0"
 $EndDescr
 Entry Wire Line
 	5300 4395 5200 4295

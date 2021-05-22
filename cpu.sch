@@ -11,7 +11,7 @@ Comp "SukkoPera"
 Comment1 "PROCESSOR AND OTHER USEFUL COMPONENTS"
 Comment2 "Derived from Commodore Schematic #312813, Rev. 1 - Sheet 2 of 10"
 Comment3 ""
-Comment4 "Licensed under CERN OHL v.1.2"
+Comment4 "Licensed under CC BY-NC-SA 4.0"
 $EndDescr
 $Comp
 L Device:R R114

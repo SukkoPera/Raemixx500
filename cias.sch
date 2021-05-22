@@ -11,7 +11,7 @@ Comp "SukkoPera"
 Comment1 "RS232 AND PARALLEL PORT"
 Comment2 ""
 Comment3 ""
-Comment4 "Licensed under CERN OHL v.1.2"
+Comment4 "Licensed under CC BY-NC-SA 4.0"
 $EndDescr
 $Comp
 L VIA_8520:VIA_8520 U7

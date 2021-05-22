@@ -74,24 +74,18 @@ Every release is accompanied by its Bill Of Materials (BOM) file and any relevan
 ## License
 *(I am not sure I can claim any copyright on this, as the actual schematics this is based on belong to Commodore (or whoever has that right now, definitely not me). So the claim below is going to be more of a declaration of intent, in the sense that I would like that everything that uses my work stays open and free.)*
 
-The Rämixx500 documentation, including the design itself, is copyright &copy; SukkoPera 2019-2020.
+The Rämixx500 documentation, including the design itself, is copyright &copy; SukkoPera 2019-2021 and is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Rämixx500 is Open Hardware licensed under the [CERN OHL v. 1.2](http://ohwr.org/cernohl).
+This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES whatsoever with respect to its functionality, operability or use, including, without limitation, any implied warranties OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages.
 
-You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES whatsoever with respect to its functionality, operability or use, including, without limitation, any implied warranties OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages.
-
-A copy of the full license is included in file [LICENSE.pdf](LICENSE.pdf), please refer to it for applicable conditions. In order to properly deal with its terms, please see file [LICENSE_HOWTO.pdf](LICENSE_HOWTO.pdf).
-
-The contact points for information about manufactured Products (see section 4.2) are listed in file [PRODUCT.md](PRODUCT.md).
-
-Any modifications made by Licensees (see section 3.4.b) shall be recorded in file [CHANGES.md](CHANGES.md).
+Any modifications made by Licensees shall be recorded in file [CHANGES.md](CHANGES.md).
 
 The Documentation Location of the original project is https://github.com/SukkoPera/Raemixx500/.
 
 ## Selling the board
-**The license allows you to sell these boards**. I have nothing against that **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 20€ per board** (with ENIG, gold plating and beveling the edge connector, don't cheat on that!), so let me add the following restriction: **if this board is sold at more than 30€ (or equivalent in your currency), 25% of your earning MUST be donated to a LEGITIMATE charity** of some kind, like curing cancer for example. This amount has been set in April 2020 and will be updated, should the value of the Euro vary significantly.
+Even though the license says that only *noncommercial* use of this work is permitted, I am allowing anybody to sell these boards **as long as you do so at an "ethical" price**. I understand you want to make some money, but please note that you are getting this all for free. You had no development costs and you invested no time in this project. I did, and my desire is to allow everybody to have a board at a REASONABLE price, so please keep your margin low. I estimate that **having a few of these boards produced costs about 25€ per board** (with ENIG, gold plating and beveling the edge connector, don't cheat on that!), so I'm putting **a price cap of 35€ (or equivalent in your currency)**. This amount has been set in May 2021 and will be updated, should the value of the Euro vary significantly. If you sell a significant number of these boards, I **strongly recommend to donate part of your earnings to a LEGITIMATE charity** of your choice. I am keen on research against cancer but feel free to pick whatever suits you best.
 
-Also, please **do not remove the credits, URL and license statement**. There is **no reason do so**, you have the right to sell this board, there is no need to pretend you got it somewhere else. Ironically, If you removed those, you'd lose that right as you'd be violating the license terms.
+Also, please **do not remove the credits, URL and license statement**. There is **no reason do so**, you are allowed to sell this board, there is no need to pretend you got it somewhere else.
 
 ## Support the Project
 If you want to support the project, you can order the boards from PCBWay through this link:
