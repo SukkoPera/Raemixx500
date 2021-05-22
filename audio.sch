@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 14
 Title "Rämixx500"
-Date "2020-04-04"
+Date "2021-05-22"
 Rev "1"
 Comp "SukkoPera"
 Comment1 "PAULA PREFERS THE TRADITIONAL MODES"
@@ -2221,7 +2221,7 @@ Wire Wire Line
 	4670 9285 4835 9285
 Text Notes 4760 9590 2    50   ~ 0
 Note: LED off, Filters bypassed
-Text Notes 15090 6570 2    315  ~ 0
+Text Notes 14740 6780 2    315  ~ 0
 AUDIO FILTERS
 Text Notes 13320 1205 2    315  ~ 0
 MOUSE/JOYSTICK PORTS
@@ -3316,13 +3316,225 @@ Wire Notes Line
 	7990 9550 7990 8955
 Wire Wire Line
 	8925 9130 8925 9225
+Connection ~ 8925 9225
+Wire Wire Line
+	8925 9225 8785 9225
+$Comp
+L DT1042:DT1042 U90
+U 1 1 6125E2AA
+P 11840 5250
+F 0 "U90" H 12168 5296 50  0000 L CNN
+F 1 "DT1042" H 12168 5205 50  0000 L CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 11690 4700 50  0001 C CNN
+F 3 "" H 11690 4700 50  0001 C CNN
+	1    11840 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11240 5100 10915 5100
+Wire Wire Line
+	11240 5200 10915 5200
+Wire Wire Line
+	11240 5300 10915 5300
+Wire Wire Line
+	11240 5400 10915 5400
+Wire Wire Line
+	11840 4800 11840 4615
+$Comp
+L power:GND #PWR0279
+U 1 1 613CA56A
+P 11840 5795
+F 0 "#PWR0279" H 11840 5545 50  0001 C CNN
+F 1 "GND" H 11845 5622 50  0000 C CNN
+F 2 "" H 11840 5795 50  0001 C CNN
+F 3 "" H 11840 5795 50  0001 C CNN
+	1    11840 5795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11840 5795 11840 5700
+Text Label 10915 5300 0    50   ~ 0
+left1
+Text Label 10915 5400 0    50   ~ 0
+right1
+Text Label 9215 1900 1    50   ~ 0
+up1
+Text Label 9215 2015 3    50   ~ 0
+down1
+Text Label 9215 2300 3    50   ~ 0
+left1
+Text Label 9215 2830 1    50   ~ 0
+right1
+$Comp
+L DT1042:DT1042 U91
+U 1 1 61597B3B
+P 13435 5250
+F 0 "U91" H 13763 5296 50  0000 L CNN
+F 1 "DT1042" H 13763 5205 50  0000 L CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 13285 4700 50  0001 C CNN
+F 3 "" H 13285 4700 50  0001 C CNN
+	1    13435 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12835 5200 12510 5200
+Wire Wire Line
+	12835 5300 12510 5300
+Wire Wire Line
+	12835 5400 12510 5400
+Wire Wire Line
+	13435 4800 13435 4615
+$Comp
+L power:GND #PWR0280
+U 1 1 61598B80
+P 13435 5795
+F 0 "#PWR0280" H 13435 5545 50  0001 C CNN
+F 1 "GND" H 13440 5622 50  0000 C CNN
+F 2 "" H 13435 5795 50  0001 C CNN
+F 3 "" H 13435 5795 50  0001 C CNN
+	1    13435 5795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13435 5795 13435 5700
+Text Label 12510 5200 0    50   ~ 0
+fire1
+Text Label 12510 5300 0    50   ~ 0
+potx1
+Text Label 12510 5400 0    50   ~ 0
+poty1
+Text Label 8210 2000 0    50   ~ 0
+fire1
+Text Label 8210 2600 0    50   ~ 0
+poty1
+Text Label 8430 2800 0    50   ~ 0
+potx1
+Text Label 8210 2200 0    50   ~ 0
+vcc1
+Text Label 11840 4615 3    50   ~ 0
+vcc1
+Text Label 13435 4615 3    50   ~ 0
+vcc1
+NoConn ~ 12835 5100
+Text Label 10915 5200 0    50   ~ 0
+down1
+Text Label 10915 5100 0    50   ~ 0
+up1
+$Comp
+L DT1042:DT1042 U92
+U 1 1 61994BDF
+P 15025 5250
+F 0 "U92" H 15353 5296 50  0000 L CNN
+F 1 "DT1042" H 15353 5205 50  0000 L CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 14875 4700 50  0001 C CNN
+F 3 "" H 14875 4700 50  0001 C CNN
+	1    15025 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14425 5100 14100 5100
+Wire Wire Line
+	14425 5200 14100 5200
+Wire Wire Line
+	14425 5300 14100 5300
+Wire Wire Line
+	14425 5400 14100 5400
+Wire Wire Line
+	15025 4800 15025 4615
+$Comp
+L power:GND #PWR0281
+U 1 1 61995C38
+P 15025 5795
+F 0 "#PWR0281" H 15025 5545 50  0001 C CNN
+F 1 "GND" H 15030 5622 50  0000 C CNN
+F 2 "" H 15025 5795 50  0001 C CNN
+F 3 "" H 15025 5795 50  0001 C CNN
+	1    15025 5795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15025 5795 15025 5700
+Text Label 14100 5100 0    50   ~ 0
+left2
+Text Label 14100 5200 0    50   ~ 0
+right2
+$Comp
+L DT1042:DT1042 U93
+U 1 1 61995C45
+P 16620 5250
+F 0 "U93" H 16948 5296 50  0000 L CNN
+F 1 "DT1042" H 16948 5205 50  0000 L CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 16470 4700 50  0001 C CNN
+F 3 "" H 16470 4700 50  0001 C CNN
+	1    16620 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16020 5300 15695 5300
+Wire Wire Line
+	16020 5200 15695 5200
+Wire Wire Line
+	16020 5400 15695 5400
+Wire Wire Line
+	16620 4800 16620 4615
+$Comp
+L power:GND #PWR0282
+U 1 1 61995C53
+P 16620 5795
+F 0 "#PWR0282" H 16620 5545 50  0001 C CNN
+F 1 "GND" H 16625 5622 50  0000 C CNN
+F 2 "" H 16620 5795 50  0001 C CNN
+F 3 "" H 16620 5795 50  0001 C CNN
+	1    16620 5795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16620 5795 16620 5700
+Text Label 15695 5400 0    50   ~ 0
+fire2
+Text Label 15695 5200 0    50   ~ 0
+potx2
+Text Label 15695 5300 0    50   ~ 0
+poty2
+Text Label 15025 4615 3    50   ~ 0
+vcc2
+Text Label 16620 4615 3    50   ~ 0
+vcc2
+NoConn ~ 16020 5100
+Text Label 14100 5400 0    50   ~ 0
+down2
+Text Label 14100 5300 0    50   ~ 0
+up2
+Wire Notes Line
+	10770 4550 17275 4550
+Wire Notes Line
+	17275 4550 17275 6120
+Wire Notes Line
+	17275 6120 10770 6120
+Wire Notes Line
+	10770 6120 10770 4550
+Text Notes 17225 6365 2    50   ~ 0
+EXTRA TVS DIODES FOR\nESD PROTECTION
+Text Label 9215 4130 1    50   ~ 0
+up2
+Text Label 9215 4245 3    50   ~ 0
+down2
+Text Label 9215 4530 3    50   ~ 0
+left2
+Text Label 9215 4730 3    50   ~ 0
+right2
+Text Label 8210 4230 0    50   ~ 0
+fire2
+Text Label 8435 5030 0    50   ~ 0
+potx2
+Text Label 8210 4830 0    50   ~ 0
+poty2
+Text Label 8210 4430 0    50   ~ 0
+vcc2
 Wire Bus Line
 	1955 4305 1955 4505
 Wire Bus Line
 	1955 6355 1955 7055
 Wire Bus Line
 	1955 4705 1955 6205
-Connection ~ 8925 9225
-Wire Wire Line
-	8925 9225 8785 9225
 $EndSCHEMATC
