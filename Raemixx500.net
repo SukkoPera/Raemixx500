@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "Sat 22 May 2021 11:00:01 CEST")
+    (date "Sat 22 May 2021 11:13:17 CEST")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
