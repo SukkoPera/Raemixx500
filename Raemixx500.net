@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "Sat 22 May 2021 19:56:20 CEST")
+    (date "Sun 23 May 2021 09:57:37 CEST")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2658,7 +2658,7 @@
       (sheetpath (names "/Parallel & Serial/") (tstamps /5E7E9EC4/))
       (tstamp 5FF90A64))
     (comp (ref R712)
-      (value 47K)
+      (value 47k)
       (footprint Raemixx500:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal)
       (datasheet ~)
       (fields
