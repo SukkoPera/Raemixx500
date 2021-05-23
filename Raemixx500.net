@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "Sun 23 May 2021 11:45:47 CEST")
+    (date "Sun 23 May 2021 15:51:11 CEST")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -30,7 +30,7 @@
         (title Rämixx500)
         (company SukkoPera)
         (rev 1)
-        (date 2020-04-04)
+        (date 2021-05-23)
         (source ram.sch)
         (comment (number 1) (value "MEMORY AND...WELL, I USED TO REMEMBER"))
         (comment (number 2) (value ""))
@@ -63,7 +63,7 @@
         (title Rämixx500)
         (company SukkoPera)
         (rev 1)
-        (date 2020-04-05)
+        (date 2021-05-23)
         (source cias.sch)
         (comment (number 1) (value "RS232 AND PARALLEL PORT"))
         (comment (number 2) (value ""))
@@ -3974,7 +3974,7 @@
       (sheetpath (names "/Real-Time Clock/") (tstamps /5CF615AB/))
       (tstamp 5CF81C27))
     (comp (ref Y9)
-      (value "32768 Hz")
+      (value 32768)
       (footprint Raemixx500:Crystal_RTC)
       (datasheet ~)
       (fields

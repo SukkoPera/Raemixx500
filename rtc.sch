@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 14
 Title "Rämixx500"
-Date "2019-04-23"
+Date "2021-05-23"
 Rev "1"
 Comp "SukkoPera"
 Comment1 ""
@@ -295,7 +295,7 @@ L Device:Crystal_GND2 Y9
 U 1 1 5CF90547
 P 9175 2525
 F 0 "Y9" V 9129 2656 50  0000 L CNN
-F 1 "32768 Hz" V 9460 2300 50  0000 L CNN
+F 1 "32768" V 9460 2405 50  0000 L CNN
 F 2 "Raemixx500:Crystal_RTC" H 9175 2525 50  0001 C CNN
 F 3 "~" H 9175 2525 50  0001 C CNN
 F 4 "RTC" H 9175 2525 50  0001 C CNN "Section"
