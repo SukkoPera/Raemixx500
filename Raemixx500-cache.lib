@@ -639,6 +639,23 @@ X NC 9 -750 1700 300 R 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_01x01_Male
+#
+DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_02x03_Odd_Even
 #
 DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
