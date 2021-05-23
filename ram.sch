@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 14
 Title "Rämixx500"
-Date "2020-04-04"
+Date "2021-05-23"
 Rev "1"
 Comp "SukkoPera"
 Comment1 "MEMORY AND...WELL, I USED TO REMEMBER"
@@ -2221,8 +2221,8 @@ Text GLabel 7135 5105 2    50   Output ~ 0
 ~BRAS1
 Text GLabel 6785 5190 2    50   Output ~ 0
 ~BRAS0
-Text Notes 15910 4895 2    50   ~ 0
-Note: U20-23, U32 not loaded for 512K system
+Text Notes 12165 5610 0    50   ~ 0
+Note: U20-23, U32 not loaded for 512K system\n\nRequired chips are 256k×4.\n\nFor a list of compatible RAM chips see:\nhttps://www.amiga-stuff.com/hardware/256kx4-dram.html
 Wire Bus Line
 	10245 755  10245 1450
 Wire Bus Line
