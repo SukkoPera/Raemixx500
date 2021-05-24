@@ -1919,10 +1919,6 @@ F 3 "" H 13810 7185 50  0001 C CNN
 	1    13810 7185
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	2005 3775 2005 4475
-Wire Bus Line
-	2005 2075 2005 3575
 $Comp
 L power:VD #PWR0283
 U 1 1 6227CFFC
@@ -1934,4 +1930,8 @@ F 3 "" H 14125 8735 50  0001 C CNN
 	1    14125 8735
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	2005 3775 2005 4475
+Wire Bus Line
+	2005 2075 2005 3575
 $EndSCHEMATC
