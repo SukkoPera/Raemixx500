@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "Sun 23 May 2021 15:51:11 CEST")
+    (date "Mon 24 May 2021 19:25:42 CEST")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -140,7 +140,7 @@
         (title Rämixx500)
         (company SukkoPera)
         (rev 1)
-        (date 2019-04-23)
+        (date 2021-05-23)
         (source rtc.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -1117,7 +1117,7 @@
       (sheetpath (names "/Denise & Video Stuff/") (tstamps /5CBA5669/))
       (tstamp 5FB5AA2B))
     (comp (ref U94)
-      (value 74HC14)
+      (value 74HCT14)
       (footprint Package_SO:SOIC-14_3.9x8.7mm_P1.27mm)
       (datasheet http://www.ti.com/lit/gpn/sn74HC14)
       (libsource (lib 74xx) (part 74HC14) (description "Hex inverter schmitt trigger"))
