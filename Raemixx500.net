@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Raemixx500/Raemixx500.sch)
-    (date "Tue 25 May 2021 00:29:43 CEST")
+    (date "Wed 26 May 2021 00:13:18 CEST")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Rämixx500)
         (company SukkoPera)
         (rev 1)
-        (date 2020-04-11)
+        (date 2021-05-26)
         (source Raemixx500.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -160,7 +160,7 @@
   (components
     (comp (ref V0)
       (value OSHW_LOGO)
-      (footprint Symbol:OSHW-Logo2_14.6x12mm_SilkScreen)
+      (footprint Raemixx500:cc_by_nc_sa)
       (fields
         (field (name "MFG Name") SKIP)
         (field (name "MFG Part Num") SKIP)
@@ -170,7 +170,7 @@
       (tstamp 5ED3E7FB))
     (comp (ref V1)
       (value KICAD_LOGO)
-      (footprint Symbol:KiCad-Logo2_8mm_SilkScreen)
+      (footprint Symbol:KiCad-Logo2_6mm_SilkScreen)
       (fields
         (field (name "MFG Name") SKIP)
         (field (name "MFG Part Num") SKIP)

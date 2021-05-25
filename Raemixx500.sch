@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 14
 Title "Rämixx500"
-Date "2020-04-11"
+Date "2021-05-26"
 Rev "1"
 Comp "SukkoPera"
 Comment1 ""
@@ -92,23 +92,12 @@ F0 "Trapdoor Expansion" 50
 F1 "trapdoor.sch" 50
 $EndSheet
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
-U 1 1 5ED3E3EE
-P 10865 6860
-F 0 "#LOGO1" H 10865 7135 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 10865 6635 50  0001 C CNN
-F 2 "" H 10865 6860 50  0001 C CNN
-F 3 "~" H 10865 6860 50  0001 C CNN
-	1    10865 6860
-	1    0    0    -1  
-$EndComp
-$Comp
 L void:Void V0
 U 1 1 5ED3E7FB
 P 6380 7640
 F 0 "V0" H 6458 7686 50  0000 L CNN
 F 1 "OSHW_LOGO" H 6458 7595 50  0000 L CNN
-F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 6380 7640 50  0001 C CNN
+F 2 "Raemixx500:cc_by_nc_sa" H 6380 7640 50  0001 C CNN
 F 3 "" H 6380 7640 50  0001 C CNN
 F 4 "SKIP" H 6380 7640 50  0001 C CNN "MFG Name"
 F 5 "SKIP" H 6380 7640 50  0001 C CNN "MFG Part Num"
@@ -122,7 +111,7 @@ U 1 1 5ED79790
 P 6380 7430
 F 0 "V1" H 6458 7476 50  0000 L CNN
 F 1 "KICAD_LOGO" H 6458 7385 50  0000 L CNN
-F 2 "Symbol:KiCad-Logo2_8mm_SilkScreen" H 6380 7430 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 6380 7430 50  0001 C CNN
 F 3 "" H 6380 7430 50  0001 C CNN
 F 4 "SKIP" H 6380 7430 50  0001 C CNN "MFG Name"
 F 5 "SKIP" H 6380 7430 50  0001 C CNN "MFG Part Num"
