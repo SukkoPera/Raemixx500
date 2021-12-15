@@ -12,7 +12,7 @@ There are other projects with the same goal out there, but none of them is Open 
 
 The first version of the board was released in April 2020 as untested, in the hope that someone from the Amiga "Community" would jump in and help with the testing. Well, that took quite some time but in the end someone finally understood that Open Hardware is about trying to do your part rather than coming up with [heaps of useless talking and moaning](https://news.ycombinator.com/item?id=22887349) or [blatant stealing](https://retrotechlyfe.com/home/ols/products/commodore-amiga-500-computer-motherboard-logic-board-premium-gold-immersed-traces-stellar-signal-integrity) and allowed this project to reach the next milestone. So despite knowing he could be jumping into the void, fellow Italian living in Japan Edoardo Auteri put confidence, money, time and effort into assembling a board and testing it thoroughly. While he was at it, he came up with some interesting ideas which ultimately encouraged me to make Version 2, which **fully passed all tests**. You can read more about the development and testing of the board on [the official development blog](https://hackaday.io/project/180442-rmixx500-amiga-500-mainboard).
 
-## Differences from original
+## Differences from Original
 The initial objective was to come up with a new mainboard as similar to the original one as possible, while including minor modifications that would improve its usability. This mainboard was designed with *reasonable* - not *maniacal* - accuracy to the original design. Most care was taken in the positioning of components that ought to be in a certain position (i.e.: screw holes and I/O connectors), to ensure drop-in replaceability. Other components and tracks are "more or less" there, but as the board was wholly laid out from scratch by hand, don't expect sub-millimeter accuracy.
 
 Some modifications were soon added in, in the hope that they would be useful. Let's make it clear straight from the beginning that **most of these improvements and modifications are completely optional and actually disabled by default**. This means that you can just ignore them and everything will work as it did on the original A500+ board. If you want to take advantage of them instead, you will need to do some work.
@@ -36,7 +36,7 @@ Some modifications were soon added in, in the hope that they would be useful. Le
 
 * One more change lies in the license: **the project is now released under CC BY-NC-SA**, which is not too different in practice from the license we were using before, except that **any commercial use is now prohibited**. I know this makes the project non-free, strictly speaking. While I am sorry for that, that's what the behaviour of the "community" has led me to. Blame them, not me.
 
-### Modifications introduced in V1/V1B
+### Modifications Introduced in V1/V1B
 * **Support for VBB Agnus**: This board is compatible with a few different Fat Agnus models, namely: 318069-10 and 390544-03 for PAL or -11 and -02 for NTSC (FIXME). The 390544 models have a *VBB* marking and require a 100-330nF cap to be fitted at C99, which must instead be left unpopulated for the other models. Note that while all the mentioned models are also numbered *8375*, **not all 8375 models are actually compatible**: please check that the extended part number is one of those mentioned above (these usually came from "wide label" A500 featuring a Rev.8A mainboard, A500+ or A600 computers, if you got your Agnus somewhere else, it likely isn't the correct one). 8372 and 8371 models are definitely not compatible either at the moment. And before you ask: no, Alice chips will never work.
 
 * **Mono Audio Link**: This feature was lifted from the A600/A1200 and will transparently downmix the audio output to mono whenever you only plug one of the two audio connectors (any of the two), while on the original A500 you would only hear the corresponding channel. Whenever you plug both connectors, the channels will separate automatically. This is the reason why this feature is enabled by default, in that it is completely transparent to the user in normal conditions. If for some reason you want to revert back to completely separate channels, you can cut the JP98 jumpers (these will be introduced in V3).
@@ -101,18 +101,14 @@ Some modifications were soon added in, in the hope that they would be useful. Le
 	
 	Similarly, this is a pretty basic method of switching drives and will require a physical connection between the pins. If you want a more advanced design that can switch drives using logic levels, have a look at OpenDriveSwitcher.
 
-## Other minor things worth mentioning
+### Other Minor Things Worth Mentioning
 Following is a list of deliberate changes with respect to the original layout of the A500+ rev.8A.1 board:
 - The footprints for all DIP chips use "long pads". This makes them easier to solder and more solid to the board should you need to rework them. This forced a few tracks running very close to the original pads to be slightly offset away.
-- C99 was added to allow for the correct usage of 318069-10/11 Agnus chips. Leave unpopulated for others (only 8375 will work).
 - The power connector footprint was altered to either accept the original connector, a DIN-6 or a DIN-8. I actually recommend the latter, as it uses more than one pin for the +5V and +12V rails, allowing for more current.
 - The floppy connector footprint was changed to that of a full IDC connector.
-- A simple floppy drive switcher was integrated, just below the floppy connector. If you want to use it, cut the marked tracks under J90, solder a pin header and use jumpers/switches to switch.
-- A simple Kickstart switcher was integrated as well, which supports up to 8x256Kb ROM images. If you want to use it, cut the marked tracks under J91/92/93, solder some pin headers and use jumpers/switches to switch.
 - The barrel battery was replaced with a BS-7 battery holder for a normal (non-rechargeable) CR2032 battery. Consequently, R913 has been replaced with a diode (labeled D913) and a couple of tracks needed some displacement.
 - The need to solder D912 to a leg of the former R913 has been removed. Just solder it in its place.
-- The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in relocating R409 (whose original position seemed somehow improvised anyway...).
-- The above allowed a couple of tracks to be added so that the left and right audio channels will be somehow mixed whenever a single output jack is connected. This was lifted from the A600.
+- The RCA jacks for the audio and composite video outputs have been replaced with some that can actually be found nowadays (i.e.: those that were used on A600/A1200). This resulted in having to relocate R409 (whose original position seemed somehow improvised anyway...).
 - The silkscreen for some components does not match the original one. I used the built-in KiCad footprints as-is, when available.
 - The silkscreen and pitch of C303, C304 and C306 have been made smaller so that they don't overlap.
 - Speaking about the silkscreen, I have been quite liberal with it. I have used the default KiCad font and I did not follow the original label placement at all costs. I did this since today's technology can give us a bit more resolution in silkscreen printing, and I think that is worth using for the sake of clarity. Some ground stitching vias were slightly offset to make up space for labels.
