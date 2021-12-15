@@ -63,29 +63,7 @@ Following is a list of deliberate changes with respect to the original layout of
 - Probably there's something more I've forgotten.
 
 ## Assembly and Installation
-You will probably want to install all new components on this. Most passives should be easy to find, except for the axial caps and EMI filters.
-
-The connectors are all on the market, except for the Video and Floppy ones, which are non-standard DB-23. You will need to recover these from a failed board. The same applies for the power connector, but the board should also accept cheaper DIN-6 or DIN-8 connectors. Make sure to wire it properly (Info soon). Oh, I have no idea if the line filter can be bought new, so you'd better recover that, too.
-
-Other things you will need to recover are all the custom Commodore ICs, of course. Make sure you are using an 8375 Agnus, and populate C99 accordingly.
-
-CPUs can be found second-hand cheaply. Every serious electronics shop should have all the 7400-series chips.
-
-I would suggest using sockets for all ICs. Get new good-quality ones. 48-pin are hard to obtain, but you can easily replace them with two 24-pin side by side. Be careful with the RAM chips: if you socket them, they will probably be too tall for the keyboard to fit properly.
-
-Probably you will also need to recover the original quartz, as it has an uncommon frequency (PAL: 28.37516 MHz, NTSC: 28.63636 MHz), but it seems to be available from some Chinese sources. You can also try replacing it with a [DFO](https://nfggames.com/forum2/index.php?topic=5744.0): this is untested, but with a properly-programmed one you should even be able to support both PAL and NTSC Agnus chips with the flick of a switch.
-
-You can recover the original Video Hybrid, or you can [build a new one](https://github.com/SukkoPera/OpenAmigaVideoHybrid).
-
-The solder jumpers should all be preset with the most common value (Detailed info on these will be added soon). You will just need to take care of JP4 if you decide to install only 512k chip RAM: in this case DO NOT install U32 and put a blob of solder on all the three pads of both JP4A and B.
-
-If you use the standard MSM6242B Real-Time Clock, you will need to calibrate the clock frequency through the TC9 variable cap, which requires the use of an oscilloscope. If you decide to recycle it from an old board, try not to move it during the desoldering. You'd better mark its original position with a marker before removing it. In alternative you can use an Epson RTC62421 or RTC72421. In this case, do not install Y9, C911, TC9.
-
-If you are not interested in the Real-Time Clock at all, you can skip the following components: R911, R914, D911, D912, D913, C9, C911, C913, U9, BT9, Y9, TC9. You should also put a blob of solder on JP9 so that the system will pick up the one that might be present on a card inserted in the trapdoor slot (in this case you can also skip R916).
-
-The battery holder is called BS-7 and is very easy to find. Other ones will probably fit just as nicely. Make sure to use a NON-rechargeable battery.
-
-Good luck! ;)
+Please refer to [the wiki](https://github.com/SukkoPera/Raemixx500/wiki).
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/Raemixx500/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
@@ -124,7 +102,7 @@ You can also buy me a coffee if you want:
 
 ## Thanks
 - Commodore, for making the coolest machine ever.
-- Edoardo Auteri for putting confidence in me and joining the project. He is also the person that you should be thankful to if this project is still open-source.
+- [Edoardo Auteri](https://github.com/kinmami) for putting confidence in me and joining the project. He is also the person that you should be thankful to if this project is still open-source.
 - [Amiga PCB Explorer](http://amigapcb.org), a fundamental tool to follow the original track placement.
 - [amigawiki](https://www.amigawiki.org/doku.php?id=en:service:schematics), mainly for the schematics but also for the whole lot of information they provide.
 - majinga for helping with the measuring.
