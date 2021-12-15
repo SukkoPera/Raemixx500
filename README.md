@@ -161,7 +161,7 @@ This said, I would like this project to progress further. **If anyone would like
 
 ## Support the Project
 If you are interested in getting a single board, you can get it from one of the official sellers:
-- EU: Sordan (link coming soon)
+- EU: [Sordan](https://www.sordan.ie/product/1066/raemixx500-v2-pcb-full-replacement-mainboard-for-amiga-500/)
 - UK: Simulant (link coming soon)
 
 *(If other sellers want to become "official", just get in touch with me.)*
