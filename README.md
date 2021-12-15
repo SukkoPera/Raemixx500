@@ -166,7 +166,7 @@ If you are interested in getting a single board, you can get it from one of the 
 
 *(If other sellers want to become "official", just get in touch with me.)*
 
-These are well-known and trustworhty sellers, who even donate part of their earnings towards the development of the project, so please buy from them if you can.
+These are well-known and trustworhty sellers, who keep a fair price and even donate part of their earnings towards the development of the project, so please buy from them if you can.
 
 If you want to get several boards, you can get them made from PCBWay through this link:
 
