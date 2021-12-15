@@ -41,65 +41,11 @@ Some modifications were soon added in, in the hope that they would be useful. Le
 
 * **Mono Audio Link**: This feature was lifted from the A600/A1200 and will transparently downmix the audio output to mono whenever you only plug one of the two audio connectors (any of the two), while on the original A500 you would only hear the corresponding channel. Whenever you plug both connectors, the channels will separate automatically. This is the reason why this feature is enabled by default, in that it is completely transparent to the user in normal conditions.
 
-* **Alternative Power Connector**: Besides using the original A500 power connector, which can be expensive to get hold of, you can use common and cheap DIN-6 or DIN-8 connectors. I'm not providing wiring diagrams at this stage but you can easily make your own:
-	1. UNSOLDER the Line Filter (LF1 or LF99). This will effectively isolate the power connector.
-	2. Solder your (female) DIN connector of choice to your board and plug an unwired male connector end into it.
-	3. Take your multimeter and set it to continuity check (Beeeeeep!) mode.
-	4. If you look at the Line Filter footprint, you will see that it reports all the expected voltages. Put one of your multimeter probes on the hole marked as GND that is closest to power connector.
-	5. Randomly touch the pins protruding from the back end of the male connector with the other probe until your multimeter beeps: that will be where you need to solder your ground wire.
-	6. Repeat for the +/-12V and +5V voltages.
+* **Alternative Power Connector**: Besides using the original A500 power connector, which can be expensive to get hold of, you can use common and cheap DIN-6 or DIN-8 connectors. Have a look [at the wiki](https://github.com/SukkoPera/Raemixx500/wiki/Power-Connector-Wiring) for more information, including a wiring method.
 
-	This way you can quickly come up with the correct soldering diagram. Note that **some voltages might show up on more than one pin**: this is deliberate and you are recommended to **connect all** of them, as DIN connectors aren't usually rated for more than a couple of amps and your A500 can easily draw 4-5A on the +5V line, for instance. This way the current will divide among several pins, keeping things safe. As a rule of thumb, no pin should remain unused.
+* **Kickstart Switcher**: This is a set of jumpers that will allow you to store more than one Kickstart image on a single ROM chip and enable one at will. If you want to use it, have a look [at the wiki](https://github.com/SukkoPera/Raemixx500/wiki/Kickstart-Switcher).
 
-	Once you have soldered your cable, plug it in and turn on your power supply, then use your multimeter in DC mode to make sure that all the voltages reported in the LF1/LF99 footprint match. At this point you can solder your Line Filter back into position and rest assured that your plug is wired correctly.
-
-	**Please be careful**, as getting the wiring wrong after you have resoldered LF1/LF99 back in place can definitely damage a lot of the components of the A500 you have just built.
-
-	By the way, if you are looking for a suitable power supply, the [Meanwell RT-65B](https://www.meanwell.com/webapp/product/search.aspx?prod=RT-65) or [RPT-60B](https://www.meanwell.com/webapp/product/search.aspx?prod=RPT-60) are popular choices.
-
-* **Kickstart Switcher**: This is a set of jumpers that will allow you to store more than one Kickstart image on a single ROM chip and enable one at will. If you want to use it, start by locating jumpers J91-93, which sit right above the ROM socket and are shaped like a Tetris piece. If you haven't touched them yet, each of them will have a horizontal trace connecting the two middle pins (this position is marked as *DIR* on the silkscren, standing for *DIRect Connection*). You will need to cut all the three of these traces, the suggested place for the cut is marked with a vertical white line. Use a multimeter in Continuity Check Mode to make sure the connection is really interrupted and solder pin headers to all pins. Now you can place jumper caps vertically to force the ROM to see the A18-A20 lines as permanently high or low, which will allow you to select one among different slots as follows:
-	* 256k Slots
-
-		Kickstart versions older than 2.0 are all 256k in size. You can use the A18/19/20 jumpers and switch among up to 8 slots with a 27C160 EPROM (2 MB):
-  
-		|Slot #|A20|A19|A18|  Address Range  |
-		|------|---|---|---|-----------------|
-		|  1   |LO |LO |LO |$000000 - $03FFFF|
-		|  2   |LO |LO |HI |$040000 - $07FFFF|
-		|  3   |LO |HI |LO |$080000 - $0BFFFF|
-		|  4   |LO |HI |HI |$0C0000 - $0FFFFF|
-		|  5   |HI |LO |LO |$100000 - $13FFFF|
-		|  6   |HI |LO |HI |$140000 - $17FFFF|
-		|  7   |HI |HI |LO |$180000 - $1BFFFF|
-		|  8   |HI |HI |HI |$1C0000 - $1FFFFF|
-	
-		If using a 27C800 EPROM (1 MB) you will be limited to 4 slots, as you will have to keep A20 HI.
-	
-	* 512k Slots
-	
-		Kickstart versions from 2.0 onwards are all 512k in size. This means that the A18 jumper will have to stay in the horizontal *DIR* position, but you can use the A19/20 jumpers to switch among up to 4 slots with a 27C160 EPROM:
-  
-		|Slot #|A20|A19|  Address Range  |
-		|------|---|---|-----------------|
-		|  1   |LO |LO |$000000 - $07FFFF|
-		|  2   |LO |HI |$080000 - $0FFFFF|
-		|  3   |HI |LO |$100000 - $17FFFF|
-		|  4   |HI |HI |$180000 - $1FFFFF|
-	
-		If using a 27C800 EPROM you will be limited to 2 slots, as you will have to keep A20 HI.
-
-	You can mix and match 256k and 512k slots freely, as long as you understand what you are doing and set the jumpers correctly. The Address Ranges in the tables above should help you with this.
-	
-	You can also wire SPDT switches to the J91-93 jumpers and leave them hanging in your trapdoor if you want to be able to change your Kickstart image without opening your Amiga (Warning: Drilling holes is frowned upon!). Note though that this is a pretty basic method of switching ROMS. If you want a more advanced switcher, place all your jumpers in the *DIR* position and have a look at OpenKickstartSwitcher.
-
-* **Drive Switcher**: This works similarly to the Kickstart Switcher, as you will have to cut two tracks along the white marks at J90 to enable it. Then you can solder pin headers and use jumper caps (or a DPDT switch) to cross the *SEL0* and *SEL1* lines, which will result in the first external drive to be seen as DF0: and the actual DF0: to become invisible.
-  
-	|                  |SEL0|SEL1         |
-	|------------------|----|-------------|
-	| Normal Behaviour | 0  | 1           |
-	| External DF0:    | 1  | 0 (or open) |
-	
-	Similarly, this is a pretty basic method of switching drives and will require a physical connection between the pins. If you want a more advanced design that can switch drives using logic levels, have a look at OpenDriveSwitcher.
+* **Drive Switcher**: This is a pretty basic drive switcher which will result in the first external drive to be seen as DF0: and the actual DF0: to become invisible. Instructions for how to use it are on [the wiki](https://github.com/SukkoPera/Raemixx500/wiki/Drive-Switcher) as usual.
 
 ### Other Minor Things Worth Mentioning
 Following is a list of deliberate changes with respect to the original layout of the A500+ rev.8A.1 board:
