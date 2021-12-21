@@ -90,7 +90,7 @@ These are well-known and trustworhty sellers, who keep a fair price and even don
 
 If you want to get several boards, you can get them made from PCBWay through this link:
 
-[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_V2.html)
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_V2_5d8b0793.html)
 
 You get my gratitude and cheap, professionally-made and good quality PCBs, I get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
 
