@@ -80,7 +80,7 @@ This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WAR
 This said, I would like this project to progress further. **If anyone would like to do major work on it but is discouraged to do so by the impossibility to exploit the work commercially, please get in touch with me**, I will grant you a private license which will allow you to do that.
 
 ## Support the Project
-There are currently no "official" sellers selling this board. If someone wants to become "official", just get in touch with me, conditions are very simple.
+There are currently no "official" sellers selling this board. If someone wants to become "official", just get in touch with me, conditions are very simple (i.e.: we agree on a price cap and you donate a fraction of your earnings to some charity of your choice).
 
 This means that all the boards currently on sale on eBay or anywhere else are breaching the licensing terms, so you are strongly recommended not to buy from them and maybe to even report them to eBay, since they are not paying attention to me (neither the sellers themselves, nor eBay...).
 
