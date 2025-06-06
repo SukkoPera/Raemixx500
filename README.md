@@ -80,15 +80,11 @@ This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WAR
 This said, I would like this project to progress further. **If anyone would like to do major work on it but is discouraged to do so by the impossibility to exploit the work commercially, please get in touch with me**, I will grant you a private license which will allow you to do that.
 
 ## Support the Project
-If you are interested in getting a single board, you can get it from one of the official sellers:
-- EU: [Sordan](https://www.sordan.ie/product/1066/raemixx500-v2-pcb-full-replacement-mainboard-for-amiga-500/)
-- UK: Simulant (link coming soon)
+There are currently no "official" sellers selling this board. If someone wants to become "official", just get in touch with me, conditions are very simple.
 
-*(If other sellers want to become "official", just get in touch with me.)*
+This means that all the boards currently on sale on eBay or anywhere else are breaching the licensing terms, so you are strongly recommended not to buy from them and maybe to even report them to eBay, since they are not paying attention to me (neither the sellers themselves, nor eBay...).
 
-These are well-known and trustworhty sellers, who keep a fair price and even donate part of their earnings towards the development of the project, so please buy from them if you can.
-
-If you want to get several boards, you can get them made from PCBWay through this link:
+The recommended way to get a board is to have some produced by PCBWay through this link:
 
 [![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Raemixx500_V2_5d8b0793.html)
 
@@ -96,9 +92,9 @@ You get my gratitude and cheap, professionally-made and good quality PCBs, I get
 
 Also, if you still have to register, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and yield me some more).
 
-You can also buy me a coffee if you want:
+You will have to order at least 5 PCBs, but then you can share the extras with your friends or put them up for sale on forums or anywhere **at cost**.
 
-<a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+If you think PCBWay is too expensive, just generate the Gerber files in KiCad (it takes 5 seconds, maybe 30 if you've never done it before) and order from your favourite supplier.
 
 ## Thanks
 - Commodore, for making the coolest machine ever.
